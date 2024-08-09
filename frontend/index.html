@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Skulpt Python Compiler</title>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/stili.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./styles/themes/3024-night.css">
+    <link rel="stylesheet" href="./styles/themes/abbott.css">
+    <link rel="stylesheet" href="./styles/themes/abcdef.css">
+    <link rel="stylesheet" href="./styles/themes/ambiance.css">
+    <link rel="stylesheet" href="./styles/themes/ayu-mirage.css">
+    <link rel="stylesheet" href="./styles/themes/base16-dark.css">
+    <link rel="stylesheet" href="./styles/themes/dracula.css">
+    <link rel="stylesheet" href="./styles/themes/eclipse.css">
+    <link rel="stylesheet" href="./styles/themes/isotope.css">
+    <link rel="stylesheet" href="./styles/themes/lesser-dark.css">
+    <link rel="stylesheet" href="./styles/themes/liquibyte.css">
+    <link rel="stylesheet" href="./styles/themes/lucario.css">
+    <link rel="stylesheet" href="./styles/themes/monokai.css">
+    <link rel="stylesheet" href="styles/themes/panda-syntax.css">
+    <link rel="stylesheet" href="./styles/themes/paraiso-light.css">
+    <link rel="stylesheet" href="./styles/themes/rubyblue.css">
+    <link rel="stylesheet" href="./styles/themes/the-matrix.css">
+</head>
+
+<body>
+<header>
+    <h1 id="naslov">Učenje s pomočjo chatGPT</h1>
+</header>
+<i id="hide-nav" class="fa-regular fa-square-minus"></i>
+<nav id="navigation">
+    <div class="container mb-1">
+    <div class="progress progress-stili">
+        <div id="progress-bar" class="progress-bar progress-bar-striped bg-success" style="width:10%"></div>
+    </div>
+
+    </div>
+<h5 class="mt-1"><span> Progress: <span id="progress">1</span>  / 10  </span></h5>
+<h6><span id="get-id">Id: <i id="studentId">/</i></span> <button id="copy" onclick="copyId()" title="copy Id" class="btn"><i class="fa-regular fa-copy"></i></button></h6>
+</nav>
+<main>
+    <div class="row">
+        <div class="col-sm-5 ">
+            <div class="card navodila-card">
+
+            <p id="navodila" class="card-header ">Napišite funkcijo v Pythonu, ki sprejme seznam števil kot vhod in vrne vsoto vseh sodih števil v seznamu.</p>
+            </div>
+            <form>
+                <label for="yourcode"></label>
+                <textarea id="yourcode" cols="20" rows="40">seznam=["tekst", 10, -2]&#10;for i in range(len(seznam)):&#10;    print(seznam[i])</textarea><br />
+                <div class="buttons">
+                    <button type="button" class="button-8" id="run" onclick="runit()">Run <i class="fa-solid fa-play play"></i></button>
+                    <button type="button" class="button-8" id="stop" onclick="stop()">Stop <i class="fa-solid fa-stop stop"></i></button>
+                    <button type="button" class="button-8" id="previous" onclick="previousCode()"><i class="fa-solid fa-caret-left"></i> Previous</button>
+                    <button type="button" class="button-8" id="next" onclick="nextCode()">Next <i class="fa-solid fa-caret-right"></i></button>
+                    <span class="dropdown">
+                        <button type="button" class="button-8  dropdown-toggle" data-bs-toggle="dropdown">
+                           <i class="fa-solid fa-paint-roller text-primary"></i> Themes
+                        </button>
+                        <ul id="theme-dropdown" class="dropdown-menu">
+                        </ul>
+                    </span>
+                </div>
+            </form>
+        </div>
+        <div class="col-sm-3 ps-0">
+            <div class="card output-card">
+                <div class="card-header">
+                    <h5 class="card-title">Output</h5>
+                </div>
+                <div class="card-body">
+                    <pre id="output">
+                    </pre>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col-sm-4">
+            <p>chatGPT</p>
+        </div>
+    </div>
+<div class="flexbox">
+    <div class="row-item" >
+
+    </div>
+        <div class="output-div flex-item">
+
+        </div>
+    <div class="row-item">
+
+
+    </div>
+</div>
+</main>
+
+<!-- If you want turtle graphics include a canvas -->
+<!--<canvas id="mycanvas" width="200" height="200"></canvas>-->
+
+
+</body>
+<script src="scripts/py/skulpt.min.js" type="text/javascript"></script>
+<script src="scripts/py/skulpt-stdlib.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.1/codemirror.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.1/codemirror.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.1/mode/python/python.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./scripts/main.js"></script>
+
+</html>

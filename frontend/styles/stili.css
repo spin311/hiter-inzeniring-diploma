@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.progress-stili {
+    height: 12px;
+
+}
+.output-div {
+    min-width: 150px;
+
+}
+
+.CodeMirror {
+    height: 470px !important;
+}
+.navodila-card {
+    margin-bottom: -10px;
+}
+
+#naslov {
+    text-align: center;
+    font-size: 1.8em;
+}
+body {
+    margin-left: 0;
+    margin-top: 0;
+    background-color: aliceblue;
+}
+
+header {
+    font-family: "Lato", sans-serif;
+
+    background-color: #0d6efd;
+    color: white;
+    padding: 1px;
+    margin: 0;
+}
+/*#hide-nav {*/
+/*    position: absolute;*/
+/*    top: 6%;*/
+/*    left: 2%;*/
+/*}*/
+
+main, nav, #hide-nav {
+    padding-left: 20px;
+    font-size: 1.0em;
+}
+main, nav {
+    font-family: "Lato", sans-serif;
+}
+.py-btn {
+    margin-right: 3px;
+    padding: 5px;
+    background-color: #b8bdbe;
+    border-radius: 10%;
+}
+.play {
+    color: #48ec17;
+}
+
+.stop {
+    color: #d9534f;
+}
+
+
+.buttons {
+    margin-top: -15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.output-card {
+    height: 553px;
+}
+
+.highlighted-error {
+    background-color: rgba(243, 136, 136, 0.51);
+}
+
+.darkMode {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+
+
+
+                                                     /* CSS */
+.button-8 {
+ background-color: #e1ecf4;
+ border-radius: 3px;
+ border: 1px solid #7aa7c7;
+ box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+ box-sizing: border-box;
+ color: #39739d;
+ cursor: pointer;
+ display: inline-block;
+ font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+ font-size: 13px;
+ font-weight: 400;
+ line-height: 1.15385;
+ margin: 0;
+ outline: none;
+ padding: 8px .8em;
+ position: relative;
+ text-align: center;
+ text-decoration: none;
+ user-select: none;
+ -webkit-user-select: none;
+ touch-action: manipulation;
+ vertical-align: baseline;
+ white-space: nowrap;
+}
+
+.button-8:hover,
+.button-8:focus {
+    background-color: #b3d3ea;
+    color: #2c5777;
+}
+
+.button-8:focus {
+    box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-8:active {
+    background-color: #a0c7e4;
+    box-shadow: none;
+    color: #2c5777;
+}
