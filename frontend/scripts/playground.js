@@ -1,61 +1,24 @@
-let ChatLogDTO = {
-    id: null,
-    chatNumber: null,
-    codeNumber: null,
-    chatQuestion: null,
-    chatAnswer: null,
-    timestamp: null,
-};
-
-let PythonLogRequestDTO = {
-    id: null,
-    pythonCode: null,
-    errorMessage: null,
-    taskNumber: null,
-    timestamp: null,
-    autoSubmitted: null,
-    currentTask: null
-};
-
-let SubmitDTO = {
-    taskNumber: null,
-    errorCount: null,
-    correctCount: null,
-    startTime: null,
-    endTime: null,
-    totalQuestions: null,
-    seconds: null
-};
-
-let chatLogDTOS = [];
-
-let chatCounter = 1;
 let stopExecution = false;
-let studentId = null;
 let codeHasError = true;
-let startTime = null;
-let endTime = null;
-let errorCount = 0;
-let correctCount = 0;
 let timeoutId = null;
-let logCodeTimer = 5000;
-let logCodeTimerInterval = 2000;
-let maxTokens = 1000;
-let serverUrl = "https://diploma-service-endpoints.azuremicroservices.io"; //TODO: change to production url
+let maxTokens = 500;
 const tasks = [
-    {id: 1, text: "Napišite program, ki prebere tri števila in izpiše srednje med njimi (tj. število, od katerega" +
-            " je vsaj eno od preostalih dveh števil v trojici manjše ali enako in vsaj eno večje ali enako)", chatAllowed: false, difficulty: 1, vhod: "7 13 4", izhod: "7"},
-    {id: 2, text: "Napiši python funkcijo, ki sprejme seznam in vrne nov seznam, ki vsebuje samo prvi in zadnji element seznama.<br>" +
-            "Če ima vhodni seznam manj kot dva elementa program napiše \"ERROR!\"", chatAllowed: true, difficulty: 1, vhod: "[1, 2, 3, 4, 5]", izhod: "[1, 5]" },
-    {id: 3, text: "Napiši python program, ki sprejme seznam števil, in izpiše povprečje vseh števil iz seznama.", chatAllowed: false, difficulty: 1, vhod: "[1, 2, 3, 4, 5, 6]", izhod: "3.5"},
-    {id: 4, text: "Napiši Python program, kjer uporabnik vpiše število 0-9. Program nato izpiše vsa števila med 0 in 20(vključno s tema številoma), ki ne vsebujejo vnešene števke.", chatAllowed: true, difficulty: 1, vhod: "1", izhod: "0 2 3 4 5 6 7 8 9 20"},
-    {id: 5, text: "Napišite program, ki prebere števila a, b in k in izpiše zaporedje števil od a do b s korakom<br>" +
-            "k (povečamo za k). V primeru: a < b naj se izpis zaključi pri največjem številu, ki ni večje od b, v primeru<br>" +
-            "a > b pa pri najmanjšem številu, ki ni manjše od b.<br>" +
-            "Če je korak enak 0, izpiši NAPAKA in zaključi program.", chatAllowed: false, difficulty: 2, vhod: "1 10 2", izhod: "1 3 5 7 9"},
-    {id: 6, text: "Napiši funkcijo, ki prešteje število samoglasnikov (a e i o u) v podani besedi.", chatAllowed: true, difficulty: 1, vhod: "programiranje", izhod: "5"},
-    {id: 7, text: "Napiši program, ki prebere dve enomestni števili in vsako izmed števil izpiše število x * x krat v širino in x * x krat v višino. Prvo število je vedno večje od drugega.<br> Če ti je naloga prezahtevna, reši samo za eno število.", chatAllowed: false, difficulty: 3, vhod: "3 4", izhod: "333 4444<br>333 4444<br>333 4444<br>    4444<br>"},
-    {id: 8, text: "Napišite funkcijo, ki sprejme dva niza in vrne True, če je sta niza anagrama (iz črk ene besede lahko sestavimo drugo besedo, npr. kar in rak) in vrne False, če nista anagrama.", chatAllowed: true, difficulty: 3, vhod: "kar rak", izhod: "True"},
+    {id: 1, text: "Napiši program, ki prebere stavek iz več besed in vrne isti stavek, z obratnim vrstnim redom črk posamezne besede.", chatAllowed: false, difficulty: 1, vhod: "Danes je lep dan", izhod: "senaD ej pel nad"},
+    {id: 2, text: "Napiši funkcijo, ki sprejme dva seznama in vrne nov seznam, ki vsebuje samo elemente, ki se pojavijo v obeh seznamih.", chatAllowed: true, difficulty: 1, vhod: "[1, 2, 3, 4, 5], [3, 4, 5, 6, 7]", izhod: "[3, 4, 5]"},
+    {id: 3, text: "Napišite program, ki prebere števili a in b in izpiše poštevanko števila a s faktorji od 1 do " +
+            "vključno b.", chatAllowed: false, difficulty: 1, vhod: "5 6", izhod: "5 * 1 = 5\n" +
+            "5 * 2 = 10\n" +
+            "5 * 3 = 15\n" +
+            "5 * 4 = 20\n" +
+            "5 * 5 = 25\n" +
+            "5 * 6 = 30"},
+    {id: 4, text: "Napiši funkcijo, ki odstrani prvih n znakov niza. Če je dolzina niza manjša od n, naj funkcija vrne niz \"ERROR!\"", chatAllowed: true, difficulty: 1, vhod: "programiranje 5", izhod: "iranje"},
+    {id: 5, text: "Napišite program, ki prebere seznam celih števil in izpiše RAZLICNI, če so vsi elementi\n" +
+            "v njem medsebojno različni. V nasprotnem primeru naj izpiše najmanjše število, ki v\n" +
+            "zaporedju nastopa najmanj dvakrat.", chatAllowed: true, difficulty: 2, vhod: "[1, 2, 3, 4, 4, 2, 3]", izhod: "2"},
+    {id: 6, text: "Napiši funkcijo, ki prešteje število besed v povedi", chatAllowed: true, difficulty: 1, vhod: "Danes je lep dan", izhod: "4"},
+    {id: 7, text: "Napišite funkcijo v Pythonu, ki sprejme seznam kot vhod in vrne nov seznam z obrnjenimi elementi (brez uporabe vgrajene funkcije reverse()\n", chatAllowed: false, difficulty: 3, vhod: "[1, 2, 3, 4, 5]", izhod: "[5, 4, 3, 2, 1]"},
+    {id: 8, text: "Napiši program, ki 2d seznam naredi v navaden seznam", chatAllowed: true, difficulty: 3, vhod: "[[1, 2, 3], [4, 5, 6], [7, 8, 9]]", izhod: "[1, 2, 3, 4, 5, 6, 7, 8, 9]"},
 ];
 const themes = [
     'default',
@@ -83,15 +46,6 @@ let currentCode = "";
 
 window.onload = function() {
     shuffleArray(tasks);
-    fetch( serverUrl + '/student/getId', )
-        .then(response => response.text())
-        .then(data => {
-            studentId = data;
-            document.getElementById("studentId").innerHTML = studentId;
-                            })
-        .catch((error) => {
-            console.error('Error:', error);
-        });
     const dropdownMenu = document.querySelector('.dropdown-menu');
 
     themes.forEach(theme => {
@@ -178,16 +132,6 @@ function builtinRead(x) {
     return Sk.builtinFiles["files"][x];
 }
 
-function logCode(jsonData) {
-    fetch(serverUrl + '/python/log', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: jsonData,
-    }).then(r => console.log(r));
-}
-
 function runit() {
     stopExecution = false;
     changeOutputColor("white");
@@ -215,7 +159,6 @@ function runit() {
             }
         }
     });
-    let pythonLogRequestDTO = Object.create(PythonLogRequestDTO);
     myPromise.then(function() {
             codeHasError = false;
             correctCount++;
@@ -223,30 +166,25 @@ function runit() {
         },
         function(err) {
             errorCount++;
-            pythonLogRequestDTO.errorMessage = err.toString();
-        let interrupt = "Execution interrupted";
-        if(err === interrupt) {
-            changeOutputText(interrupt);
-        }
-        else {
-            codeHasError = true;
-            let lineNumber = extractLineNumber(err.toString());
-            while (isLineEmpty(lineNumber)) {
-                lineNumber--;
+            let interrupt = "Execution interrupted";
+            if(err === interrupt) {
+                changeOutputText(interrupt);
             }
-            highlightLine(lineNumber);
-            displayError(lineNumber, editor.getLine(lineNumber), err.toString());
-        }
-    }).finally(
+            else {
+                codeHasError = true;
+                let lineNumber = extractLineNumber(err.toString());
+                while (isLineEmpty(lineNumber)) {
+                    lineNumber--;
+                }
+                highlightLine(lineNumber);
+                displayError(lineNumber, editor.getLine(lineNumber), err.toString());
+            }
+        }).finally(
         function () {
-            logCodeTimer += logCodeTimerInterval;
             clearTimeout(timeoutId);
-            setLogTimeout();
             if (currentTask === 0 || prog.trim() === "" || currentCode === prog) return;
             currentCode = prog;
             fillPythonLogRequestDTO(pythonLogRequestDTO, false);
-            let jsonData = JSON.stringify(pythonLogRequestDTO);
-            logCode(jsonData);
         }
     );
 }
@@ -277,55 +215,13 @@ function switchAndSaveCode() {
         document.getElementById("progress").innerHTML = currentTask.toString();
         document.getElementById("progress-bar").style.width = (currentTask * 12.5).toString() + "%";
     }
-
-}
-
-function setLogTimeout() {
-    timeoutId = setTimeout(() => {
-        if (currentCode !== editor.getValue()) {
-            currentCode = editor.getValue();
-            let pythonLogRequestDTO = Object.create(PythonLogRequestDTO);
-            fillPythonLogRequestDTO(pythonLogRequestDTO, true);
-            let jsonData = JSON.stringify(pythonLogRequestDTO);
-            logCode(jsonData);
-            if (logCodeTimer >= 60000) {
-                logCodeTimer = 30000;
-            }
-        }
-        else {
-            logCodeTimer += logCodeTimerInterval;
-            logCodeTimerInterval += 1000;
-        }
-        setLogTimeout();
-    }, logCodeTimer);
 }
 
 function resetOutputAndVariables() {
     let textArea = document.getElementById("text-area");
     changeOutputText();
     removeChildren(textArea);
-    startTime = new Date();
     codeHasError = true;
-    chatLogDTOS = [];
-    errorCount = 0;
-    correctCount = 0;
-    chatCounter = 1;
-}
-
-function fillPythonLogRequestDTO(pythonLogRequestDTO, autoSubmitted=false) {
-    pythonLogRequestDTO.timestamp = new Date().toISOString();
-    pythonLogRequestDTO.pythonCode = editor.getValue();
-    pythonLogRequestDTO.id = studentId;
-    if (currentTask > 0) {
-        pythonLogRequestDTO.taskNumber = tasks[currentTask - 1].id;
-    }
-    pythonLogRequestDTO.autoSubmitted = autoSubmitted;
-    pythonLogRequestDTO.currentTask = currentTask;
-}
-
-function endTasks() {
-    let myModal = new bootstrap.Modal(document.getElementById('endModal'), {});
-    myModal.show();
 }
 
 function nextCode() {
@@ -333,10 +229,6 @@ function nextCode() {
     if(currentTask < tasks.length) {
         currentTask++;
         switchAndSaveCode();
-    }
-    else {
-        endTasks();
-
     }
 }
 function toggleChat() {
@@ -363,10 +255,6 @@ function isLineEmpty(lineNumber) {
     const lineContent = editor.getLine(lineNumber);
     return !lineContent || !lineContent.trim();
 }
-
-function copyId() {
-    navigator.clipboard.writeText(studentId);
-}
 async function getChat(){
     const chatInput = document.getElementById('chatGPT-input').value;
     if(currentTask > 0) {
@@ -375,15 +263,6 @@ async function getChat(){
         }
     }
     const questionPre = document.createElement('pre');
-    let chatLogDTO = Object.create(ChatLogDTO);
-    chatLogDTO.timestamp = new Date().toISOString();
-    chatLogDTO.chatQuestion = chatInput;
-    chatLogDTO.chatNumber = chatCounter;
-    chatCounter++;
-    if(currentTask > 0) {
-        chatLogDTO.codeNumber = tasks[currentTask - 1].id;
-    }
-    chatLogDTO.id = studentId;
 
 
 
@@ -401,7 +280,7 @@ async function getChat(){
         headers: {
             'Content-Type': 'application/json',
             'Authorization': `Bearer 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`
-        }, // TODO
+        }, //TODO
         body: JSON.stringify({
             model: 'gpt-3.5-turbo-0125',
             messages: [
@@ -423,23 +302,19 @@ async function getChat(){
     }
 
     answerPre.innerHTML = chatAnswer;
-    chatLogDTO.chatAnswer = chatAnswer;
-    chatLogDTOS.push(chatLogDTO);
     chatWindow.appendChild(answerPre);
     smoothScrollToBottom(chatWindow);
     disableButtonForTime('submitChat',5000);
-    }
+}
 
 function disableButtonForTime(buttonId, time) {
     let button = document.getElementById(buttonId);
     let previousText = button.innerHTML;
     button.disabled = true;
     button.innerHTML = "Počakajte...";
-    console.log("disabling button");
     setTimeout(() => {
         button.innerHTML = previousText;
         button.disabled = false;
-        console.log("enabling button");
     }, time);
 
 }
@@ -460,42 +335,6 @@ function smoothScrollToBottom(element) {
         }
     }
     window.requestAnimationFrame(step);
-}
-
-function submitAll() {
-    endTime = new Date();
-    clearTimeout(timeoutId);
-    let pythonLogRequestDTO = Object.create(PythonLogRequestDTO);
-    fillPythonLogRequestDTO(pythonLogRequestDTO, false);
-    let submitDTO = Object.create(SubmitDTO);
-
-    submitDTO.taskNumber = tasks[currentTask - 1].id;
-    submitDTO.errorCount = errorCount;
-    submitDTO.correctCount = correctCount;
-    submitDTO.startTime = startTime.toISOString();
-    submitDTO.endTime = endTime.toISOString();
-    let timeDiff = endTime - startTime;
-    timeDiff /= 1000;
-    submitDTO.seconds = Math.round(timeDiff);
-    submitDTO.totalQuestions = chatCounter - 1;
-
-
-
-    let submitObject = {
-        chatDTOList: chatLogDTOS,
-        pythonLogRequestDTO: pythonLogRequestDTO,
-        submitDTO: submitDTO
-    };
-    let jsonData = JSON.stringify(submitObject);
-    const submitEndpoint = serverUrl + '/python/submit';
-    fetch(submitEndpoint, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: jsonData,
-    }).then( r =>console.log(r));
-
 }
 
 function infoModal() {
@@ -528,15 +367,6 @@ function submitPyCode() {
 
 }
 
-function submitModal() {
-    if (currentTask !== 0) {
-        submitAll();
-    }
-    nextCode();
-
-}
-
-
 
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -555,9 +385,7 @@ function clearCode() {
     editor.getDoc().setValue("");
 
 }
-window.addEventListener('beforeunload', function (e) {
-    e.preventDefault();
-    e.returnValue = '';
-});
+
+
 
 

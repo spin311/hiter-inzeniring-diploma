@@ -9,11 +9,20 @@
 
 }
 
+#output {
+    white-space: pre-wrap;
+}
+
 .CodeMirror {
-    height: 470px !important;
+    height: 530px !important;
 }
 .navodila-card {
     margin-bottom: -10px;
+}
+
+.text-area {
+    display: flex;
+    flex-direction: column;
 }
 
 #naslov {
@@ -34,11 +43,77 @@ header {
     padding: 1px;
     margin: 0;
 }
-/*#hide-nav {*/
-/*    position: absolute;*/
-/*    top: 6%;*/
-/*    left: 2%;*/
-/*}*/
+.text-area {
+    height: 500px;
+    overflow: scroll;
+}
+
+.question, .answer {
+    padding: 10px 20px;
+    margin: 10px;
+    color: white;
+    max-width: 90%;
+    position: relative;
+    white-space: pre-wrap;
+    flex-shrink: 0;
+
+}
+
+.question {
+    background-color: #4685e0;
+    border-radius: 18px 18px 18px 0;
+    align-self: flex-start;
+}
+
+.answer {
+    background-color: #53d769;
+    border-radius: 18px 18px 0 18px;
+    align-self: flex-end;
+}
+
+.question::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-right: 0 #4685e0;
+    border-left-width: 0;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.answer::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-right-width: 0;
+    border-left: 0 #97e880;
+    margin-top: -10px;
+    margin-right: -10px;
+}
+.answer::-webkit-scrollbar {
+    width: 10px;
+}
+
+.answer::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.answer::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.answer::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 
 main, nav, #hide-nav {
     padding-left: 20px;
@@ -61,6 +136,13 @@ main, nav {
     color: #d9534f;
 }
 
+.unselectable {
+    -webkit-user-select: none;  /* Chrome, Safari, Opera */
+    -moz-user-select: none;     /* Firefox */
+    -ms-user-select: none;      /* IE/Edge */
+    user-select: none;          /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
 
 .buttons {
     margin-top: -15px;
@@ -68,7 +150,7 @@ main, nav {
     margin-bottom: 10px;
 }
 .output-card {
-    height: 553px;
+    height: 665px;
 }
 
 .highlighted-error {
@@ -79,35 +161,30 @@ main, nav {
     background-color: #1e1e1e;
     color: white;
 }
-
-
-
-
-                                                     /* CSS */
 .button-8 {
- background-color: #e1ecf4;
- border-radius: 3px;
- border: 1px solid #7aa7c7;
- box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
- box-sizing: border-box;
- color: #39739d;
- cursor: pointer;
- display: inline-block;
- font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
- font-size: 13px;
- font-weight: 400;
- line-height: 1.15385;
- margin: 0;
- outline: none;
- padding: 8px .8em;
- position: relative;
- text-align: center;
- text-decoration: none;
- user-select: none;
- -webkit-user-select: none;
- touch-action: manipulation;
- vertical-align: baseline;
- white-space: nowrap;
+    background-color: #e1ecf4;
+    border-radius: 3px;
+    border: 1px solid #7aa7c7;
+    box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #39739d;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 0;
+    outline: none;
+    padding: 8px .8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
 }
 
 .button-8:hover,
@@ -124,4 +201,8 @@ main, nav {
     background-color: #a0c7e4;
     box-shadow: none;
     color: #2c5777;
+}
+
+.clear {
+    color: #c845f3;
 }

@@ -1,5 +1,5 @@
 .cm-s-liquibyte.CodeMirror {
-    background-color: #000;
+    background-color: #efe1f2;
     color: #fff;
     line-height: 1.2em;
     font-size: 1em;
@@ -19,7 +19,7 @@
     text-decoration-color: #404040;
     text-decoration-style: dotted;
 }
-.cm-s-liquibyte .CodeMirror-gutters { background-color: #262626; border-right: 1px solid #505050; padding-right: 0.8em; }
+.cm-s-liquibyte .CodeMirror-gutters { background-color: #cdb7ed; border-right: 1px solid #505050; padding-right: 0.8em; }
 .cm-s-liquibyte .CodeMirror-gutter-elt div { font-size: 1.2em; }
 .cm-s-liquibyte .CodeMirror-guttermarker {  }
 .cm-s-liquibyte .CodeMirror-guttermarker-subtle {  }
@@ -32,7 +32,7 @@
 .cm-s-liquibyte span.cm-builtin     { color: #ffaf40; font-weight: bold; }
 .cm-s-liquibyte span.cm-variable    { color: #5967ff; font-weight: bold; }
 .cm-s-liquibyte span.cm-string      { color: #ff8000; }
-.cm-s-liquibyte span.cm-number      { color: #0f0; font-weight: bold; }
+.cm-s-liquibyte span.cm-number      { color: #648c53; font-weight: bold; }
 .cm-s-liquibyte span.cm-atom        { color: #bf3030; font-weight: bold; }
 
 .cm-s-liquibyte span.cm-variable-2  { color: #007f7f; font-weight: bold; }
