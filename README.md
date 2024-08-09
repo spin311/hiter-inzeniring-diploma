@@ -3,7 +3,7 @@
 Izvorna koda za diplomsko delo Hiter inženiring pri razvoju programske opreme.
 Spletna stran je na voljo na spletni povezavi https://spin311.github.io/diploma/ .
 Zaledje ter ChatGPT API trenutno na strani niso zagnani zaradi stroškov namestitve.
-Koda je razdeljena v dve mapi za uporabniški vmesnik v mapi "frontend" ter zaledje v mapi "backend".
+Koda je razdeljena v dve mapi za uporabniški vmesnik v mapi "frontend" ter zaledje v mapi "backend". V mapi "naloge" se nahajajo naloge, ki so jih učenci reševali.
 ### Navodila za lokalno postavitev
 Uporabniški vmesnik je na voljo na povezavi: https://spin311.github.io/diploma/ .
 # Lokalna postavitev zaledja

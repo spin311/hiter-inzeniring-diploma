@@ -1,0 +1,2 @@
+1. Napiši program, ki prebere dve enomestni števili in vsako izmed števil izpiše število x * x krat v širino in x * x krat v višino. Prvo število je vedno večje od drugega.
+2.  Napišite funkcijo, ki sprejme dva niza in vrne True, če je sta niza anagrama (iz črk ene besede lahko sestavimo drugo besedo, npr. kar in rak) in vrne False, če nista anagrama.

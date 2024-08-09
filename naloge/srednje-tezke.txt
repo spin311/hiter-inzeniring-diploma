@@ -1,0 +1,2 @@
+1. Napišite program, ki prebere števila a, b in k in izpiše zaporedje števil od a do b s korakom k (povečamo za k). V primeru: a < b naj se izpis zaključi pri največjem številu, ki ni večje od b, v primeru a > b pa pri najmanjšem številu, ki ni manjše od b.
+2. Napiši funkcijo, ki prešteje število samoglasnikov (a e i o u) v podani besedi.

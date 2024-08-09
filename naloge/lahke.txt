@@ -1,0 +1,4 @@
+1. Napišite program, ki prebere tri števila in izpiše srednje med njimi (tj. število, od katerega je vsaj eno od preostalih dveh števil v trojici manjše ali enako in vsaj eno večje ali enako)
+2. Napiši python funkcijo, ki sprejme seznam in vrne nov seznam, ki vsebuje samo prvi in zadnji element seznama. Če ima vhodni seznam manj kot dva elementa program napiše \"ERROR!\"
+3. Napiši python program, ki sprejme seznam števil, in izpiše povprečje vseh števil iz seznama.
+4. Napiši Python program, kjer uporabnik vpiše število 0-9. Program nato izpiše vsa števila med 0 in 20(vključno s tema številoma), ki ne vsebujejo vnešene števke.
