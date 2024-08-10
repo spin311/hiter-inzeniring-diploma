@@ -1,0 +1,170 @@
+Easy:
+----------------
+
+Napišite program, ki prebere števili a in b in izpiše poštevanko števila a s faktorji od 1 do
+vključno b. Vhod je lahko sestavljen iz 2 posameznih branj.
+Primer:
+Vhod: 5 6
+Izhod:
+5 * 1 = 5
+5 * 2 = 10
+5 * 3 = 15
+5 * 4 = 20
+5 * 5 = 25
+5 * 6 = 30
+--------
+Napišite program, ki prebere tri števila in izpiše srednje med njimi (tj. število, od katerega
+je vsaj eno od preostalih dveh števil v trojici manjše ali enako in vsaj eno večje ali enako).
+Primer:
+Vhod:
+7 10 8
+Izhod:
+8
+--------
+Napišite program, ki prebere tri števila in jih izpiše v naraščajočem vrstnem redu.
+Vhod:
+5 7 2
+Izhod:
+2 5 7
+
+Napiši Python program, ki prešteje število besed v povedi.
+Primer:
+Vhod:
+"Danes je lep dan ena-dva tri."
+Izhod:
+6
+
+Napiši program ki vzame seznam in vrne nov seznam, ki vsebuje samo sode elemente vhodnega seznama.
+Primer:
+Vhod:
+[1,2,3,4,5,6,7,8,9]
+Izhod:
+[2,4,6,8]
+
+Napiši python program, ki vzame seznam in vrne nov seznam, ki vsebuje samo prvi in zadnji element seznama.
+Če ima vhodni seznam manj kot 2 elementa program napiše "ERROR!"
+Primer:
+Vhod:
+[4,5,3,32323,2,11]
+Izhod:
+[4,11]
+Vhod:
+[4]
+Izhod:
+Error!
+
+
+
+Medium:
+----------------
+Napiši Python program, kjer uporabnik vpiše število 0-9. Program nato izpiše vsa števila med 0 in 20(vključno s tema številoma), ki ne vsebujejo vnešene števke.
+Primer:
+Vhod: 1
+Izhod: 
+0 
+2 
+3
+4 
+5 
+6 
+7 
+8 
+9 
+20
+
+Napišite program, ki prebere števila a, b in k in izpiše zaporedje števil od a do b s korakom
+k (povečamo za k). V primeru: a < b naj se izpis zaključi pri največjem številu, ki ni večje od b, v primeru
+a > b pa pri najmanjšem številu, ki ni manjše od b.
+Pred izpisom zaporedja naj program preveri, ali vhod zadošča sledečima pogojema:
+• korak k ni enak 0
+• korak je pozitiven v primeru a < b oziroma negativen v primeru a > b.
+Če vhod katerega od pogojev ne izpolnjuje, naj program izpiše zgolj besedo NAPAKA.
+---
+Vhod:
+10 30 0
+Izhod:
+Napaka
+
+Vhod 15 10 -1
+15
+14
+13
+12
+11
+
+Vhod:
+10 30 3
+Izhod:
+10
+13
+16
+19
+22
+25
+28
+
+Napiši funkcijo, ki odstrani prvih n znakov niza. Če je dolzina niza manjša od n, naj funkcija vrne niz "ERROR!"
+Primer:
+Vhod:
+odstrani_prvih_n("Danes je lep dan", 5)
+Izhod:
+" je lep dan"
+
+Napiši funkcijo, ki vzame dva seznama in vrne nov seznam, ki vsebuje samo elemente, ki se pojavijo v obeh seznamih.
+Primer:
+Vhod:
+presek([1,2,3,4,5], [3,4,5,6,7])
+Izhod:
+[3,4,5]
+
+
+
+
+Hard:
+----------------
+
+Napiši program, ki prebere dve enomestni števili x in vsako izmed števil izpiše x * x krat v širino in x * x krat v višino.
+
+Primer:
+Vhod:
+3 4
+Izhod:
+333 4444
+333 4444
+333 4444
+    4444
+
+Primer:
+Vhod:
+5 2
+Izhod:
+55555 22
+55555 22
+55555
+55555
+55555
+
+Napišite program, ki prebere seznam celih števil in izpiše RAZLICNI, če so vsi elementi
+v njem medsebojno različni. V nasprotnem primeru naj izpiše najmanjše število, ki v
+zaporedju nastopa najmanj dvakrat.
+
+Primer:
+Vhod:
+[3 9 8 10 6 2]
+Izhod:
+RAZLICNI
+Vhod:
+3 10 9 8 9 2 10
+Izhod:
+9
+
+Napiši program, ki prebere stavek iz več besed in vrne isti stavek, z obratnim vrstnim redom črk posamezne besede.
+Vhod:
+"Danes je lep sončen dan"
+Izhod:
+"dan sončen lep je Danes"
+
+Napišite funkcijo v Pythonu, ki sprejme seznam kot vhod in vrne nov seznam z obrnjenimi elementi (brez uporabe vgrajene funkcije reverse()
+
+Napiši program, ki prebere stavek iz več besed in vrne isti stavek, z obratnim vrstnim redom črk posamezne besede.
+Napiši funkcijo, ki sprejme dva seznama in vrne nov seznam, ki vsebuje samo elemente, ki se pojavijo v obeh seznamih.
