@@ -1,0 +1,4622 @@
+[
+    {
+        "log_id": 1,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 8,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T14:58:32.297",
+        "code": "def anagram(niz1, niz2):\n\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T14:58:32.70069"
+    },
+    {
+        "log_id": 2,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 8,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T14:58:40.302",
+        "code": "def anagram(niz1, niz2):\n\tfor crka in niz1",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T14:58:40.361821"
+    },
+    {
+        "log_id": 3,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 8,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T14:58:48.304",
+        "code": "def anagram(niz1, niz2):\n\tfor crka in niz1:\n\t\tif crka not in niz",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T14:58:48.366586"
+    },
+    {
+        "log_id": 4,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 8,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T14:58:56.306",
+        "code": "def anagram(niz1, niz2):\n\tfor crka in niz1:\n\t\tif crka not in niz2:\n\t\t\treturn False\n\t\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T14:58:56.365652"
+    },
+    {
+        "log_id": 5,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 8,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T14:59:04.308",
+        "code": "def anagram(niz1, niz2):\n\tfor crka in niz1:\n\t\tif crka not in niz2:\n\t\t\treturn False\n\treturn True\n\n",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T14:59:04.368266"
+    },
+    {
+        "log_id": 6,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 8,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T14:59:12.31",
+        "code": "def anagram(niz1, niz2):\n\tfor crka in niz1:\n\t\tif crka not in niz2:\n\t\t\treturn False\n\treturn True\n\nprva, druga = anagram",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T14:59:12.36848"
+    },
+    {
+        "log_id": 7,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 8,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T14:59:20.312",
+        "code": "def anagram(niz1, niz2):\n\tfor crka in niz1:\n\t\tif crka not in niz2:\n\t\t\treturn False\n\treturn True\n\nprva, druga = anagram(),anagram()",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T14:59:20.371473"
+    },
+    {
+        "log_id": 8,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 8,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T14:59:39.32",
+        "code": "def anagram(niz1, niz2):\n\tfor crka in niz1:\n\t\tif crka not in niz2:\n\t\t\treturn False\n\treturn True\n\nprva, druga = anagram(\"),anagram()",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T14:59:39.380535"
+    },
+    {
+        "log_id": 9,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 8,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T14:59:50.324",
+        "code": "def anagram(niz1, niz2):\n\tfor crka in niz1:\n\t\tif crka not in niz2:\n\t\t\treturn False\n\treturn True\n\nprva, druga = anagram(\"avb\",\"bva\"),anagram(\"aaa\", )",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T14:59:50.385032"
+    },
+    {
+        "log_id": 10,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 8,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T15:00:00.397",
+        "code": "def anagram(niz1, niz2):\n\tfor crka in niz1:\n\t\tif crka not in niz2:\n\t\t\treturn False\n\treturn True\n\nprva, druga = anagram(\"avb\",\"bva\"),anagram(\"aaa\", \"bbb\")\nprint(prva, druga)",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T15:00:00.454569"
+    },
+    {
+        "log_id": 11,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 8,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T15:00:31.044",
+        "code": "def anagram(niz1, niz2):\n\tif len(niz1) != len(niz2):\n\t\treturn False\n\tfor crka in niz1:\n\t\tif crka not in niz2:\n\t\t\treturn False\n\treturn True\n\nprva, druga = anagram(\"avb\",\"bva\"),anagram(\"aaa\", \"bbb\")\nprint(prva, druga)",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T15:00:31.10296"
+    },
+    {
+        "log_id": 12,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 8,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T15:01:28.471",
+        "code": "def anagram(niz1, niz2):\n\tif len(niz1) != len(niz2):\n\t\treturn False\n\tfor crka in niz1:\n\t\tif crka not in niz2:\n\t\t\treturn False\n\treturn True\n\nprva, druga = anagram(\"avb\",\"bva\"),anagram(\"aaa\", \"bbb\")\nprint(prva, druga)",
+        "errorMessage": null,
+        "submitType": 2,
+        "sys_timestamp": "2024-04-10T15:01:28.566439"
+    },
+    {
+        "log_id": 13,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:01:33.476",
+        "code": "",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:01:33.537152"
+    },
+    {
+        "log_id": 14,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:01:38.481",
+        "code": "a = input(",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:01:38.540122"
+    },
+    {
+        "log_id": 15,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:01:43.486",
+        "code": "a = input(\"vnos\")\nb = ",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:01:43.545789"
+    },
+    {
+        "log_id": 16,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:01:48.493",
+        "code": "a = input(\"vnos\")\nb = input(\"vnos\")\nk",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:01:48.553227"
+    },
+    {
+        "log_id": 17,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:01:53.497",
+        "code": "a = input(\"vnos\")\nb = input(\"vnos\")\nk = input(\"vnos\")",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:01:53.556541"
+    },
+    {
+        "log_id": 18,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:01:58.502",
+        "code": "a = int(input(\"vnos\")(\nb = input(\"vnos\")\nk = input(\"vnos\")",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:01:58.563212"
+    },
+    {
+        "log_id": 19,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:02:03.506",
+        "code": "a = int(input(\"vnos\"))\nb = int(input(\"vnos\"))\nk = int(input(\"vnos\")",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:02:03.566294"
+    },
+    {
+        "log_id": 20,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:02:08.514",
+        "code": "a = int(input(\"vnos\"))\nb = int(input(\"vnos\"))\nk = int(input(\"vnos\"))\n\n",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:02:08.591294"
+    },
+    {
+        "log_id": 21,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:02:19.517",
+        "code": "a = int(input(\"vnos\"))\nb = int(input(\"vnos\"))\nk = int(input(\"vnos\"))\n\nif k == 0",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:02:19.576865"
+    },
+    {
+        "log_id": 22,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:02:25.523",
+        "code": "a = int(input(\"vnos\"))\nb = int(input(\"vnos\"))\nk = int(input(\"vnos\"))\n\nif k == 0 or ",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:02:25.581726"
+    },
+    {
+        "log_id": 23,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:02:31.528",
+        "code": "a = int(input(\"vnos\"))\nb = int(input(\"vnos\"))\nk = int(input(\"vnos\"))\n\nif k == 0 or (k > 0",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:02:31.588317"
+    },
+    {
+        "log_id": 24,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:02:37.532",
+        "code": "a = int(input(\"vnos\"))\nb = int(input(\"vnos\"))\nk = int(input(\"vnos\"))\n\nif k == 0 or (k > 0 and a < b o",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:02:37.589912"
+    },
+    {
+        "log_id": 25,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:02:43.54",
+        "code": "a = int(input(\"vnos\"))\nb = int(input(\"vnos\"))\nk = int(input(\"vnos\"))\n\nif k == 0 or (k > 0 and a < b) or ",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:02:43.597631"
+    },
+    {
+        "log_id": 26,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:02:49.544",
+        "code": "a = int(input(\"vnos\"))\nb = int(input(\"vnos\"))\nk = int(input(\"vnos\"))\n\nif k == 0 or ((k > 0 and a < b) or (k",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:02:49.602359"
+    },
+    {
+        "log_id": 27,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:02:55.55",
+        "code": "a = int(input(\"vnos\"))\nb = int(input(\"vnos\"))\nk = int(input(\"vnos\"))\n\nif k == 0 or ((k > 0 and a < b) or (k < 0 and a >",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:02:55.608947"
+    },
+    {
+        "log_id": 28,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:03:01.552",
+        "code": "a = int(input(\"vnos\"))\nb = int(input(\"vnos\"))\nk = int(input(\"vnos\"))\n\nif k == 0 or ((k > 0 and a < b) or (k < 0 and a > b)",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:03:01.612445"
+    },
+    {
+        "log_id": 29,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:03:07.558",
+        "code": "a = int(input(\"vnos\"))\nb = int(input(\"vnos\"))\nk = int(input(\"vnos\"))\n\nif k == 0 or not((k > 0 and a < b) or (k < 0 and a > b):\n\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:03:07.617386"
+    },
+    {
+        "log_id": 30,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:03:13.566",
+        "code": "a = int(input(\"vnos\"))\nb = int(input(\"vnos\"))\nk = int(input(\"vnos\"))\n\nif k == 0 or not((k > 0 and a < b) or (k < 0 and a > b):\n\tprint(\"ERROR\")\n\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:03:13.623462"
+    },
+    {
+        "log_id": 31,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:03:19.571",
+        "code": "a = int(input(\"vnos\"))\nb = int(input(\"vnos\"))\nk = int(input(\"vnos\"))\n\nif k == 0 or not((k > 0 and a < b) or (k < 0 and a > b):\n\tprint(\"ERROR\")\n\texit()\n",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:03:19.629157"
+    },
+    {
+        "log_id": 32,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:03:25.576",
+        "code": "a = int(input(\"vnos\"))\nb = int(input(\"vnos\"))\nk = int(input(\"vnos\"))\n\nif k == 0 or not((k > 0 and a < b) or (k < 0 and a > b):\n\tprint(\"ERROR\")\n\texit()\n\nfor i in rang",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:03:25.634587"
+    },
+    {
+        "log_id": 33,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:03:31.579",
+        "code": "a = int(input(\"vnos\"))\nb = int(input(\"vnos\"))\nk = int(input(\"vnos\"))\n\nif k == 0 or not((k > 0 and a < b) or (k < 0 and a > b):\n\tprint(\"ERROR\")\n\texit()\n\nfor i in range(a,b,",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:03:31.638203"
+    },
+    {
+        "log_id": 34,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:03:37.582",
+        "code": "a = int(input(\"vnos\"))\nb = int(input(\"vnos\"))\nk = int(input(\"vnos\"))\n\nif k == 0 or not((k > 0 and a < b) or (k < 0 and a > b):\n\tprint(\"ERROR\")\n\texit()\n\nfor i in range(a,b,k",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:03:37.641285"
+    },
+    {
+        "log_id": 35,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:03:43.587",
+        "code": "a = int(input(\"vnos\"))\nb = int(input(\"vnos\"))\nk = int(input(\"vnos\"))\n\nif k == 0 or not((k > 0 and a < b) or (k < 0 and a > b):\n\tprint(\"ERROR\")\n\texit()\n\nwhile a ",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:03:43.647051"
+    },
+    {
+        "log_id": 36,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:03:49.593",
+        "code": "a = int(input(\"vnos\"))\nb = int(input(\"vnos\"))\nk = int(input(\"vnos\"))\n\nif k == 0 or not((k > 0 and a < b) or (k < 0 and a > b):\n\tprint(\"ERROR\")\n\texit()\n\nfor i",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:03:49.651862"
+    },
+    {
+        "log_id": 37,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:03:55.597",
+        "code": "a = int(input(\"vnos\"))\nb = int(input(\"vnos\"))\nk = int(input(\"vnos\"))\n\nif k == 0 or not((k > 0 and a < b) or (k < 0 and a > b):\n\tprint(\"ERROR\")\n\texit()\n\nfor i in range(",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:03:55.657043"
+    },
+    {
+        "log_id": 38,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:04:01.601",
+        "code": "a = int(input(\"vnos\"))\nb = int(input(\"vnos\"))\nk = int(input(\"vnos\"))\n\nif k == 0 or not((k > 0 and a < b) or (k < 0 and a > b):\n\tprint(\"ERROR\")\n\texit()\n\nfor i in range(a,b,k):\n\t\t\t\t ",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:04:01.660292"
+    },
+    {
+        "log_id": 39,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:04:07.605",
+        "code": "a = int(input(\"vnos\"))\nb = int(input(\"vnos\"))\nk = int(input(\"vnos\"))\n\nif k == 0 or not((k > 0 and a < b) or (k < 0 and a > b):\n\tprint(\"ERROR\")\n\texit()\n\nfor i in range(a,b,k):\n\tprint(i)",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:04:07.66382"
+    },
+    {
+        "log_id": 40,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:04:29.408",
+        "code": "a = int(input(\"vnos\"))\nb = int(input(\"vnos\"))\nk = int(input(\"vnos\"))\n\nif k == 0 or not((k > 0 and a < b) or (k < 0 and a > b)):\n\tprint(\"ERROR\")\n\texit()\n\nfor i in range(a,b,k):\n\tprint(i)",
+        "errorMessage": "ExternalError: Error: Your program timed out on line 5",
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T15:04:29.464566"
+    },
+    {
+        "log_id": 41,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:04:55.305",
+        "code": "a = int(input(\"vnos\"))\nb = int(input(\"vnos\"))\nk = int(input(\"vnos\"))\n\nif k == 0:\n\tprint(\"ERROR\")\n\texit()\n\nfor i in range(a,b,k):\n\tprint(i)",
+        "errorMessage": "SystemExit:  on line 7",
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T15:04:55.361621"
+    },
+    {
+        "log_id": 42,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:06:04.449",
+        "code": "a = int(input(\"vnos\"))\nb = int(input(\"vnos\"))\nk = int(input(\"vnos\"))\n\nif k == 0:\n\tprint(\"ERROR\")\n\nfor i in range(a,b,k):\n\tprint(i)",
+        "errorMessage": "ValueError: invalid literal for int() with base 10: 'None' on line 1",
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T15:06:04.51653"
+    },
+    {
+        "log_id": 43,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:06:15.584",
+        "code": "a = 10\nb = 20\nk = 2\n\nif k == 0:\n\tprint(\"ERROR\")\n\nfor i in range(a,b,k):\n\tprint(i)",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T15:06:15.641558"
+    },
+    {
+        "log_id": 44,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:06:36.788",
+        "code": "a = 10\nb = 20\nk = 0\n\nif k == 0:\n\tprint(\"ERROR\")\n\texit()\n\nfor i in range(a,b,k):\n\tprint(i)",
+        "errorMessage": "SystemExit:  on line 7",
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T15:06:36.847023"
+    },
+    {
+        "log_id": 45,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:07:07.996",
+        "code": "a = 10\nb = 20\nk = 0\n\nif k == 0:\n\tprint(\"ERROR\")\nelse:\n\tfor i in range(a,b,k):\n\t\tprint(i)",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T15:07:08.055807"
+    },
+    {
+        "log_id": 46,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:07:13.666",
+        "code": "a = 10\nb = 20\nk = -1\n\nif k == 0:\n\tprint(\"ERROR\")\nelse:\n\tfor i in range(a,b,k):\n\t\tprint(i)",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T15:07:13.723364"
+    },
+    {
+        "log_id": 47,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:07:21.577",
+        "code": "a = 20\nb = 10\nk = -1\n\nif k == 0:\n\tprint(\"ERROR\")\nelse:\n\tfor i in range(a,b,k):\n\t\tprint(i)",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T15:07:21.633657"
+    },
+    {
+        "log_id": 48,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 5,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:07:26.589",
+        "code": "a = 20\nb = 10\nk = -1\n\nif k == 0:\n\tprint(\"ERROR\")\nelse:\n\tfor i in range(a,b,k):\n\t\tprint(i)",
+        "errorMessage": null,
+        "submitType": 2,
+        "sys_timestamp": "2024-04-10T15:07:26.650201"
+    },
+    {
+        "log_id": 49,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 3,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T15:07:31.594",
+        "code": "",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:07:31.658463"
+    },
+    {
+        "log_id": 50,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 3,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T15:07:50.604",
+        "code": "seznam = [12,,4]",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:07:50.663896"
+    },
+    {
+        "log_id": 51,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 3,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T15:07:58.602",
+        "code": "seznam = [12,44,55,66,532]\n\nvsota = 0\nfor i in ",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:07:58.664763"
+    },
+    {
+        "log_id": 52,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 3,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T15:08:06.604",
+        "code": "seznam = [12,44,55,66,532]\n\nvsota = 0\nfor i in seznam:\n\tvsota += i\n\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:08:06.666597"
+    },
+    {
+        "log_id": 53,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 3,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T15:08:14.606",
+        "code": "seznam = [12,44,55,66,532]\n\nvsota = 0\nfor i in seznam:\n\tvsota += i\npovp = vsota / l",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:08:14.671608"
+    },
+    {
+        "log_id": 54,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 3,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T15:08:21.038",
+        "code": "seznam = [12,44,55,66,532]\n\nvsota = 0\nfor i in seznam:\n\tvsota += i\npovp = vsota / len(seznam)\nprint(povp)",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T15:08:21.099784"
+    },
+    {
+        "log_id": 55,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 3,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T15:08:24.513",
+        "code": "seznam = [12,44,55,66,532]\n\nvsota = 0\nfor i in seznam:\n\tvsota += i\npovp = vsota / len(seznam)\nprint(povp)",
+        "errorMessage": null,
+        "submitType": 2,
+        "sys_timestamp": "2024-04-10T15:08:24.57919"
+    },
+    {
+        "log_id": 56,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 6,
+        "currentTask": 4,
+        "timestamp": "2024-04-10T15:08:29.522",
+        "code": "",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:08:29.591791"
+    },
+    {
+        "log_id": 57,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 6,
+        "currentTask": 4,
+        "timestamp": "2024-04-10T15:09:13.836",
+        "code": "def stevilo_samoglasnikov(beseda):\n    samoglasniki = \"aeiou\"\n    stevilo = 0\n    for crka in beseda:\n        if crka.lower() in samoglasniki:\n            stevilo += 1\n    return stevilo\n\nbeseda = \"programiranje\"\nprint(\"Število samoglasnikov v besedi '{}' je: {}\".format(beseda, stevilo_samoglasnikov(beseda)))",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T15:09:13.898107"
+    },
+    {
+        "log_id": 58,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 6,
+        "currentTask": 4,
+        "timestamp": "2024-04-10T15:10:00.723",
+        "code": "def stevilo_samoglasnikov(beseda):\n    samoglasniki = \"aeiou\"\n    stevilo = 0\n    for crka in beseda:\n        if crka.lower() in samoglasniki:\n            stevilo += 1\n    return stevilo\n\nbeseda = \"programiranje\"\nprint(\"Število samoglasnikov v besedi '{}' je: {}\".format(beseda, stevilo_samoglasnikov(beseda)))",
+        "errorMessage": null,
+        "submitType": 2,
+        "sys_timestamp": "2024-04-10T15:10:00.789179"
+    },
+    {
+        "log_id": 59,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 1,
+        "currentTask": 5,
+        "timestamp": "2024-04-10T15:10:05.73",
+        "code": "",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:10:05.795258"
+    },
+    {
+        "log_id": 60,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 1,
+        "currentTask": 5,
+        "timestamp": "2024-04-10T15:10:10.734",
+        "code": "a,b,c = 4,1,10\n",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:10:10.799"
+    },
+    {
+        "log_id": 61,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 1,
+        "currentTask": 5,
+        "timestamp": "2024-04-10T15:10:15.737",
+        "code": "a,b,c = 4,1,10\n\n",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:10:15.802447"
+    },
+    {
+        "log_id": 62,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 1,
+        "currentTask": 5,
+        "timestamp": "2024-04-10T15:10:34.748",
+        "code": "a,b,c = 4,1,10\n\nif a >",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:10:34.811908"
+    },
+    {
+        "log_id": 63,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 1,
+        "currentTask": 5,
+        "timestamp": "2024-04-10T15:10:42.75",
+        "code": "a,b,c = 4,1,10\n\nsorte",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:10:42.813925"
+    },
+    {
+        "log_id": 64,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 1,
+        "currentTask": 5,
+        "timestamp": "2024-04-10T15:10:50.754",
+        "code": "a,b,c = 4,1,10\n\nsortiraj = sort(a,b,c)\nprint(b)",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:10:50.87028"
+    },
+    {
+        "log_id": 65,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 1,
+        "currentTask": 5,
+        "timestamp": "2024-04-10T15:11:02.595",
+        "code": "a,b,c = 4,1,10\n\nsortiraj = sort()\nprint(b)",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:11:02.661387"
+    },
+    {
+        "log_id": 66,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 1,
+        "currentTask": 5,
+        "timestamp": "2024-04-10T15:11:13.6",
+        "code": "a,b,c = 4,1,10\nseznam = [a,b,c]\nsortiraj = sort()\nprint(b)",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:11:13.664805"
+    },
+    {
+        "log_id": 67,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 1,
+        "currentTask": 5,
+        "timestamp": "2024-04-10T15:11:19.25",
+        "code": "a,b,c = 4,1,10\nseznam = [a,b,c]\nsortiraj = seznam.sort()\nprint(b)",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T15:11:19.311376"
+    },
+    {
+        "log_id": 68,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 1,
+        "currentTask": 5,
+        "timestamp": "2024-04-10T15:11:29.532",
+        "code": "a,b,c = 4,1,10\nseznam = [a,b,c]\nsortiraj = seznam.sort()\nprint(sortiraj[1])",
+        "errorMessage": "TypeError: 'NoneType' does not support indexing on line 4",
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T15:11:29.595018"
+    },
+    {
+        "log_id": 69,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 1,
+        "currentTask": 5,
+        "timestamp": "2024-04-10T15:11:46.537",
+        "code": "a,b,c = 4,1,10\nseznam = [a,b,c]\nsortiraj = sort(seznam)\nprint(sortiraj[1])",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:11:46.603142"
+    },
+    {
+        "log_id": 70,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 1,
+        "currentTask": 5,
+        "timestamp": "2024-04-10T15:12:05.103",
+        "code": "a,b,c = 4,1,10\nseznam = [a,b,c]\nsortiraj = seznam.sort()\nprint(sortiraj)",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T15:12:05.168393"
+    },
+    {
+        "log_id": 71,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 1,
+        "currentTask": 5,
+        "timestamp": "2024-04-10T15:12:20.191",
+        "code": "a,b,c = 4,1,10\nseznam = [a,b,c]\nprint(seznam)\nsortiraj = seznam.sort()\nprint(sortiraj)",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T15:12:20.254532"
+    },
+    {
+        "log_id": 72,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 1,
+        "currentTask": 5,
+        "timestamp": "2024-04-10T15:12:36.323",
+        "code": "a,b,c = 4,1,10\nseznam = [a,b,c]\nseznam.sort()\nprint(seznam)",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T15:12:36.389003"
+    },
+    {
+        "log_id": 73,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 1,
+        "currentTask": 5,
+        "timestamp": "2024-04-10T15:12:44.66",
+        "code": "a,b,c = 4,1,10\nseznam = [a,b,c]\nseznam.sort()\nprint(seznam[1])",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T15:12:44.722422"
+    },
+    {
+        "log_id": 74,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 1,
+        "currentTask": 5,
+        "timestamp": "2024-04-10T15:13:43.372",
+        "code": "a,b,c = 4,1,10\nseznam = [a,b,c]\nseznam.sort()\nprint(seznam[1])",
+        "errorMessage": null,
+        "submitType": 2,
+        "sys_timestamp": "2024-04-10T15:13:43.43994"
+    },
+    {
+        "log_id": 75,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 2,
+        "currentTask": 6,
+        "timestamp": "2024-04-10T15:13:48.377",
+        "code": "",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:13:48.441835"
+    },
+    {
+        "log_id": 76,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 2,
+        "currentTask": 6,
+        "timestamp": "2024-04-10T15:14:18.578",
+        "code": "def prvi_in_zadnji(seznam):\n    return seznam[0], seznam[-1]\n\n# Primer uporabe\nmoj_seznam = [1, 2, 3, 4, 5]\\",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:14:18.645769"
+    },
+    {
+        "log_id": 77,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 2,
+        "currentTask": 6,
+        "timestamp": "2024-04-10T15:14:20.521",
+        "code": "def prvi_in_zadnji(seznam):\n    return seznam[0], seznam[-1]\n\n# Primer uporabe\nmoj_seznam = [1, 2, 3, 4, 5]\nprvi, zadnji = prvi_in_zadnji(moj_seznam)\nprint(\"Prvi element:\", prvi)\nprint(\"Zadnji element:\", zadnji)",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T15:14:20.584186"
+    },
+    {
+        "log_id": 78,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 2,
+        "currentTask": 6,
+        "timestamp": "2024-04-10T15:14:28.116",
+        "code": "def prvi_in_zadnji(seznam):\n    return seznam[0], seznam[-1]\n\n# Primer uporabe\nmoj_seznam = [1, 2, 3, 4, 5]\nprvi, zadnji = prvi_in_zadnji(moj_seznam)\nprint(\"Prvi element:\", prvi)\nprint(\"Zadnji element:\", zadnji)",
+        "errorMessage": null,
+        "submitType": 2,
+        "sys_timestamp": "2024-04-10T15:14:28.180348"
+    },
+    {
+        "log_id": 79,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 7,
+        "currentTask": 7,
+        "timestamp": "2024-04-10T15:14:33.118",
+        "code": "",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:14:33.183734"
+    },
+    {
+        "log_id": 80,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 7,
+        "currentTask": 7,
+        "timestamp": "2024-04-10T15:14:44.129",
+        "code": "prvo = 3\ndrugo",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:14:44.193019"
+    },
+    {
+        "log_id": 81,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 7,
+        "currentTask": 7,
+        "timestamp": "2024-04-10T15:14:50.134",
+        "code": "prvo = 3\ndrugo = 4\n\n",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:14:50.199703"
+    },
+    {
+        "log_id": 82,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 7,
+        "currentTask": 7,
+        "timestamp": "2024-04-10T15:15:15.137",
+        "code": "prvo = 3\ndrugo = 4\n\nfor i in range(len(",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:15:15.202131"
+    },
+    {
+        "log_id": 83,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 7,
+        "currentTask": 7,
+        "timestamp": "2024-04-10T15:15:26.138",
+        "code": "prvo = 3\ndrugo = 4\n\nfor i in range(prvo):\n\tprint(prvo, ",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:15:26.202102"
+    },
+    {
+        "log_id": 84,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 7,
+        "currentTask": 7,
+        "timestamp": "2024-04-10T15:15:37.142",
+        "code": "prvo = 3\ndrugo = 4\n\nfor i in range(prvo):\n\tprint(prvo, end=\"\")\nprint(\" \"",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:15:37.207995"
+    },
+    {
+        "log_id": 85,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 7,
+        "currentTask": 7,
+        "timestamp": "2024-04-10T15:15:48.147",
+        "code": "prvo = 3\ndrugo = 4\n\nfor i in range(prvo):\n\tprint(prvo, end=\"\")\nprint(\" \", end=\"\")\nf",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:15:48.213703"
+    },
+    {
+        "log_id": 86,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 7,
+        "currentTask": 7,
+        "timestamp": "2024-04-10T15:15:59.157",
+        "code": "prvo = 3\ndrugo = 4\n\nfor i in range(prvo):\n\tprint(prvo, end=\"\")\nprint(\" \", end=\"\")",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:15:59.223254"
+    },
+    {
+        "log_id": 87,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 7,
+        "currentTask": 7,
+        "timestamp": "2024-04-10T15:17:11.288",
+        "code": "prvo = 3\ndrugo = 4\n\n\nfor i in range(max(prvo, drugo)\nfor i in range(prvo):\n\tprint(prvo, end=\"\")\nprint(\" \", end=\"\")",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:17:11.377618"
+    },
+    {
+        "log_id": 88,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 7,
+        "currentTask": 7,
+        "timestamp": "2024-04-10T15:17:37.29",
+        "code": "prvo = 3\ndrugo = 4\n\n\nfor i in range(max(prvo, drugo)):\n\tif i\n\tfor i in range(prvo):\n\t\tprint(prvo, end=\"\")\n\tprint(\" \", end=\"\")\n\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:17:37.359264"
+    },
+    {
+        "log_id": 89,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 7,
+        "currentTask": 7,
+        "timestamp": "2024-04-10T15:18:03.292",
+        "code": "prvo = 3\ndrugo = 4\n\n\nfor i in range(max(prvo, drugo)):\n\tfor i in range(prvo):\n\t\tif\n\t\tprint(prvo, end=\"\")\n\tprint(\" \", end=\"\")\n\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:18:03.361318"
+    },
+    {
+        "log_id": 90,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 7,
+        "currentTask": 7,
+        "timestamp": "2024-04-10T15:19:08.682",
+        "code": "prvo = 3\ndrugo = 4\n\n\nfor i in range(max(prvo, drugo)):\n\tfor i in range(prvo):\n\t\tprint(prvo, end=\"\")\n\tprint(\" \", end=\"\")\n\t",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T15:19:08.765439"
+    },
+    {
+        "log_id": 91,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 7,
+        "currentTask": 7,
+        "timestamp": "2024-04-10T15:19:20.966",
+        "code": "prvo = 3\ndrugo = 4\n\n\nfor i in range(max(prvo, drugo)):\n\tfor i in range(prvo):\n\t\tprint(prvo, end=\"\")\n\tprint(\" \", end=\"\")\n\tprint()\n\t",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T15:19:21.029702"
+    },
+    {
+        "log_id": 92,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 7,
+        "currentTask": 7,
+        "timestamp": "2024-04-10T15:19:31.617",
+        "code": "prvo = 3\ndrugo = 4\n\n\nfor i in range(max(prvo, drugo)):\n\tfor i in range(prvo):\n\t\tprint(prvo, end=\"\")\n\tprint(\" \", end=\"\")\n\tprint()\n\t",
+        "errorMessage": null,
+        "submitType": 2,
+        "sys_timestamp": "2024-04-10T15:19:31.681676"
+    },
+    {
+        "log_id": 93,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 4,
+        "currentTask": 8,
+        "timestamp": "2024-04-10T15:19:36.62",
+        "code": "",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:19:36.686003"
+    },
+    {
+        "log_id": 94,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 4,
+        "currentTask": 8,
+        "timestamp": "2024-04-10T15:20:41.736",
+        "code": "stevka = 'b'\nfor i in range(0, 21):\n    if 'a' not in str(i):\n        print(i)",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:20:42.008029"
+    },
+    {
+        "log_id": 95,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 4,
+        "currentTask": 8,
+        "timestamp": "2024-04-10T15:20:45.072",
+        "code": "stevka = 'b'\nfor i in range(0, 21):\n    if stevka not in str(i):\n        print(i)",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T15:20:45.134917"
+    },
+    {
+        "log_id": 96,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 4,
+        "currentTask": 8,
+        "timestamp": "2024-04-10T15:20:49.91",
+        "code": "stevka = '1'\nfor i in range(0, 21):\n    if stevka not in str(i):\n        print(i)",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T15:20:49.973882"
+    },
+    {
+        "log_id": 97,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "taskNumber": 4,
+        "currentTask": 8,
+        "timestamp": "2024-04-10T15:20:54.27",
+        "code": "stevka = '1'\nfor i in range(0, 21):\n    if stevka not in str(i):\n        print(i)",
+        "errorMessage": null,
+        "submitType": 2,
+        "sys_timestamp": "2024-04-10T15:20:54.335128"
+    },
+    {
+        "log_id": 98,
+        "student": {
+            "student_id": 4,
+            "guid": "0ef8969b-f6b1-4125-9f12-25de70ff811f",
+            "sys_timestamp": "2024-04-10T15:23:09.223636"
+        },
+        "taskNumber": 3,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T15:24:02.041",
+        "code": "print(\"p",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:24:02.128406"
+    },
+    {
+        "log_id": 99,
+        "student": {
+            "student_id": 4,
+            "guid": "0ef8969b-f6b1-4125-9f12-25de70ff811f",
+            "sys_timestamp": "2024-04-10T15:23:09.223636"
+        },
+        "taskNumber": 3,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T15:24:04.331",
+        "code": "print(\"primer\")",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T15:24:04.393474"
+    },
+    {
+        "log_id": 100,
+        "student": {
+            "student_id": 4,
+            "guid": "0ef8969b-f6b1-4125-9f12-25de70ff811f",
+            "sys_timestamp": "2024-04-10T15:23:09.223636"
+        },
+        "taskNumber": 3,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T15:24:05.487",
+        "code": "print(\"primer\")",
+        "errorMessage": null,
+        "submitType": 2,
+        "sys_timestamp": "2024-04-10T15:24:05.576375"
+    },
+    {
+        "log_id": 101,
+        "student": {
+            "student_id": 4,
+            "guid": "0ef8969b-f6b1-4125-9f12-25de70ff811f",
+            "sys_timestamp": "2024-04-10T15:23:09.223636"
+        },
+        "taskNumber": 7,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:24:10.492",
+        "code": "",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:24:10.559521"
+    },
+    {
+        "log_id": 102,
+        "student": {
+            "student_id": 4,
+            "guid": "0ef8969b-f6b1-4125-9f12-25de70ff811f",
+            "sys_timestamp": "2024-04-10T15:23:09.223636"
+        },
+        "taskNumber": 7,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:25:54.841",
+        "code": "print(\"hee\")",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T15:25:55.016043"
+    },
+    {
+        "log_id": 103,
+        "student": {
+            "student_id": 4,
+            "guid": "0ef8969b-f6b1-4125-9f12-25de70ff811f",
+            "sys_timestamp": "2024-04-10T15:23:09.223636"
+        },
+        "taskNumber": 7,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T15:25:57.255",
+        "code": "print(\"hee\")",
+        "errorMessage": null,
+        "submitType": 2,
+        "sys_timestamp": "2024-04-10T15:25:57.320386"
+    },
+    {
+        "log_id": 104,
+        "student": {
+            "student_id": 4,
+            "guid": "0ef8969b-f6b1-4125-9f12-25de70ff811f",
+            "sys_timestamp": "2024-04-10T15:23:09.223636"
+        },
+        "taskNumber": 5,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T15:26:02.258",
+        "code": "",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:26:02.326199"
+    },
+    {
+        "log_id": 105,
+        "student": {
+            "student_id": 5,
+            "guid": "071556b7-a04c-4811-abc2-dd3a785372a9",
+            "sys_timestamp": "2024-04-10T15:29:23.50293"
+        },
+        "taskNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T15:29:49.638",
+        "code": "print(\"\")",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T15:29:50.567144"
+    },
+    {
+        "log_id": 106,
+        "student": {
+            "student_id": 5,
+            "guid": "071556b7-a04c-4811-abc2-dd3a785372a9",
+            "sys_timestamp": "2024-04-10T15:29:23.50293"
+        },
+        "taskNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T15:29:57.062",
+        "code": "print(\"hellooooo\")",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T15:29:57.67189"
+    },
+    {
+        "log_id": 107,
+        "student": {
+            "student_id": 5,
+            "guid": "071556b7-a04c-4811-abc2-dd3a785372a9",
+            "sys_timestamp": "2024-04-10T15:29:23.50293"
+        },
+        "taskNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T15:29:59.347",
+        "code": "print(\"hellooooo\")",
+        "errorMessage": null,
+        "submitType": 2,
+        "sys_timestamp": "2024-04-10T15:30:00.081069"
+    },
+    {
+        "log_id": 114,
+        "student": {
+            "student_id": 8,
+            "guid": "c2ec4297-704f-4298-92b3-7566ddceb068",
+            "sys_timestamp": "2024-04-10T16:15:32.364755"
+        },
+        "taskNumber": 8,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:18:38.641",
+        "code": "",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:18:38.697753"
+    },
+    {
+        "log_id": 115,
+        "student": {
+            "student_id": 8,
+            "guid": "c2ec4297-704f-4298-92b3-7566ddceb068",
+            "sys_timestamp": "2024-04-10T16:15:32.364755"
+        },
+        "taskNumber": 8,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:19:23.664",
+        "code": "prvi = \"kar\"\ndrugi = \"ra",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:19:23.720319"
+    },
+    {
+        "log_id": 116,
+        "student": {
+            "student_id": 8,
+            "guid": "c2ec4297-704f-4298-92b3-7566ddceb068",
+            "sys_timestamp": "2024-04-10T16:15:32.364755"
+        },
+        "taskNumber": 8,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:19:38.668",
+        "code": "def naloga(prvi, [\n\nprvi = \"kar\"\ndrugi = \"rak\"\n",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:19:38.722611"
+    },
+    {
+        "log_id": 117,
+        "student": {
+            "student_id": 8,
+            "guid": "c2ec4297-704f-4298-92b3-7566ddceb068",
+            "sys_timestamp": "2024-04-10T16:15:32.364755"
+        },
+        "taskNumber": 8,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:19:53.675",
+        "code": "def naloga(prvi, drugi):\n\treturn True\n\nprvi = \"kar\"\ndrugi = \"rak\"\n\nnaloga(prvi,\n",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:19:53.728772"
+    },
+    {
+        "log_id": 118,
+        "student": {
+            "student_id": 8,
+            "guid": "c2ec4297-704f-4298-92b3-7566ddceb068",
+            "sys_timestamp": "2024-04-10T16:15:32.364755"
+        },
+        "taskNumber": 8,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:20:00.884",
+        "code": "def naloga(prvi, drugi):\n\treturn True\n\nprvi = \"kar\"\ndrugi = \"rak\"\n\nnaloga(prvi, drugi)\n",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:20:00.935094"
+    },
+    {
+        "log_id": 119,
+        "student": {
+            "student_id": 8,
+            "guid": "c2ec4297-704f-4298-92b3-7566ddceb068",
+            "sys_timestamp": "2024-04-10T16:15:32.364755"
+        },
+        "taskNumber": 8,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:20:16.871",
+        "code": "def naloga(prvi, drugi):\n\treturn True\n\nprvi = \"kar\"\ndrugi = \"rak\"\n\nprint(naloga(prvi, drugi))\n",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:20:16.924929"
+    },
+    {
+        "log_id": 136,
+        "student": {
+            "student_id": 16,
+            "guid": "ab2002ea-810a-4773-b6ad-b1efde1de253",
+            "sys_timestamp": "2024-04-10T16:28:38.906539"
+        },
+        "taskNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:30:22.25",
+        "code": "",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:30:24.018361"
+    },
+    {
+        "log_id": 139,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:30:55.42",
+        "code": "",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:30:54.545095"
+    },
+    {
+        "log_id": 140,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:31:03.392",
+        "code": "",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:31:03.469411"
+    },
+    {
+        "log_id": 142,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:31:14.46",
+        "code": "stevEna =",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:31:13.48941"
+    },
+    {
+        "log_id": 143,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:31:16.71",
+        "code": "",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:31:16.743027"
+    },
+    {
+        "log_id": 144,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:31:22.463",
+        "code": "stevEna = 123\nstevDve =",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:31:21.4897"
+    },
+    {
+        "log_id": 145,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:31:30.479",
+        "code": "stevEna = 123\nstevDve = 5,",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:31:29.504515"
+    },
+    {
+        "log_id": 146,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:31:33.425",
+        "code": "i",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:31:33.502894"
+    },
+    {
+        "log_id": 147,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:31:38.486",
+        "code": "stevEna = 123\nstevDve = 501\nstev",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:31:37.512725"
+    },
+    {
+        "log_id": 148,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:31:44.435",
+        "code": "stevilo1\nstevilo2\nstevilo3 =",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:31:44.513255"
+    },
+    {
+        "log_id": 149,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:31:46.498",
+        "code": "stevEna = 123\nstevDve = 501\nstevTri = 94",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:31:45.524396"
+    },
+    {
+        "log_id": 150,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:31:54.501",
+        "code": "stevEna = 123\nstevDve = 501\nstevTri = 943",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:31:53.527376"
+    },
+    {
+        "log_id": 151,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:31:55.44",
+        "code": "stevilo1\nstevilo2\nstevilo3 = i",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:31:55.51812"
+    },
+    {
+        "log_id": 153,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:32:06.447",
+        "code": "stevilo1\nstevilo2\nstevilo3 = int(input(\"T",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:32:06.525082"
+    },
+    {
+        "log_id": 154,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:32:13.519",
+        "code": "stevEna = 123\nstevDve = 501\nstevTri = 943\n",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:32:12.589799"
+    },
+    {
+        "log_id": 155,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:32:17.448",
+        "code": "stevilo1\nstevilo2\nstevilo3 = int(input(\"Tretje število?\"))",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:32:17.52767"
+    },
+    {
+        "log_id": 156,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:32:24.531",
+        "code": "stevEna = 123\nstevDve = 501\nstevTri = 943\n\ndef preber",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:32:23.557169"
+    },
+    {
+        "log_id": 157,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:32:28.448",
+        "code": "stevilo1 = int(input(\"Tretje število?\"))\nstevilo2 = int(input(\"Tretje število?\"))\nstevilo3 = int(input(\"Tretje število?\"))",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:32:28.527659"
+    },
+    {
+        "log_id": 158,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:32:35.535",
+        "code": "stevEna = 123\nstevDve = 501\nstevTri = 943\n\ndef preberiStevila(ena, dva, tri):\n\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:32:34.561109"
+    },
+    {
+        "log_id": 159,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:32:39.462",
+        "code": "stevilo1 = int(input(\"Drugo število?\"))\nstevilo2 = int(input(\"Tretje število?\"))\nstevilo3 = int(input(\"Tretje število?\"))",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:32:39.539484"
+    },
+    {
+        "log_id": 160,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:32:47.717",
+        "code": "def ",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:32:49.168379"
+    },
+    {
+        "log_id": 161,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:32:50.464",
+        "code": "stevilo1 = int(input(\"Prvo število?\"))\nstevilo2 = int(input(\"Tretje število?\"))\nstevilo3 = int(input(\"Tretje število?\"))",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:32:50.542706"
+    },
+    {
+        "log_id": 162,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:33:01.465",
+        "code": "stevilo1 = int(input(\"Prvo število?\"))\nstevilo2 = int(input(\"Drugo število?\"))\nstevilo3 = int(input(\"Tretje število?\"))",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:33:01.543601"
+    },
+    {
+        "log_id": 163,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:33:12.468",
+        "code": "stevilo1 = int(input(\"Prvo število?\"))\nstevilo2 = int(input(\"Drugo število?\"))\nstevilo3 = int(input(\"Tretje število?\"))\nif stev",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:33:12.545943"
+    },
+    {
+        "log_id": 164,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:33:13.719",
+        "code": "def print_of_min_max:\n\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:33:13.753025"
+    },
+    {
+        "log_id": 165,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:33:23.476",
+        "code": "stevilo1 = int(input(\"Prvo število?\"))\nstevilo2 = int(input(\"Drugo število?\"))\nstevilo3 = int(input(\"Tretje število?\"))\nif stevilo1 >",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:33:23.555123"
+    },
+    {
+        "log_id": 166,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:33:39.72",
+        "code": "def print_of_min_max(list1,list2):\n\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:33:39.905734"
+    },
+    {
+        "log_id": 168,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:34:05.721",
+        "code": "def print_of_min_max(list1):\n\tif lis",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:34:05.754989"
+    },
+    {
+        "log_id": 169,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:34:09.51",
+        "code": "stevilo1 = int(input(\"Prvo število?\"))\nstevilo2 = int(input(\"Drugo število?\"))\nstevilo3 = int(input(\"Tretje število?\"))\nif stevilo1 > stevilo2 or stevilo",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:34:09.591524"
+    },
+    {
+        "log_id": 170,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:34:20.592",
+        "code": "stevEna = 123\nstevDve = 501\nstevTri = 943\n\ndef preberiStevila(ena, dva, tri):\n\ten\n\t\npreberiStevila(stevEna, stevDve, stevTri)",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:34:19.715805"
+    },
+    {
+        "log_id": 171,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:34:29.513",
+        "code": "stevilo1 = int(input(\"Prvo število?\"))\nstevilo2 = int(input(\"Drugo število?\"))\nstevilo3 = int(input(\"Tretje število?\"))\nif stevilo1 > stevilo2 or stevilo3 and stevilo1 <",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:34:29.596019"
+    },
+    {
+        "log_id": 172,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:34:31.723",
+        "code": "def print_of_min_max(list1):\n\tif len(list1) =< ",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:34:31.756421"
+    },
+    {
+        "log_id": 173,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:34:49.52",
+        "code": "stevilo1 = int(input(\"Prvo število?\"))\nstevilo2 = int(input(\"Drugo število?\"))\nstevilo3 = int(input(\"Tretje število?\"))\nif stevilo1 > stevilo2 or stevilo3 and stevilo1 < stevilo2 or stevilo3:\n\tprin",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:34:49.600018"
+    },
+    {
+        "log_id": 174,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:34:53.595",
+        "code": "stevEna = 123\nstevDve = 501\nstevTri = 943\n\ndef preberiStevila(ena, dva, tri):\n\t\n\t\npreberiStevila(stevEna, stevDve, stevTri)",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:34:52.621289"
+    },
+    {
+        "log_id": 175,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:34:57.724",
+        "code": "def print_of_min_max(list1):\n\tif len(list1) <=  ",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:34:57.91274"
+    },
+    {
+        "log_id": 176,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:35:09.522",
+        "code": "stevilo1 = int(input(\"Prvo število?\"))\nstevilo2 = int(input(\"Drugo število?\"))\nstevilo3 = int(input(\"Tretje število?\"))\nif stevilo1 > stevilo2 or stevilo3 and stevilo1 < stevilo2 or stevilo3:\n\tprint(\"Srednje število je število:\" ",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:35:09.603378"
+    },
+    {
+        "log_id": 177,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:35:22.274",
+        "code": "stevilo1 = int(input(\"Prvo število?\"))\nstevilo2 = int(input(\"Drugo število?\"))\nstevilo3 = int(input(\"Tretje število?\"))\nif stevilo1 > stevilo2 or stevilo3 and stevilo1 < stevilo2 or stevilo3:\n\tprint(\"Srednje število je število:\" stevilo1)",
+        "errorMessage": "SyntaxError: bad input on line 5",
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:35:22.363541"
+    },
+    {
+        "log_id": 178,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:35:26.609",
+        "code": "stevEna = 1\nstevDve = 5\nstevTri = 9\n\ndef preberiStevila(ena, dva, tri):\n\tif en\n\t\npreberiStevila(stevEna, stevDve, stevTri)",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:35:25.683936"
+    },
+    {
+        "log_id": 179,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:35:56.726",
+        "code": "def print_of_min_max(list1):\n\tif len(list1) > 1:\n\t\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:35:56.814305"
+    },
+    {
+        "log_id": 180,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:35:59.622",
+        "code": "stevEna = 1\nstevDve = 5\nstevTri = 9\n\ndef preberiStevila(ena, dva, tri):\n\tif ena > dva:\n\t\tif ena < tri:\n\t\t\tprint(ena)\n\teli\n\t\npreberiStevila(stevEna, stevDve, stevTri)",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:35:58.647197"
+    },
+    {
+        "log_id": 181,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:36:17.94",
+        "code": "stevilo1 = int(input(\"Prvo število?\"))\nstevilo2 = int(input(\"Drugo število?\"))\nstevilo3 = int(input(\"Tretje število?\"))\nif stevilo1 > stevilo2 or stevilo3 and stevilo1 < stevilo2 or stevilo3:\n\tprint(stevilo1)",
+        "errorMessage": "ExternalError: Error: Your program timed out on line 4",
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:36:18.023045"
+    },
+    {
+        "log_id": 182,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:36:29.727",
+        "code": "def print_of_min_max(list1):\n\tif len(list1) > 1:\n\t\tprint(list1[])",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:36:29.760648"
+    },
+    {
+        "log_id": 183,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:36:32.63",
+        "code": "stevEna = 1\nstevDve = 5\nstevTri = 9\n\ndef preberiStevila(ena, dva, tri):\n\tif ena > dva:\n\t\tif ena < tri:\n\t\t\tprint(ena)\n\telif dva > ena:\n\t\tif dva \n\t\npreberiStevila(stevEna, stevDve, stevTri)",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:36:31.699041"
+    },
+    {
+        "log_id": 184,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:36:43.467",
+        "code": "stevilo1 = int(input(\"Prvo število?\"))\nstevilo2 = int(input(\"Drugo število?\"))\nstevilo3 = int(input(\"Tretje število?\"))\nif stevilo1 > stevilo2 or stevilo3:\n\tprint(stevilo1)",
+        "errorMessage": "ExternalError: Error: Your program timed out on line 4",
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:36:43.55653"
+    },
+    {
+        "log_id": 185,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:37:02.728",
+        "code": "def print_of_min_max(list1):\n\tif len(list1) > 1:\n\t\tprint(list1[len(list1)] + print)",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:37:02.762087"
+    },
+    {
+        "log_id": 186,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:37:05.644",
+        "code": "stevEna = 1\nstevDve = 5\nstevTri = 9\n\ndef preberiStevila(ena, dva, tri):\n\tif ena > dva:\n\t\tif ena < tri:\n\t\t\tprint(ena)\n\telif dva > ena:\n\t\tif dva < tri:\n\t\t\tprint(dva)\n\telif tr\n\t\npreberiStevila(stevEna, stevDve, stevTri)",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:37:04.668057"
+    },
+    {
+        "log_id": 187,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:37:27.469",
+        "code": "stevilo1 = 3\nstevilo2 =6 \nstevilo3 = 2\nif stevilo1 > stevilo2 or stevilo3:\n\tprint(stevilo1)",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:37:27.554144"
+    },
+    {
+        "log_id": 188,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:37:35.729",
+        "code": "def print_of_min_max(list1):\n\tif len(list1) > 1:\n\t\tprint(list1[len(list1)] + print((listt))]))",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:37:35.919342"
+    },
+    {
+        "log_id": 189,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:37:38.65",
+        "code": "stevEna = 1\nstevDve = 5\nstevTri = 9\n\ndef preberiStevila(ena, dva, tri):\n\tif ena > dva:\n\t\tif ena < tri:\n\t\t\tprint(ena)\n\telif ena < dva:\n\t\tif ena < tri:\n\t\t\t\n\t\n\t\npreberiStevila(stevEna, stevDve, stevTri)",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:37:37.717218"
+    },
+    {
+        "log_id": 190,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:37:56.839",
+        "code": "stevilo1 = 3\nstevilo2 =6 \nstevilo3 = 2\nif stevilo1 > stevilo2 or stevilo3 and stevilo1 < stevilo2 or stevilo3 :\n\tprint(stevilo1)",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:37:56.927948"
+    },
+    {
+        "log_id": 191,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:38:08.731",
+        "code": "def print_of_min_max(list1):\n\tif len(list1) > 1:\n\t\tprint(max(list1) + print(min(list1))\n\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:38:08.888157"
+    },
+    {
+        "log_id": 192,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:38:11.664",
+        "code": "stevEna = 1\nstevDve = 5\nstevTri = 9\n\ndef preberiStevila(ena, dva, tri):\n\tif ena > dva:\n\t\tif ena < tri:\n\t\t\tprint(ena)\n\t\tel\n\telif ena < dva:\n\t\tif ena < tri:\n\t\t\tif dva < tri:\n\t\t\t\tprint(dva)\n\t\t\telse:\n\t\t\t\tprint(tri)\n\t\n\t\npreberiStevila(stevEna, stevDve, stevTri)",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:38:10.689757"
+    },
+    {
+        "log_id": 193,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:38:40.964",
+        "code": "stevilo1 = 7\nstevilo2 =2\nstevilo3 = 35\nif stevilo1 > stevilo2 or stevilo3 and stevilo1 < stevilo2 or stevilo3 :\n\tprint(stevilo1)",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:38:41.04896"
+    },
+    {
+        "log_id": 194,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:38:41.733",
+        "code": "def print_of_min_max(list1):\n\tif len(list1) > 1:\n\t\tprint(max(list1) + print(min(list1))\n\telse:\n\t\tprint(ERROR!)\t ",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:38:41.765118"
+    },
+    {
+        "log_id": 195,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:38:44.669",
+        "code": "stevEna = 1\nstevDve = 5\nstevTri = 9\n\ndef preberiStevila(ena, dva, tri):\n\tif ena > dva:\n\t\tif ena < tri:\n\t\t\tprint(ena)\n\t\telif \n\telif ena < dva:\n\t\tif ena < tri:\n\t\t\tif dva < tri:\n\t\t\t\tprint(dva)\n\t\t\telse:\n\t\t\t\tprint(tri)\n\t\n\t\npreberiStevila(stevEna, stevDve, stevTri)",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:38:43.734421"
+    },
+    {
+        "log_id": 196,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:38:45.985",
+        "code": "def print_of_min_max(list1):\n\tif len(list1) > 1:\n\t\tprint(max(list1) + print(min(list1))\n\telse:\n\t\tprint(\"ERROR!\")\t ",
+        "errorMessage": "SyntaxError: bad input on line 4",
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:38:46.034988"
+    },
+    {
+        "log_id": 197,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:38:46.773",
+        "code": "stevilo1 = 7\nstevilo2 =34\nstevilo3 = 35\nif stevilo1 > stevilo2 or stevilo3 and stevilo1 < stevilo2 or stevilo3 :\n\tprint(stevilo1)",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:38:46.858052"
+    },
+    {
+        "log_id": 198,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:39:05.104",
+        "code": "stevilo1 = 7\nstevilo2 =34\nstevilo3 = 35\nif stevilo1 > stevilo2 or stevilo3 and stevilo1 < stevilo2 or stevilo3 :\n\tprint(stevilo1)\nelse:\n\tfalse",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:39:05.19349"
+    },
+    {
+        "log_id": 199,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:39:17.672",
+        "code": "stevEna = 1\nstevDve = 5\nstevTri = 9\n\ndef preberiStevila(ena, dva, tri):\n\tif ena > dva:\n\t\tif ena < tri:\n\t\t\tprint(ena)\n\t\telif dva < tri:\n\t\t\tprint(dva)\n\telif ena < dva:\n\t\tif ena < tri:\n\t\t\tif dva < tri:\n\t\t\t\tprint(dva)\n\t\t\telse:\n\t\t\t\tprint(tri)\n\t\n\t\npreberiStevila(stevEna, stevDve, stevTri)",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:39:16.699828"
+    },
+    {
+        "log_id": 200,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:39:26.986",
+        "code": "def print_of_min_max(list1):\n\tif len(list1) > 1:\n\t\tprint(max(list1) + print(min(list1))\n\telse:\n\t\tprint(\"ERROR!\")\n\nprint",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:39:27.07376"
+    },
+    {
+        "log_id": 201,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:39:47.288",
+        "code": "def print_of_min_max(list1):\n\tif len(list1) > 1:\n\t\tprint(max(list1) + print(min(list1))\n\telse:\n\t\tprint(\"ERROR!\")\n\nprint_of_min_max(123321)",
+        "errorMessage": "SyntaxError: bad input on line 4",
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:39:47.320422"
+    },
+    {
+        "log_id": 202,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:39:50.675",
+        "code": "stevEna = 1\nstevDve = 5\nstevTri = 9\n\ndef preberiStevila(ena, dva, tri):\n\tif ena > dva:\n\t\tif ena < tri:\n\t\t\tprint(ena)\n\t\telif dva < tri:\n\t\t\tprint(dva)\n\t\telse:\n\t\t\tprint(tri)\n\telif ena < dva:\n\t\tif ena < tri:\n\t\t\tif dva < tri:\n\t\t\t\tprint(dva)\n\t\t\telse:\n\t\t\t\tprint(tri)\n\t\tif tri \n\t\n\t\npreberiStevila(stevEna, stevDve, stevTri)",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:39:49.743994"
+    },
+    {
+        "log_id": 203,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:40:07.236",
+        "code": "def print_of_min_max(list1):\n\tif len(list1) > 1:\n\t\tprint(max(list1) + print(min(list1))\n    else:\n\t\tprint(\"ERROR!\")\n\nprint_of_min_max(123321)",
+        "errorMessage": "SyntaxError: bad input on line 4",
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:40:07.268241"
+    },
+    {
+        "log_id": 204,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:40:23.688",
+        "code": "stevEna = 1\nstevDve = 5\nstevTri = 9\n\ndef preberiStevila(ena, dva, tri):\n\tif ena > dva:\n\t\tif ena < tri:\n\t\t\tprint(ena)\n\t\telif dva < tri:\n\t\t\tprint(dva)\n\t\telse:\n\t\t\tprint(tri)\n\telif ena < dva:\n\t\tif ena < tri:\n\t\t\tif dva < tri:\n\t\t\t\tprint(dva)\n\t\t\telse:\n\t\t\t\tprint(tri)\n\t\telif tri > ena:\n\t\n\t\npreberiStevila(stevEna, stevDve, stevTri)",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:40:22.711821"
+    },
+    {
+        "log_id": 205,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:40:40.736",
+        "code": "stevEna = 1\nstevDve = 5\nstevTri = 9\n\ndef preberiStevila(ena, dva, tri):\n\tif ena > dva:\n\t\tif ena < tri:\n\t\t\tprint(ena)\n\t\telif dva < tri:\n\t\t\tprint(dva)\n\t\telse:\n\t\t\tprint(tri)\n\telif ena < dva:\n\t\tif ena < tri:\n\t\t\tif dva < tri:\n\t\t\t\tprint(dva)\n\t\t\telse:\n\t\t\t\tprint(tri)\n\t\t\n\t\n\t\npreberiStevila(stevEna, stevDve, stevTri)",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:40:39.760633"
+    },
+    {
+        "log_id": 206,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:40:49.842",
+        "code": "stevEna = 1\nstevDve = 5\nstevTri = 9\n\ndef preberiStevila(ena, dva, tri):\n\tif ena > dva:\n\t\tif ena < tri:\n\t\t\tprint(ena)\n\t\telif dva < tri:\n\t\t\tprint(dva)\n\t\telse:\n\t\t\tprint(tri)\n\telif ena < dva:\n\t\tif ena < tri:\n\t\t\tif dva < tri:\n\t\t\t\tprint(dva)\n\t\t\telse:\n\t\t\t\tprint(tri)\n\t\t\n\t\n\t\npreberiStevila(stevEna, stevDve, stevTri)",
+        "errorMessage": null,
+        "submitType": 2,
+        "sys_timestamp": "2024-04-10T16:40:48.891196"
+    },
+    {
+        "log_id": 207,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 2,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:40:54.849",
+        "code": "",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:40:53.919114"
+    },
+    {
+        "log_id": 208,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:40:58.724",
+        "code": "stevilo1 = 7\nstevilo2 =34\nstevilo3 = 35\nif stevilo1 > stevilo2 or stevilo3 :\n\tprint(stevilo1)\n\n\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:40:59.009765"
+    },
+    {
+        "log_id": 209,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 2,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:41:05.852",
+        "code": "vhodniSe",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:41:04.873992"
+    },
+    {
+        "log_id": 210,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 2,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:41:11.857",
+        "code": "vhodniSeznam = ",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:41:10.879211"
+    },
+    {
+        "log_id": 211,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:41:12.237",
+        "code": "def print_of_min_max(list1):\n\tif len(list1) > 1:\n\t\tprint(max(list1) + print(min(list1))\n\telse:\n\t\tprint(\"ERROR!\")\n\nprint_of_min_max(123321)",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:41:12.317941"
+    },
+    {
+        "log_id": 213,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 2,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:41:25.879",
+        "code": "vhodniSeznam = [1, 2, 3, 4, 5]",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:41:24.90107"
+    },
+    {
+        "log_id": 214,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 2,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:41:33.886",
+        "code": "vhodniSeznam = [1, 2, 3, 4, 5]\n\ndef ",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:41:32.908593"
+    },
+    {
+        "log_id": 215,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:41:38.752",
+        "code": "def print_of_min_max(list1):\n    if len(list1) > 1:\n        print(max(list1) + print(min(list1)))\n    else:\n        print(\"ERROR!\")\n\nprint_of_min_max([1, 2, 3, 3, 2, 1])\n",
+        "errorMessage": "TypeError: unsupported operand type(s) for +: 'int' and 'NoneType' on line 3",
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:41:38.785803"
+    },
+    {
+        "log_id": 216,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 2,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:41:41.896",
+        "code": "vhodniSeznam = [1, 2, 3, 4, 5]\n\ndef seznamTransformer",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:41:40.917929"
+    },
+    {
+        "log_id": 218,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 2,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:41:49.912",
+        "code": "vhodniSeznam = [1, 2, 3, 4, 5]\n\ndef seznamTransformer(seznam)",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:41:48.933896"
+    },
+    {
+        "log_id": 219,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 2,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:41:57.916",
+        "code": "vhodniSeznam = [1, 2, 3, 4, 5]\n\ndef seznamTransformer(seznam):",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:41:56.980041"
+    },
+    {
+        "log_id": 220,
+        "student": {
+            "student_id": 12,
+            "guid": "3a180e5c-9386-477e-9d20-e1f83994a08f",
+            "sys_timestamp": "2024-04-10T16:23:03.470486"
+        },
+        "taskNumber": 5,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:42:03.504",
+        "code": "",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:42:02.908831"
+    },
+    {
+        "log_id": 221,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 2,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:42:05.92",
+        "code": "vhodniSeznam = [1, 2, 3, 4, 5]\n\ndef seznamTransformer(seznam):\n\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:42:04.94305"
+    },
+    {
+        "log_id": 222,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 2,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:42:13.923",
+        "code": "vhodniSeznam = [1, 2, 3, 4, 5]\n\ndef seznamTransformer(seznam):\n\tif len(seznam)",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:42:12.944934"
+    },
+    {
+        "log_id": 223,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:42:16.753",
+        "code": "def print_of_min_max(list1):\n    if len(list1) > 1:\n        print(max(list1), + print(min(list1)))\n    else:\n        print(\"ERROR!\")\n\nprint_of_min_max([1, 2, 3, 3, 2, 1])\n",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:42:16.788169"
+    },
+    {
+        "log_id": 224,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 2,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:42:21.925",
+        "code": "vhodniSeznam = [1, 2, 3, 4, 5]\n\ndef seznamTransformer(seznam):\n\tif len(seznam) < ",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:42:20.946623"
+    },
+    {
+        "log_id": 225,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 2,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:42:29.927",
+        "code": "vhodniSeznam = [1, 2, 3, 4, 5]\n\ndef seznamTransformer(seznam):\n\tif len(seznam) < 2:\n\t\tprint(\"Error\")",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:42:28.948363"
+    },
+    {
+        "log_id": 226,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 2,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:42:37.929",
+        "code": "vhodniSeznam = [1, 2, 3, 4, 5]\n\ndef seznamTransformer(seznam):\n\tif len(seznam) < 2:\n\t\tprint(\"Error!\")",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:42:36.949691"
+    },
+    {
+        "log_id": 227,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 2,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:42:45.941",
+        "code": "vhodniSeznam = [1, 2, 3, 4, 5]\n\ndef seznamTransformer(seznam):\n\tif len(seznam) < 2:\n\t\tprint(\"Error!\")\n\telse:\n\t\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:42:44.962016"
+    },
+    {
+        "log_id": 228,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:42:45.241",
+        "code": "def print_of_min_max(list1):\n    if len(list1) > 1:\n        print(max(list1) + (min(list1)))\n    else:\n        print(\"ERROR!\")\n\nprint_of_min_max([1, 2, 3, 3, 2, 1])\n",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:42:45.27409"
+    },
+    {
+        "log_id": 229,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:42:55.904",
+        "code": "def print_of_min_max(list1):\n    if len(list1) > 1:\n        print(max(list1) + (min(list1)))\n    else:\n        print(\"ERROR!\")\n\nprint_of_min_max([2, 2, 3, 3, 2, 1])\n",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:42:55.935832"
+    },
+    {
+        "log_id": 230,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:43:20.426",
+        "code": "def print_of_min_max(list1):\n    if len(list1) > 1:\n        print(max(list1) + (min(list1)))\n    else:\n        print(\"ERROR!\")\n\nprint_of_min_max([25, 2, 3, 3, 2, 1])\n",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:43:20.479905"
+    },
+    {
+        "log_id": 231,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:43:21.586",
+        "code": "stevilo1 = 7\nstevilo2 =34\nstevilo3 = 35\nif stevilo1 > stevilo2 or stevilo3 :\n\tif stevilo1 < stevilo2 or stevilo3 :\n\t\tprint(stevilo1)\n\n\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:43:21.823053"
+    },
+    {
+        "log_id": 232,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:43:35.278",
+        "code": "def print_of_min_max(list1):\n    if len(list1) > 1:\n        print(max(list1), (min(list1)))\n    else:\n        print(\"ERROR!\")\n\nprint_of_min_max([25, 2, 3, 3, 2, 1])\n",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:43:35.311457"
+    },
+    {
+        "log_id": 233,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:43:40.9",
+        "code": "stevilo1 = 7\nstevilo2 =34\nstevilo3 = 35\nif stevilo1 > stevilo2 or stevilo3 :\n\tif stevilo1 < stevilo2 or stevilo3 :\n\t\tprint(stevilo1)\n\telse:\n\t\tfalse\n\n\t",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:43:40.9921"
+    },
+    {
+        "log_id": 234,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:43:45.187",
+        "code": "def print_of_min_max(list1):\n    if len(list1) > 1:\n        print(max(list1), (min(list1)))\n    else:\n        print(\"ERROR!\")\n\nprint_of_min_max([28, 2, 3, 3, 2, 5])\n",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:43:45.219478"
+    },
+    {
+        "log_id": 235,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:43:52.809",
+        "code": "def print_of_min_max(list1):\n    if len(list1) > 1:\n        print(max(list1), (min(list1)))\n    else:\n        print(\"ERROR!\")\n\nprint_of_min_max([28])\n",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:43:52.841094"
+    },
+    {
+        "log_id": 236,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:44:03.343",
+        "code": "stevilo1 = 7\nstevilo2 = 3\nstevilo3 = 2\nif stevilo1 > stevilo2 or stevilo3 :\n\tif stevilo1 < stevilo2 or stevilo3 :\n\t\tprint(stevilo1)\n\telse:\n\t\tfalse\n\n\t",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:44:03.435265"
+    },
+    {
+        "log_id": 237,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 2,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:44:05.981",
+        "code": "vhodniSeznam = [1, 2, 3, 4, 5]\n\ndef seznamTransformer(seznam):\n\tif len(seznam) < 2:\n\t\tprint(\"Error!\")\n\telse:\n\t\tprviElement = seznam[0]\n\t\tzadnjiElement = seznam[",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:44:05.102891"
+    },
+    {
+        "log_id": 238,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:44:05.683",
+        "code": "def print_of_min_max(list1):\n    if len(list1) > 1:\n        print(max(list1), (min(list1)))\n    else:\n        print(\"ERROR!\")\n\nprint_of_min_max([28])\n",
+        "errorMessage": null,
+        "submitType": 2,
+        "sys_timestamp": "2024-04-10T16:44:06.116056"
+    },
+    {
+        "log_id": 239,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 4,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:44:10.687",
+        "code": "",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:44:10.719726"
+    },
+    {
+        "log_id": 240,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 4,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:44:29.69",
+        "code": "up",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:44:29.723311"
+    },
+    {
+        "log_id": 241,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 2,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:44:31.995",
+        "code": "vhodniSeznam = [1, 2, 3, 4, 5]\n\ndef seznamTransformer(seznam):\n\tif len(seznam) < 2:\n\t\tprint(\"Error!\")\n\telse:\n\t\tprviElement = seznam[0]\n\t\tzadnjiElement = seznam[-1]\n\t\tnoviSeznam = [prviElement, zadnj]",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:44:31.016893"
+    },
+    {
+        "log_id": 242,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 4,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:44:37.691",
+        "code": "uporabnik =\"\"",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:44:37.722842"
+    },
+    {
+        "log_id": 243,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 4,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:44:45.689",
+        "code": "uporabnik = \"2\"\n\n",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:44:45.723904"
+    },
+    {
+        "log_id": 244,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 2,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:44:58.005",
+        "code": "vhodniSeznam = [1, 2, 3, 4, 5]\n\ndef seznamTransformer(seznam):\n\tif len(seznam) < 2:\n\t\tprint(\"Error!\")\n\telse:\n\t\tprviElement = seznam[0]\n\t\tzadnjiElement = seznam[-1]\n\t\tnoviSeznam = [prviElement, zadnjiElement]\n\t\tprint(novi seznam)\n\t\t\nseznamTransformer(vhod)",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:44:57.026298"
+    },
+    {
+        "log_id": 245,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 2,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:45:06.405",
+        "code": "vhodniSeznam = [1, 2, 3, 4, 5]\n\ndef seznamTransformer(seznam):\n\tif len(seznam) < 2:\n\t\tprint(\"Error!\")\n\telse:\n\t\tprviElement = seznam[0]\n\t\tzadnjiElement = seznam[-1]\n\t\tnoviSeznam = [prviElement, zadnjiElement]\n\t\tprint(novi seznam)\n\t\t\nseznamTransformer(vhodniSeznam)",
+        "errorMessage": "SyntaxError: bad input on line 10",
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:45:05.46918"
+    },
+    {
+        "log_id": 246,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 2,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:45:13.479",
+        "code": "vhodniSeznam = [1, 2, 3, 4, 5]\n\ndef seznamTransformer(seznam):\n\tif len(seznam) < 2:\n\t\tprint(\"Error!\")\n\telse:\n\t\tprviElement = seznam[0]\n\t\tzadnjiElement = seznam[-1]\n\t\tnoviSeznam = [prviElement, zadnjiElement]\n\t\tprint(noviSeznam)\n\t\t\nseznamTransformer(vhodniSeznam)",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:45:12.498237"
+    },
+    {
+        "log_id": 248,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 2,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:45:21.309",
+        "code": "vhodniSeznam = [5]\n\ndef seznamTransformer(seznam):\n\tif len(seznam) < 2:\n\t\tprint(\"Error!\")\n\telse:\n\t\tprviElement = seznam[0]\n\t\tzadnjiElement = seznam[-1]\n\t\tnoviSeznam = [prviElement, zadnjiElement]\n\t\tprint(noviSeznam)\n\t\t\nseznamTransformer(vhodniSeznam)",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:45:20.329787"
+    },
+    {
+        "log_id": 249,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 2,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:45:36.849",
+        "code": "vhodniSeznam = [1, 2, 5, 7]\n\ndef seznamTransformer(seznam):\n\tif len(seznam) < 2:\n\t\tprint(\"Error!\")\n\telse:\n\t\tprviElement = seznam[0]\n\t\tzadnjiElement = seznam[-1]\n\t\tnoviSeznam = [prviElement, zadnjiElement]\n\t\tprint(noviSeznam)\n\t\t\nseznamTransformer(vhodniSeznam)",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:45:35.868991"
+    },
+    {
+        "log_id": 250,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 2,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:45:39.971",
+        "code": "vhodniSeznam = [1, 2, 5, 7]\n\ndef seznamTransformer(seznam):\n\tif len(seznam) < 2:\n\t\tprint(\"Error!\")\n\telse:\n\t\tprviElement = seznam[0]\n\t\tzadnjiElement = seznam[-1]\n\t\tnoviSeznam = [prviElement, zadnjiElement]\n\t\tprint(noviSeznam)\n\t\t\nseznamTransformer(vhodniSeznam)",
+        "errorMessage": null,
+        "submitType": 2,
+        "sys_timestamp": "2024-04-10T16:45:38.994254"
+    },
+    {
+        "log_id": 251,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 4,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:45:39.674",
+        "code": "uporabnik = \"2\"\n\n\n",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:45:39.753341"
+    },
+    {
+        "log_id": 252,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:45:42.871",
+        "code": "stevilo1 = 7\nstevilo2 = 3\nstevilo3 = 2\nif stevilo1 > stevilo2 or stevilo3 :\n\t\n\n\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:45:43.362082"
+    },
+    {
+        "log_id": 253,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 7,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T16:45:44.989",
+        "code": "",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:45:44.010591"
+    },
+    {
+        "log_id": 254,
+        "student": {
+            "student_id": 17,
+            "guid": "ebc54367-82ab-4a0b-aa29-18fabb71dfdb",
+            "sys_timestamp": "2024-04-10T16:33:06.882157"
+        },
+        "taskNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:45:48.125",
+        "code": "seznam = [10, 20, 30, 40, 50]\n\nprvo_stevilo = seznam[0]\ndrugo_stevilo = seznam[1]\n\nprint(prvo_stevilo)\nprint(drugo_stevilo)",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:45:50.450142"
+    },
+    {
+        "log_id": 255,
+        "student": {
+            "student_id": 17,
+            "guid": "ebc54367-82ab-4a0b-aa29-18fabb71dfdb",
+            "sys_timestamp": "2024-04-10T16:33:06.882157"
+        },
+        "taskNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:46:23.148",
+        "code": "seznam = [10, 20, 30, 40, 50]\n\nprvo_stevilo = seznam[0]\ndrugo_stevilo = seznam[1]\n\nprint(prvo_stevilo)\nprint(drugo_stevilo)",
+        "errorMessage": null,
+        "submitType": 2,
+        "sys_timestamp": "2024-04-10T16:46:25.433102"
+    },
+    {
+        "log_id": 256,
+        "student": {
+            "student_id": 17,
+            "guid": "ebc54367-82ab-4a0b-aa29-18fabb71dfdb",
+            "sys_timestamp": "2024-04-10T16:33:06.882157"
+        },
+        "taskNumber": 6,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:46:28.164",
+        "code": "",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:46:30.427702"
+    },
+    {
+        "log_id": 257,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 4,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:46:58.676",
+        "code": "uporabnik = \"2\"\n\nfor i in range(21):\n\tif int(uporabnik \n    print(i)\n",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:46:58.803362"
+    },
+    {
+        "log_id": 258,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 7,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T16:47:16.041",
+        "code": "stevEna = 3\nstevDve = 4",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:47:15.162794"
+    },
+    {
+        "log_id": 259,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 4,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:47:31.678",
+        "code": "uporabnik = \"2\"\n\nfor i in range(21):\n\tif int(uporabnik) == i\n\t\tprint(\"\")\n    print(i)\n",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:47:31.733468"
+    },
+    {
+        "log_id": 260,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:47:37.897",
+        "code": "stevilo1 = 7\nstevilo2 = 3\nstevilo3 = 2\nif stevilo2 <= stevilo1 <=  :\n\t\n\n\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:47:38.198275"
+    },
+    {
+        "log_id": 261,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 4,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:47:57.956",
+        "code": "uporabnik = \"2\"\n\nfor i in range(21):\n\tif int(uporabnik) == i\n\t\tprint(\"\")\n\telse:\n\t\tprint(i)\n",
+        "errorMessage": "SyntaxError: bad input on line 4",
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:47:58.012392"
+    },
+    {
+        "log_id": 262,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 4,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:48:08.339",
+        "code": "uporabnik = \"2\"\n\nfor i in range(21):\n\tif int(uporabnik) = i\n\t\tprint(\"\")\n\telse:\n\t\tprint(i)\n",
+        "errorMessage": "SyntaxError: bad input on line 4",
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:48:08.397182"
+    },
+    {
+        "log_id": 263,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 7,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T16:48:15.058",
+        "code": "stevEna = 3\nstevDve = 4\n\ndef ",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:48:14.078691"
+    },
+    {
+        "log_id": 264,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:48:24.91",
+        "code": "stevilo1 = 7\nstevilo2 = 3\nstevilo3 = 2\nif stevilo2 <= stevilo1 <= stevilo3 or stevilo3 <= ste :\n\t\n\n\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:48:25.008701"
+    },
+    {
+        "log_id": 265,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 7,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T16:48:48.061",
+        "code": "stevEna = 3\nstevDve = 4\n\ndef naloga():\n\tif stevEna > stevDv",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:48:47.121688"
+    },
+    {
+        "log_id": 266,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:48:56.474",
+        "code": "stevilo1 = 7\nstevilo2 = 3\nstevilo3 = 2\nif stevilo2 <= stevilo1 <= stevilo3 or stevilo3 <= stevilo1 <= stevilo2 :\n\tprint(stevilo1)\nelse:\n\tfalse\n\t\n\n\t",
+        "errorMessage": "NameError: name 'false' is not defined on line 7",
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:48:56.581556"
+    },
+    {
+        "log_id": 267,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:49:04.159",
+        "code": "stevilo1 = 7\nstevilo2 = 3\nstevilo3 = 2\nif stevilo2 <= stevilo1 <= stevilo3 or stevilo3 <= stevilo1 <= stevilo2 :\n\tprint(stevilo1)\n\n\t\n\n\t",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:49:04.257884"
+    },
+    {
+        "log_id": 268,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 4,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:49:12.444",
+        "code": "uporabnik = \"2\"\n\nfor i in range(21):\n    if int(uporabnik) == i:\n        print(\"\")\n    else:\n        print(i)\n",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:49:12.532154"
+    },
+    {
+        "log_id": 269,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:49:12.945",
+        "code": "stevilo1 = 7\nstevilo2 = 32\nstevilo3 = 2\nif stevilo2 <= stevilo1 <= stevilo3 or stevilo3 <= stevilo1 <= stevilo2 :\n\tprint(stevilo1)\n\n\t\n\n\t",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:49:13.044359"
+    },
+    {
+        "log_id": 270,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 7,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T16:49:21.072",
+        "code": "stevEna = 3\nstevDve = 4\n\ndef naloga():\n\tif stevEna > stevDve:\n\t\t\n\telse:\n\t\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:49:20.090844"
+    },
+    {
+        "log_id": 271,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 7,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T16:49:54.073",
+        "code": "stevEna = 3\nstevDve = 4\n\ndef naloga():\n\t\n\t\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:49:53.139199"
+    },
+    {
+        "log_id": 272,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 4,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:50:00.384",
+        "code": "uporabnik = input(\"enter a number from 0 to 20\")\n\nfor i in range(21):\n    if int(uporabnik) == i:\n        print(\"\")\n    else:\n        print(i)\n",
+        "errorMessage": null,
+        "submitType": 2,
+        "sys_timestamp": "2024-04-10T16:50:00.445107"
+    },
+    {
+        "log_id": 273,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 7,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T16:50:05.389",
+        "code": "",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:50:05.446313"
+    },
+    {
+        "log_id": 274,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 7,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T16:50:27.074",
+        "code": "stevEna = 3\nstevDve = 4\n\ndef naloga(ena, dva):\n\tfor ena \n\t\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:50:26.09261"
+    },
+    {
+        "log_id": 275,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:50:39.947",
+        "code": "stevilo1 = 7\nstevilo2 = 32\nstevilo3 = 2\nif stevilo2 <= stevilo1 <= stevilo3 or stevilo3 <= stevilo1 <= stevilo2 :\n\tprint(stevilo1)\nif stevilo1 <= stevilo2 <= stevilo3 or stevilo3 <= stevilo2 <= stevilo1 :\n\tprint(stevilo2)\nif stevilo2 <= stevilo3 <= stevilo1 or stevilo1 <= stevilo3 <= stevilo2 :\n\tprint(s\n\t\n\n\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:50:40.223036"
+    },
+    {
+        "log_id": 276,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:50:46.143",
+        "code": "stevilo1 = 7\nstevilo2 = 32\nstevilo3 = 2\nif stevilo2 <= stevilo1 <= stevilo3 or stevilo3 <= stevilo1 <= stevilo2 :\n\tprint(stevilo1)\nif stevilo1 <= stevilo2 <= stevilo3 or stevilo3 <= stevilo2 <= stevilo1 :\n\tprint(stevilo2)\nif stevilo2 <= stevilo3 <= stevilo1 or stevilo1 <= stevilo3 <= stevilo2 :\n\tprint(stevilo3)\n\t\n\n\t",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:50:46.244148"
+    },
+    {
+        "log_id": 277,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 7,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T16:50:50.395",
+        "code": "uporabnik = \"2\"",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:50:50.772454"
+    },
+    {
+        "log_id": 278,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 7,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T16:50:58.858",
+        "code": "stevEna = 3\nstevDve = 4\n\ndef naloga(ena, dva):\n\tfor ena in ena:\n\t\tprint(ena)\n\t\t\nnaloga(stevEna, stevDve)\n\t\t",
+        "errorMessage": "TypeError: 'int' object is not iterable on line 5",
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:50:57.917021"
+    },
+    {
+        "log_id": 279,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:50:58.719",
+        "code": "stevilo1 = 2\nstevilo2 = 2\nstevilo3 = 2\nif stevilo2 <= stevilo1 <= stevilo3 or stevilo3 <= stevilo1 <= stevilo2 :\n\tprint(stevilo1)\nif stevilo1 <= stevilo2 <= stevilo3 or stevilo3 <= stevilo2 <= stevilo1 :\n\tprint(stevilo2)\nif stevilo2 <= stevilo3 <= stevilo1 or stevilo1 <= stevilo3 <= stevilo2 :\n\tprint(stevilo3)\n\t\n\n\t",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:50:58.820243"
+    },
+    {
+        "log_id": 280,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 7,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T16:51:05.77",
+        "code": "stevEna = 3\nstevDve = 4\n\ndef naloga(ena, dva):\n\tfor x in ena:\n\t\tprint(ena)\n\t\t\nnaloga(stevEna, stevDve)\n\t\t",
+        "errorMessage": "TypeError: 'int' object is not iterable on line 5",
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:51:04.785866"
+    },
+    {
+        "log_id": 281,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 7,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T16:51:05.395",
+        "code": "uporabnik1 = \"2\"\nuporabnik1 = \"2\"",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:51:05.452885"
+    },
+    {
+        "log_id": 282,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 7,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T16:51:20.396",
+        "code": "uporabnik1 = \"2\"\nuporabnik2 = \"3\"",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:51:20.453308"
+    },
+    {
+        "log_id": 283,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 7,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T16:51:35.397",
+        "code": "uporabnik1 = \"2\"\nuporabnik2 = \"3\"\n\n",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:51:35.454647"
+    },
+    {
+        "log_id": 284,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:51:48.72",
+        "code": "stevilo1 = int(input(\"?\"))\nstevilo2 = int(input(\"?\"))\nstevilo3 = int(input(\"?\"))\nif stevilo2 <= stevilo1 <= stevilo3 or stevilo3 <= stevilo1 <= stevilo2 :\n\tprint(stevilo1)\nif stevilo1 <= stevilo2 <= stevilo3 or stevilo3 <= stevilo2 <= stevilo1 :\n\tprint(stevilo2)\nif stevilo2 <= stevilo3 <= stevilo1 or stevilo1 <= stevilo3 <= stevilo2 :\n\tprint(stevilo3)\n\t\n\n\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:51:48.821327"
+    },
+    {
+        "log_id": 285,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 7,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T16:51:54.776",
+        "code": "stevEna = 3\nstevDve = 4\n\ndef naloga(ena, dva):\n\trun = 1\n\twhile run <= ena:\n\t\tprint(ena)\n\t\trun\n\t\t\nnaloga(stevEna, stevDve)\n\t\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:51:53.794851"
+    },
+    {
+        "log_id": 286,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 7,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T16:52:01.865",
+        "code": "stevEna = 3\nstevDve = 4\n\ndef naloga(ena, dva):\n\trun = 1\n\twhile run <= ena:\n\t\tprint(ena)\n\t\trun = run + 1\n\t\t\nnaloga(stevEna, stevDve)\n\t\t",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:52:00.92596"
+    },
+    {
+        "log_id": 287,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 7,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T16:52:36.4",
+        "code": "uporabnik1 = \"2\"\nuporabnik2 = \"3\"\n\nfor i in ",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:52:36.520554"
+    },
+    {
+        "log_id": 288,
+        "student": {
+            "student_id": 12,
+            "guid": "3a180e5c-9386-477e-9d20-e1f83994a08f",
+            "sys_timestamp": "2024-04-10T16:23:03.470486"
+        },
+        "taskNumber": 5,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:52:39.272",
+        "code": "def kal(a,b,operacija)",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:52:38.760488"
+    },
+    {
+        "log_id": 289,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:52:38.728",
+        "code": "stevilo1 = \nstevilo2 =\nstevilo3 = int(input(\"?\"))\nif stevilo2 <= stevilo1 <= stevilo3 or stevilo3 <= stevilo1 <= stevilo2 :\n\tprint(stevilo1)\nif stevilo1 <= stevilo2 <= stevilo3 or stevilo3 <= stevilo2 <= stevilo1 :\n\tprint(stevilo2)\nif stevilo2 <= stevilo3 <= stevilo1 or stevilo1 <= stevilo3 <= stevilo2 :\n\tprint(stevilo3)\n\t\n\n\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:52:38.833284"
+    },
+    {
+        "log_id": 290,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:52:55.384",
+        "code": "stevilo1 = int(input(\"?\"))\nstevilo2 = int(input(\"?\"))\nstevilo3 = int(input(\"?\"))\nif stevilo2 <= stevilo1 <= stevilo3 or stevilo3 <= stevilo1 <= stevilo2 :\n\tprint(stevilo1)\nif stevilo1 <= stevilo2 <= stevilo3 or stevilo3 <= stevilo2 <= stevilo1 :\n\tprint(stevilo2)\nif stevilo2 <= stevilo3 <= stevilo1 or stevilo1 <= stevilo3 <= stevilo2 :\n\tprint(stevilo3)\n\t\n\n\t",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:52:55.491874"
+    },
+    {
+        "log_id": 291,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 7,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T16:52:57.419",
+        "code": "stevEna = 3\nstevDve = 4\n\ndef naloga(ena, dva):\n\trun = 1\n\twhile run <= ena:\n\t\tprint(ena)\n\t\trun = run + 1\n\trunDve = 1\n\twhile runDVe <= dva:\n\t\tprint(dva)\n\t\trun = run + 1\n\t\t\nnaloga(stevEna, stevDve)\n\t\t",
+        "errorMessage": "NameError: name 'runDVe' is not defined on line 10",
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:52:56.436252"
+    },
+    {
+        "log_id": 292,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 7,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T16:53:02.401",
+        "code": "uporabnik1 = \"2\"\nuporabnik2 = \"3\"\n\nfor i in range(uporabnik1)",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:53:02.459078"
+    },
+    {
+        "log_id": 293,
+        "student": {
+            "student_id": 12,
+            "guid": "3a180e5c-9386-477e-9d20-e1f83994a08f",
+            "sys_timestamp": "2024-04-10T16:23:03.470486"
+        },
+        "taskNumber": 5,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:53:09.274",
+        "code": "def ",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:53:08.672184"
+    },
+    {
+        "log_id": 294,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 7,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T16:53:14.773",
+        "code": "stevEna = 3\nstevDve = 4\n\ndef naloga(ena, dva):\n\trun = 1\n\twhile run <= ena:\n\t\tprint(ena)\n\t\trun = run + 1\n\trunDve = 1\n\twhile runDve <= dva:\n\t\tprint(dva)\n\t\trun = run + 1\n\t\t\nnaloga(stevEna, stevDve)\n\t\t",
+        "errorMessage": "ExternalError: Error: Your program timed out on line 10",
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:53:13.833385"
+    },
+    {
+        "log_id": 295,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 1,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:53:19.383",
+        "code": "stevilo1 = int(input(\"?\"))\nstevilo2 = int(input(\"?\"))\nstevilo3 = int(input(\"?\"))\nif stevilo2 <= stevilo1 <= stevilo3 or stevilo3 <= stevilo1 <= stevilo2 :\n\tprint(stevilo1)\nif stevilo1 <= stevilo2 <= stevilo3 or stevilo3 <= stevilo2 <= stevilo1 :\n\tprint(stevilo2)\nif stevilo2 <= stevilo3 <= stevilo1 or stevilo1 <= stevilo3 <= stevilo2 :\n\tprint(stevilo3)\n\t\n\n\t",
+        "errorMessage": null,
+        "submitType": 2,
+        "sys_timestamp": "2024-04-10T16:53:19.504182"
+    },
+    {
+        "log_id": 296,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 8,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:53:24.387",
+        "code": "",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:53:24.491464"
+    },
+    {
+        "log_id": 297,
+        "student": {
+            "student_id": 17,
+            "guid": "ebc54367-82ab-4a0b-aa29-18fabb71dfdb",
+            "sys_timestamp": "2024-04-10T16:33:06.882157"
+        },
+        "taskNumber": 6,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:53:26.977",
+        "code": "input_str = input(\"Vnesi besedilo: \")\ncount = 0\n\nfor char in input_str:\n    if char.lower() in ['a', 'e', 'i', 'o', 'u']:\n        count += 1\n\nprint(\"Število črk a, e, i, o, u v besedilu je:\", count)",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:53:27.092018"
+    },
+    {
+        "log_id": 298,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 7,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T16:53:28.403",
+        "code": "uporabnik1 = \"2\"\nuporabnik2 = \"3\"\n\nfor i in range(uporabnik1):\n\tp\n\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:53:28.462451"
+    },
+    {
+        "log_id": 299,
+        "student": {
+            "student_id": 12,
+            "guid": "3a180e5c-9386-477e-9d20-e1f83994a08f",
+            "sys_timestamp": "2024-04-10T16:23:03.470486"
+        },
+        "taskNumber": 5,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:53:39.278",
+        "code": "",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:53:38.680808"
+    },
+    {
+        "log_id": 300,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 7,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T16:53:47.368",
+        "code": "stevEna = 3\nstevDve = 4\n\ndef naloga(ena, dva):\n\trun = 1\n\twhile run <= ena:\n\t\tprint(ena)\n\t\trun = run + 1\n\trunDve = 1\n\twhile runDve <= dva:\n\t\tprint(dva)\n\t\trunDve = runDve + 1\n\t\t\nnaloga(stevEna, stevDve)\n\t\t",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:53:46.386057"
+    },
+    {
+        "log_id": 301,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 7,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T16:53:54.404",
+        "code": "uporabnik1 = \"2\"\nuporabnik2 = \"3\"\n\nfor i in range(uporabnik1):\n\tprint(2 )\n\t\n\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:53:54.493755"
+    },
+    {
+        "log_id": 302,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 8,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:53:54.417",
+        "code": "beseda",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:53:54.522447"
+    },
+    {
+        "log_id": 303,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 7,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T16:54:00.865",
+        "code": "stevEna = 3\nstevDve = 4\n\ndef naloga(ena, dva):\n\trun = 1\n\twhile run <= ena:\n\t\tprint(ena)\n\t\trun = run + 1\n\trunDve = 1\n\twhile runDve <= dva:\n\t\tprint(dva)\n\t\trunDve = runDve + 1\n\t\t\nnaloga(stevEna, stevDve)\n\t\t",
+        "errorMessage": null,
+        "submitType": 2,
+        "sys_timestamp": "2024-04-10T16:53:59.884022"
+    },
+    {
+        "log_id": 304,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 6,
+        "currentTask": 4,
+        "timestamp": "2024-04-10T16:54:05.871",
+        "code": "",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:54:04.887322"
+    },
+    {
+        "log_id": 305,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 8,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:54:05.425",
+        "code": "beseda1 = kar\nbe",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:54:05.531015"
+    },
+    {
+        "log_id": 306,
+        "student": {
+            "student_id": 12,
+            "guid": "3a180e5c-9386-477e-9d20-e1f83994a08f",
+            "sys_timestamp": "2024-04-10T16:23:03.470486"
+        },
+        "taskNumber": 5,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:54:09.282",
+        "code": "print neznam",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:54:08.702065"
+    },
+    {
+        "log_id": 307,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 6,
+        "currentTask": 4,
+        "timestamp": "2024-04-10T16:54:16.898",
+        "code": "beseda = \"",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:54:15.961754"
+    },
+    {
+        "log_id": 308,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 8,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:54:16.433",
+        "code": "beseda1 = \"kar\nbeseda2 = rak",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:54:16.541129"
+    },
+    {
+        "log_id": 309,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 7,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T16:54:20.404",
+        "code": "uporabnik1 = \"2\"\nuporabnik2 = \"3\"\nstevec = 0\nfor i in range(uporabnik1):\n\tprint(2 )\n\tstevec = stevec +1\n\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:54:20.463322"
+    },
+    {
+        "log_id": 310,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 6,
+        "currentTask": 4,
+        "timestamp": "2024-04-10T16:54:22.904",
+        "code": "beseda = \"programiranje\"",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:54:21.923782"
+    },
+    {
+        "log_id": 311,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 8,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:54:27.443",
+        "code": "beseda1 = \"kar\"\nbeseda2 = \"rak\"\n\ndef",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:54:27.548321"
+    },
+    {
+        "log_id": 312,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 8,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:54:38.445",
+        "code": "beseda1 = \"kar\"\nbeseda2 = \"rak\"\n\ndef pre",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:54:38.550692"
+    },
+    {
+        "log_id": 313,
+        "student": {
+            "student_id": 12,
+            "guid": "3a180e5c-9386-477e-9d20-e1f83994a08f",
+            "sys_timestamp": "2024-04-10T16:23:03.470486"
+        },
+        "taskNumber": 5,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:54:39.29",
+        "code": "print(neznam)",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:54:38.695073"
+    },
+    {
+        "log_id": 314,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 7,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T16:54:46.406",
+        "code": "uporabnik1 = \"2\"\nuporabnik2 = \"3\"\nstevec = 0\nfor i in range(uporabnik1):\n\tstevec = stevec +1\n\t\n\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:54:46.46556"
+    },
+    {
+        "log_id": 315,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 8,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:54:49.446",
+        "code": "beseda1 = \"kar\"\nbeseda2 = \"rak\"\n\ndef preverjanje_anagrama",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:54:49.552874"
+    },
+    {
+        "log_id": 316,
+        "student": {
+            "student_id": 12,
+            "guid": "3a180e5c-9386-477e-9d20-e1f83994a08f",
+            "sys_timestamp": "2024-04-10T16:23:03.470486"
+        },
+        "taskNumber": 5,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:54:52.144",
+        "code": "print(\"neznam\")",
+        "errorMessage": null,
+        "submitType": 1,
+        "sys_timestamp": "2024-04-10T16:54:51.53824"
+    },
+    {
+        "log_id": 317,
+        "student": {
+            "student_id": 12,
+            "guid": "3a180e5c-9386-477e-9d20-e1f83994a08f",
+            "sys_timestamp": "2024-04-10T16:23:03.470486"
+        },
+        "taskNumber": 5,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:54:55.514",
+        "code": "print(\"neznam\")",
+        "errorMessage": null,
+        "submitType": 2,
+        "sys_timestamp": "2024-04-10T16:54:55.025618"
+    },
+    {
+        "log_id": 318,
+        "student": {
+            "student_id": 12,
+            "guid": "3a180e5c-9386-477e-9d20-e1f83994a08f",
+            "sys_timestamp": "2024-04-10T16:23:03.470486"
+        },
+        "taskNumber": 8,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:55:00.518",
+        "code": "",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:54:59.931726"
+    },
+    {
+        "log_id": 319,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 8,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:55:00.449",
+        "code": "beseda1 = \"kar\"\nbeseda2 = \"rak\"\n\ndef preverjanje_anagrama:\n\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:55:00.555259"
+    },
+    {
+        "log_id": 320,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 8,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:55:11.454",
+        "code": "beseda1 = \"kar\"\nbeseda2 = \"rak\"\n\ndef preverjanje_anagrama:\n\tif",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:55:11.55965"
+    },
+    {
+        "log_id": 321,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 7,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T16:55:12.407",
+        "code": "uporabnik1 = \"2\"\nuporabnik2 = \"3\"\nstevec = 0\nfor i in range(uporabnik1):\n\tstevec_sirina = stevec_sirina +1\n\tstevec_visina = stevec_sirina +1\n\tstevec_sirina = stevec_sirina +1",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:55:12.490215"
+    },
+    {
+        "log_id": 322,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 8,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:55:22.466",
+        "code": "beseda1 = \"kar\"\nbeseda2 = \"rak\"\n\ndef preverjanje_anagrama:\n\tif beseda1",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:55:22.572735"
+    },
+    {
+        "log_id": 323,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 7,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T16:55:38.408",
+        "code": "uporabnik1 = \"2\"\nuporabnik2 = \"3\"\nstevec = 0\nfor i in range(uporabnik1):\n\tstevec_sirina = stevec_sirina +1\n\tstevec_visina = stevec_visina +1\n\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:55:38.467784"
+    },
+    {
+        "log_id": 324,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 6,
+        "currentTask": 4,
+        "timestamp": "2024-04-10T16:55:48.941",
+        "code": "beseda = \"programiranje\"\n\ndef naloga",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:55:48.065384"
+    },
+    {
+        "log_id": 325,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 7,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T16:56:04.409",
+        "code": "uporabnik1 = \"2\"\nuporabnik2 = \"3\"\nstevec = 0\nfor i in range(uporabnik1):\n\tstevec_sirina = uporabnik1\n\tstevec_visina = uporabnik1\n\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:56:04.468653"
+    },
+    {
+        "log_id": 326,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 6,
+        "currentTask": 4,
+        "timestamp": "2024-04-10T16:56:14.952",
+        "code": "beseda = \"programiranje\"\n\ndef naloga(beseda):\n\tsmg = ",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:56:13.968804"
+    },
+    {
+        "log_id": 327,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 7,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T16:56:30.409",
+        "code": "uporabnik1 = \"2\"\nuporabnik2 = \"3\"\nstevec = 0\nfor i in range(uporabnik1):\n\tif i ==\n\t\tstevec_sirina = uporabnik1\n\t\tstevec_visina = uporabnik1\n\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:56:30.493905"
+    },
+    {
+        "log_id": 328,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 8,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:56:34.477",
+        "code": "beseda1 = \"kar\"\nbeseda2 = \"rak\"\n\ndef preverjanje_anagrama:\n\tbeseda1 = \"kar\"\n\tbeseda2 = \"rak\"\n\tbeseda",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:56:34.58649"
+    },
+    {
+        "log_id": 329,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 6,
+        "currentTask": 4,
+        "timestamp": "2024-04-10T16:56:40.968",
+        "code": "beseda = \"programiranje\"\n\ndef naloga(beseda):\n\tsmg = aeiou\n\tbeseda = beseda.lower()",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:56:39.984472"
+    },
+    {
+        "log_id": 330,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 7,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T16:56:56.411",
+        "code": "uporabnik1 = \"2\"\nuporabnik2 = \"3\"\nstevec = 0\nfor i in range(uporabnik1):\n\tif \n\t\tstevec_sirina = uporabnik1\n\t\tstevec_visina = uporabnik1\n\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:56:56.471594"
+    },
+    {
+        "log_id": 331,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 8,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:57:00.485",
+        "code": "beseda1 = \"kar\"\nbeseda2 = \"rak\"\n\ndef preverjanje_anagrama:\n\tbeseda1 = \"kar\"\n\tbeseda2 = \"rak\"\n\tbeseda1 = beseda1",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:57:00.595183"
+    },
+    {
+        "log_id": 332,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 6,
+        "currentTask": 4,
+        "timestamp": "2024-04-10T16:57:06.975",
+        "code": "beseda = \"programiranje\"\n\ndef naloga(beseda):\n\tsmg = aeiou\n\tbeseda = beseda.lower()\n\tfor x in beseda:",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:57:06.109271"
+    },
+    {
+        "log_id": 333,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 7,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T16:57:22.413",
+        "code": "uporabnik1 = \"2\"\nuporabnik2 = \"3\"\nstevec = 0\nfor i in range(uporabnik1):\n\tif \n\t\tstevec_sirina = uporabnik1\n\t\tprint(stevec_sirin)",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:57:22.490233"
+    },
+    {
+        "log_id": 334,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 8,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:57:26.496",
+        "code": "beseda1 = \"kar\"\nbeseda2 = \"rak\"\n\ndef preverjanje_anagrama:\n\tbeseda1 = \"kar\"\n\tbeseda2 = \"rak\"\n\tbeseda1 = beseda1[::-1]\n\tif beseda",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:57:26.606537"
+    },
+    {
+        "log_id": 335,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 6,
+        "currentTask": 4,
+        "timestamp": "2024-04-10T16:57:32.976",
+        "code": "beseda = \"programiranje\"\n\ndef naloga(beseda):\n\tstevSmg = 0\n\tsmg = aeiou\n\tbeseda = beseda.lower()\n\tfor x in beseda:\n\t\tif x in smg:\n\t\t\tstevSm",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:57:32.015982"
+    },
+    {
+        "log_id": 336,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "taskNumber": 7,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T16:57:48.414",
+        "code": "uporabnik1 = \"2\"\nuporabnik2 = \"3\"\nstevec = 0\nfor i in range(uporabnik1):\n\tif \n\t\tstevec_sirina = uporabnik1\n\t\tfor i in range\n\t\tprint(stevec_sirina)",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:57:48.658103"
+    },
+    {
+        "log_id": 337,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "taskNumber": 8,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:57:52.509",
+        "code": "beseda1 = \"kar\"\nbeseda2 = \"rak\"\n\ndef preverjanje_anagrama:\n\tbeseda1 = \"kar\"\n\tbeseda2 = \"rak\"\n\tbeseda1 = beseda1[::-1]\n\tif beseda1 == beseda2:\n\t\tTrue\n\telse",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:57:52.619811"
+    },
+    {
+        "log_id": 338,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "taskNumber": 6,
+        "currentTask": 4,
+        "timestamp": "2024-04-10T16:57:58.979",
+        "code": "beseda = \"programiranje\"\n\ndef naloga(beseda):\n\tstevSmg = 0\n\tsmg = aeiou\n\tbeseda = beseda.lower()\n\tfor x in beseda:\n\t\tif x in smg:\n\t\t\tstevSmg = stevSmg + 1\n\t\t\t",
+        "errorMessage": null,
+        "submitType": 0,
+        "sys_timestamp": "2024-04-10T16:57:57.994429"
+    }
+]

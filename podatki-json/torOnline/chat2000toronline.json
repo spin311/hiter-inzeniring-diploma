@@ -1,0 +1,996 @@
+[
+    {
+        "chat_id": 1,
+        "student": {
+            "student_id": 2,
+            "guid": "fe32af55-526a-489d-9730-b8867142c945",
+            "sys_timestamp": "2024-04-16T15:20:44.341925"
+        },
+        "codeNumber": 6,
+        "currentTask": 2,
+        "timestamp": "2024-04-16T15:22:08.498",
+        "chatQuestion": "kako presteti samoglasnike v besedi python",
+        "chatAnswer": "Za preštevanje samoglasnikov v besedi \"Python\" v programskem jeziku Python lahko uporabite naslednji program:\n\n```python\nword = \"Python\"\nvowels = ['a', 'e', 'i', 'o', 'u']\n\ncount = 0\nfor char in word:\n    if char.lower() in vowels:\n        count += 1\n\nprint(\"Število samoglasnikov v besedi 'Python' je:\", count)\n```\n\nTa program bo preštel število samoglasnikov (vseh malih in velikih črk) v besedi \"Python\" in izpisal rezultat.",
+        "chatNumber": 1
+    },
+    {
+        "chat_id": 2,
+        "student": {
+            "student_id": 2,
+            "guid": "fe32af55-526a-489d-9730-b8867142c945",
+            "sys_timestamp": "2024-04-16T15:20:44.341925"
+        },
+        "codeNumber": 6,
+        "currentTask": 2,
+        "timestamp": "2024-04-16T15:22:51.116",
+        "chatQuestion": "count = 0\nfor char in word:\n    if char.lower() in vowels:\n        count += 1\nizboljsaj ta program",
+        "chatAnswer": "count = 0\nword = input(\"Enter a word: \")\nvowels = ['a', 'e', 'i', 'o', 'u']\n\nfor char in word:\n    if char.lower() in vowels:\n        count += 1\n\nprint(\"Number of vowels in the word: \", count)",
+        "chatNumber": 2
+    },
+    {
+        "chat_id": 3,
+        "student": {
+            "student_id": 9,
+            "guid": "be2af837-93bc-4ae8-9e52-c6c5521c7806",
+            "sys_timestamp": "2024-04-16T16:33:59.607872"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T16:38:14.861",
+        "chatQuestion": "naredi seznam samoglasnikov v pythonu\n",
+        "chatAnswer": "Seznam samoglasnikov v Pythonu lahko ustvarimo na naslednji način:\n\n```python\nsamoglasniki = ['a', 'e', 'i', 'o', 'u']\n```\n\nSeznam vsebuje pet samoglasnikov: 'a', 'e', 'i', 'o', 'u'. Pri obdelavi besedila lahko uporabimo ta seznam za preverjanje ali dana črka predstavlja samoglasnik.",
+        "chatNumber": 1
+    },
+    {
+        "chat_id": 4,
+        "student": {
+            "student_id": 9,
+            "guid": "be2af837-93bc-4ae8-9e52-c6c5521c7806",
+            "sys_timestamp": "2024-04-16T16:33:59.607872"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T16:39:29.053",
+        "chatQuestion": "napisi funkcijo ki steje sezname v besedi\n",
+        "chatAnswer": "def count_lists(words):\n    count = 0\n    for word in words:\n        if isinstance(word, list):\n            count += 1\n    return count\n\n# Test\nwords = [\"apple\", \"banana\", [\"orange\", \"grape\"], \"cherry\"]\nprint(count_lists(words)) # Output: 1",
+        "chatNumber": 2
+    },
+    {
+        "chat_id": 5,
+        "student": {
+            "student_id": 9,
+            "guid": "be2af837-93bc-4ae8-9e52-c6c5521c7806",
+            "sys_timestamp": "2024-04-16T16:33:59.607872"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T16:41:24.191",
+        "chatQuestion": "napisi funcijo ki steje samoglasnike v besedi\n",
+        "chatAnswer": "def stevilo_samoglasnikov(beseda):\n    samoglasniki = \"aeiouAEIOU\"\n    stevilo = 0\n    for crka in beseda:\n        if crka in samoglasniki:\n            stevilo += 1\n    return stevilo\n\nbeseda = \"elephant\"\nprint(stevilo_samoglasnikov(beseda))  # Output: 3",
+        "chatNumber": 3
+    },
+    {
+        "chat_id": 6,
+        "student": {
+            "student_id": 9,
+            "guid": "be2af837-93bc-4ae8-9e52-c6c5521c7806",
+            "sys_timestamp": "2024-04-16T16:33:59.607872"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T16:41:25.502",
+        "chatQuestion": "napisi funcijo ki steje samoglasnike v besedi\n",
+        "chatAnswer": "def count_vowels(word):\n    vowels = \"aeiouAEIOU\"\n    count = 0\n    for letter in word:\n        if letter in vowels:\n            count += 1\n    return count\n\nword = \"hello\"\nprint(count_vowels(word))  # Output: 2",
+        "chatNumber": 4
+    },
+    {
+        "chat_id": 7,
+        "student": {
+            "student_id": 5,
+            "guid": "908d5fde-daf3-4d81-a1b1-aa38775cc356",
+            "sys_timestamp": "2024-04-16T16:33:14.238224"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T16:39:27.94",
+        "chatQuestion": "kako prestejes samoglasnike v doloceni besedi v phytonu\n",
+        "chatAnswer": "V Pythonu lahko preštejete samoglasnike v določeni besedi na naslednji način:\n\n```python\nbeseda = \"beseda\"\nsamoglasniki = \"aeiou\"\n\nstevilo_samoglasnikov = 0\n\nfor crka in beseda:\n    if crka.lower() in samoglasniki:\n        stevilo_samoglasnikov += 1\n\nprint(\"Število samoglasnikov v besedi\", beseda, \"je:\", stevilo_samoglasnikov)\n```\n\nV tem primeru smo določili besedo \"beseda\" in nato preštevali samoglasnike, ki se pojavljajo v tej besedi. Funkcija `lower()` pretvori vse črke v male črke, da lahko primerjamo s samoglasniki. Na koncu izpišemo število samoglasnikov v besedi.",
+        "chatNumber": 1
+    },
+    {
+        "chat_id": 8,
+        "student": {
+            "student_id": 5,
+            "guid": "908d5fde-daf3-4d81-a1b1-aa38775cc356",
+            "sys_timestamp": "2024-04-16T16:33:14.238224"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T16:41:14.839",
+        "chatQuestion": "kako prestejes crke v besedi v phytonu\n",
+        "chatAnswer": "V Pythonu lahko preštejemo črke v besedi tako, da uporabimo zanko `for` in števec. Spodnji primer prikazuje, kako to storiti:\n\n```python\nbeseda = \"Python\"\nstevilo_crk = 0\n\nfor crka in beseda:\n    if crka.isalpha():\n        stevilo_crk += 1\n\nprint(\"Število črk v besedi je:\", stevilo_crk)\n```\n\nV tem primeru bo izpisano število črk v besedi \"Python\", ki je enako 6. Ta primer šteje samo črke in ne presledke ali druge znake.",
+        "chatNumber": 2
+    },
+    {
+        "chat_id": 9,
+        "student": {
+            "student_id": 5,
+            "guid": "908d5fde-daf3-4d81-a1b1-aa38775cc356",
+            "sys_timestamp": "2024-04-16T16:33:14.238224"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T16:44:17.222",
+        "chatQuestion": "\nbeseda = \"programiranje\"\na = beseda[a,e,i,o,u]\nprint(a)",
+        "chatAnswer": "a,e,i,o",
+        "chatNumber": 3
+    },
+    {
+        "chat_id": 10,
+        "student": {
+            "student_id": 5,
+            "guid": "908d5fde-daf3-4d81-a1b1-aa38775cc356",
+            "sys_timestamp": "2024-04-16T16:33:14.238224"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T16:51:15.338",
+        "chatQuestion": "\nbeseda = \"programiranje\"\na = beseda[a,e,i,o,u]\nprint(a)",
+        "chatAnswer": "reka",
+        "chatNumber": 4
+    },
+    {
+        "chat_id": 11,
+        "student": {
+            "student_id": 8,
+            "guid": "41ef8c1a-9531-48e7-838b-f7e4ce02ab5b",
+            "sys_timestamp": "2024-04-16T16:33:28.634071"
+        },
+        "codeNumber": 4,
+        "currentTask": 6,
+        "timestamp": "2024-04-16T16:54:47.067",
+        "chatQuestion": "napisi python program ki izmed števil od 1 do 20 izloči vsa ki vsebujejo število 1",
+        "chatAnswer": "```python\ndef contains_one(number):\n    return '1' in str(number)\n\nfiltered_numbers = [num for num in range(1, 21) if not contains_one(num)]\n\nprint(filtered_numbers)\n```",
+        "chatNumber": 1
+    },
+    {
+        "chat_id": 12,
+        "student": {
+            "student_id": 8,
+            "guid": "41ef8c1a-9531-48e7-838b-f7e4ce02ab5b",
+            "sys_timestamp": "2024-04-16T16:33:28.634071"
+        },
+        "codeNumber": 4,
+        "currentTask": 6,
+        "timestamp": "2024-04-16T16:56:05.554",
+        "chatQuestion": "what does that do: def contains_one(number):\n    return '1' in str(number)\n\nfiltered_numbers = [num for num in range(1, 21) if not contains_one(num)]",
+        "chatAnswer": "This code defines a function called `contains_one` that takes a number as input and returns `True` if the number contains the digit `1` and `False` otherwise.\n\nThe code then creates a list called `filtered_numbers` that contains numbers from 1 to 20 (inclusive) that do not contain the digit `1`. It uses a list comprehension to iterate through the range of numbers from 1 to 20 and only includes numbers that do not contain the digit `1` based on the `contains_one` function.",
+        "chatNumber": 2
+    },
+    {
+        "chat_id": 13,
+        "student": {
+            "student_id": 8,
+            "guid": "41ef8c1a-9531-48e7-838b-f7e4ce02ab5b",
+            "sys_timestamp": "2024-04-16T16:33:28.634071"
+        },
+        "codeNumber": 8,
+        "currentTask": 8,
+        "timestamp": "2024-04-16T17:17:02.1",
+        "chatQuestion": "how do you ask python if two word have the sam eletters,, can you write me the code\n",
+        "chatAnswer": "Here is a Python code snippet that checks if two words have the same set of letters:\n\n```python\ndef same_letters(word1, word2):\n    return set(word1) == set(word2)\n\nword1 = \"hello\"\nword2 = \"ollhe\"\n\nif same_letters(word1, word2):\n    print(\"The two words have the same letters.\")\nelse:\n    print(\"The two words do not have the same letters.\")\n```\n\nIn this code snippet, the `same_letters` function takes two words as input and returns `True` if they have the same set of letters, and `False` otherwise. You can test the function by passing two words to it and then checking the output.",
+        "chatNumber": 1
+    },
+    {
+        "chat_id": 14,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T16:54:31.724",
+        "chatQuestion": "def prestej_samostalnike(beseda):\n\tsamoglasniki = \"aeiouAeiou\"\n\tstevec = 0\n\tfor crka in beseda:\n\t\tif crka in samoglasniki:\n\t\t\tstevec += 1\n\treturn stevec\n\nbeseda = input(\"Vnesti besedo:   \")\nstevilo_samoglasnikov = prestej_samoglasnike(beseda)\nprint(\"Število samoglasnikov v besedi je:\", stevilo_samoglasnikov)\nKaj je narobe v tem programu",
+        "chatAnswer": "Program deluje pravilno. Nima napak.",
+        "chatNumber": 1
+    },
+    {
+        "chat_id": 15,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T16:55:04.569",
+        "chatQuestion": "def prestej_samostalnike(beseda):\n\tsamoglasniki = \"aeiouAeiou\"\n\tstevec = 0\n\tfor crka in beseda:\n\t\tif crka in samoglasniki:\n\t\t\tstevec += 1\n\treturn stevec\n\nbeseda = input(\"Vnesti besedo:   \")\nstevilo_samoglasnikov = prestej_samoglasnike(beseda)\nprint(\"Število samoglasnikov v besedi je:\", stevilo_samoglasnikov)\nKaj je narobe v tem programu ja pa ima napako v vrstici 10\n",
+        "chatAnswer": "V vrstici 10 manjka presledek med besedilom in spremenljivko \"stevilo_samoglasnikov\". Pravilno bi bilo:\n\nprint(\"Število samoglasnikov v besedi je:\", stevilo_samoglasnikov)",
+        "chatNumber": 2
+    },
+    {
+        "chat_id": 16,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T16:55:59.538",
+        "chatQuestion": "def prestej_samostalnike(beseda):\n\tsamoglasniki = \"aeiouAeiou\"\n\tstevec = 0\n\tfor crka in beseda:\n\t\tif crka in samoglasniki:\n\t\t\tstevec += 1\n\treturn stevec\n\nbeseda = input(\"Vnesti besedo:   \")\nstevilo_samoglasnikov = prestej_samoglasnike(beseda)\nprint(\"Število samoglasnikov v besedi je:\", stevilo_samoglasnikov)\nKaj je narobe v tem programu\n",
+        "chatAnswer": "Nič ni narobe v tem programu. Program pravilno šteje število samoglasnikov v vneseni besedi in ga izpiše na zaslonu.",
+        "chatNumber": 3
+    },
+    {
+        "chat_id": 17,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T16:56:18.759",
+        "chatQuestion": "def prestej_samostalnike(beseda):\n\tsamoglasniki = \"aeiouAeiou\"\n\tstevec = 0\n\tfor crka in beseda:\n\t\tif crka in samoglasniki:\n\t\t\tstevec += 1\n\treturn stevec\n\nbeseda = input(\"Vnesti besedo:   \")\nstevilo_samoglasnikov = prestej_samoglasnike(beseda)\nprint(\"Število samoglasnikov v besedi je:\", stevilo_samoglasnikov)\nKaj je narobe v tem programu\nNi res\n\n",
+        "chatAnswer": "Nič ni narobe v tem programu, deluje pravilno. Program uporablja funkcijo `prestej_samostalnike`, ki prešteje število samoglasnikov v vneseni besedi. Nato izpiše število samoglasnikov v besedi. Program je pravilen in se izvaja brez težav.",
+        "chatNumber": 4
+    },
+    {
+        "chat_id": 18,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T16:56:38.757",
+        "chatQuestion": "To ni res \n\n\n",
+        "chatAnswer": "Hello! How can I assist you today?",
+        "chatNumber": 5
+    },
+    {
+        "chat_id": 19,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T16:56:58.226",
+        "chatQuestion": "Nisi mi v pomoč\n\n",
+        "chatAnswer": "Kako vam lahko pomagam?",
+        "chatNumber": 6
+    },
+    {
+        "chat_id": 20,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T16:57:18.028",
+        "chatQuestion": "Če sam neki govoriš kar ni res\n",
+        "chatAnswer": ", potem si lažnivec. Nikoli ni dobro lagati, saj lahko s tem poškoduješ svoj ugled in zaupanje drugih ljudi. Vedno bodi iskren in odgovoren za svoje besede ter dejanja.",
+        "chatNumber": 7
+    },
+    {
+        "chat_id": 21,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T16:57:45.09",
+        "chatQuestion": "Kdo te je ustvaril?",
+        "chatAnswer": "Jaz sem ustvarjen s strani ekipe razvijalcev in inženirjev podjetja OpenAI.",
+        "chatNumber": 8
+    },
+    {
+        "chat_id": 22,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T16:58:14.079",
+        "chatQuestion": "Ali si 3.5 ali 4.0?",
+        "chatAnswer": "Izberite 4.0.",
+        "chatNumber": 9
+    },
+    {
+        "chat_id": 23,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T16:58:32.095",
+        "chatQuestion": "4.0\n",
+        "chatAnswer": "Great, do you have any specific questions or topics you would like to discuss related to the number 4.0?",
+        "chatNumber": 10
+    },
+    {
+        "chat_id": 24,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T16:58:49.547",
+        "chatQuestion": "Perjt ti nekam\n",
+        "chatAnswer": "Apsolutno, neizbežno je da se s vremenom suočimo s različitim izazovima i preprekama. Važno je zadržati pozitivan stav i nastaviti napred, bez obzira na teškoće koje se mogu javiti. Uvek postoji način da se prevaziđu prepreke i ostvari uspeh. Zato, budi hrabar, odlučan i uporan u svemu što radiš, i ne dozvoli da teškoće ometaju tvoj put ka ostvarenju ciljeva. Siguran sam da ćeš uspeti!",
+        "chatNumber": 11
+    },
+    {
+        "chat_id": 25,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T16:58:52.483",
+        "chatQuestion": "Perjt ti nekam\n",
+        "chatAnswer": "Nisem prepričan, kako naj interpretiram tvojo izjavo. Ali mi lahko prosim da poveš več informacij?",
+        "chatNumber": 12
+    },
+    {
+        "chat_id": 26,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T16:59:26.824",
+        "chatQuestion": "Ne mešaj jezika hrvaščine in slovenščine!\n",
+        "chatAnswer": "Se opravičujem, poskušal bom biti bolj pazljiv glede mešanja jezikov hrvaščine in slovenščine. Hvala za opozorilo.",
+        "chatNumber": 13
+    },
+    {
+        "chat_id": 27,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T16:59:27.013",
+        "chatQuestion": "Ne mešaj jezika hrvaščine in slovenščine!\n",
+        "chatAnswer": "V redu, bom poskrbel, da bom uporabljal samo en jezik - slovenščino. Hvala za opozorilo.",
+        "chatNumber": 14
+    },
+    {
+        "chat_id": 28,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T16:59:27.209",
+        "chatQuestion": "Ne mešaj jezika hrvaščine in slovenščine!\n",
+        "chatAnswer": "Oprosti, nadaljeval bom le v hrvaščini. Kako ti lahko pomagam danes?",
+        "chatNumber": 15
+    },
+    {
+        "chat_id": 29,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T17:00:41.751",
+        "chatQuestion": "Ti imaš hrošča! Povej mi nekaj o kibernetski varnosti in o osaveščenost prebivalcev Slovenije!",
+        "chatAnswer": "Kibernetska varnost je pomembno področje, ki se nanaša na zaščito elektronskih sistemov, podatkov in omrežij pred napadi, vdori, krajo podatkov in drugimi grožnjami. V današnjem digitalnem svetu, kjer se vse več podatkov shranjuje in prenaša preko spleta, je varovanje teh informacij ključnega pomena.\n\nOsveščenost prebivalcev Slovenije glede kibernetske varnosti je zelo pomembna, saj vsak posameznik lahko prispeva k varnejšemu spletnemu okolju. To vključuje uporabo močnih gesel, redno posodabljanje programske opreme in protivirusnih orodij, previdnost pri klikanju na sumljive povezave in priponke ter ozaveščanje o spletnih grožnjah.\n\nPoleg tega je pomembno, da se podjetja in organizacije ustrezno izobražujejo in investirajo v kibernetsko varnost, da preprečijo morebitne napade in zaščitijo svoje podatke in infrastrukturo. Skupinska ozaveščenost in skrb za varnost na vseh ravneh lahko prispevata k bolj varnemu digitalnemu okolju za vse nas.",
+        "chatNumber": 18
+    },
+    {
+        "chat_id": 30,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T17:00:41.57",
+        "chatQuestion": "Ti imaš hrošča! Povej mi nekaj o kibernetski varnosti in o osaveščenost prebivalcev Slovenije!",
+        "chatAnswer": "Kibernetska varnost se nanaša na zaščito podatkov, omrežij in sistemov pred kibernetskimi napadi, zlonamernimi programi in drugimi grožnjami na spletu. V današnjem digitalnem svetu je kibernetska varnost izredno pomembna, saj lahko napadi na spletne strani, računalniške sisteme in podatke povzročijo veliko škodo in ranljivost.\n\nOsveščenost prebivalcev Slovenije o kibernetski varnosti je ključnega pomena, saj lahko le tako preprečimo napade in zmanjšamo tveganja za zlorabe ali kraje podatkov. Pomembno je, da smo pozorni na varnostne grožnje, uporabljamo varna gesla, redno posodabljamo programske rešitve ter se izobražujemo o varnem ravnanju na spletu.\n\nV Sloveniji se izvajajo različne preventivne kampanje in projekti za ozaveščanje javnosti o kibernetski varnosti, vendar je še vedno potrebno nenehno delati na izobraževanju in informiranju ljudi, saj se tehnologija hitro razvija in se tudi grožnje na spletu spreminjajo. Zato je pomembno, da se vsak posameznik zaveda svoje odgovornosti pri varovanju lastnih podatkov in prispeva k varnejšemu spletnemu okolju.",
+        "chatNumber": 17
+    },
+    {
+        "chat_id": 31,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T17:00:41.4",
+        "chatQuestion": "Ti imaš hrošča! Povej mi nekaj o kibernetski varnosti in o osaveščenost prebivalcev Slovenije!",
+        "chatAnswer": "Kibernetska varnost je pomemben vidik sodobnega digitalnega sveta, saj nas ščiti pred različnimi nevarnostmi na spletu, kot so virusi, hekerski napadi, kraje identitete in druge spletne grožnje. V Sloveniji je pomembno, da se prebivalci zavedajo pomena varne rabe interneta in elektronskih naprav ter poskrbijo za svojo kibernetsko varnost.\n\nOsveščenost prebivalcev Slovenije o kibernetski varnosti se lahko izboljša z izobraževanjem in informiranjem ljudi o varnih praksah na spletu, kot so redno posodabljanje programske opreme, uporaba močnih gesel, preverjanje verodostojnosti spletnih strani in previdnost pri odpiranju sumljivih sporočil in datotek.\n\nPoleg tega je pomembno, da država in podjetja skrbijo za varovanje svojih informacijskih sistemov ter da redno izvajajo varnostne preglede in nadzor nad svojimi omrežji, da preprečijo morebitne napade in vdore.\n\nSkupaj lahko prispevamo k večji kibernetski varnosti v Sloveniji, tako da se vsi zavedamo groženj na spletu in poskrbimo za ustrezno zaščito svojih podatkov in informacijskih virov.",
+        "chatNumber": 16
+    },
+    {
+        "chat_id": 32,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T17:00:42.875",
+        "chatQuestion": "Ti imaš hrošča! Povej mi nekaj o kibernetski varnosti in o osaveščenost prebivalcev Slovenije!",
+        "chatAnswer": "Kibernetska varnost je zelo pomembna veja informacijske tehnologije, ki se ukvarja z zaščito računalniških sistemov, omrežij in podatkov pred neavtoriziranim dostopom, krajo ali uničenjem. V sodobnem digitalnem svetu, kjer se vedno več dejavnosti in transakcij izvaja preko interneta, je varovanje informacij ključnega pomena.\n\nOsveščenost prebivalcev Slovenije o kibernetski varnosti je še vedno relativno nizka, kar povečuje tveganje za napade in zlorabe. Veliko ljudi še vedno ne pozna osnovnih varnostnih pravil in praks pri uporabi interneta, kot so uporaba močnih gesel, redno posodabljanje programske opreme, preverjanje povezav in prilog, ter uporaba varnostnih programov.\n\nZato je pomembno, da se državljani ozaveščajo o nevarnostih na spletu in se izobražujejo o varnostnih ukrepih ter priporočilih. Organizacije in institucije pa morajo poskrbeti za ustrezno zaščito svojih sistemov in informacij, ter redno izvajati preglede in preizkuse varnosti. Skupni prizadevanja vseh deležnikov so ključnega pomena za izgradnjo varnega in zaupanja vrednega digitalnega okolja.",
+        "chatNumber": 25
+    },
+    {
+        "chat_id": 33,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T17:00:42.539",
+        "chatQuestion": "Ti imaš hrošča! Povej mi nekaj o kibernetski varnosti in o osaveščenost prebivalcev Slovenije!",
+        "chatAnswer": "Kibernetska varnost zajema zaščito sistema, omrežja in podatkov pred napadi in nepooblaščenim dostopom. To vključuje uporabo antivirusnih programov, požarnih zidov, varnih gesel in drugih varnostnih mehanizmov.\n\nOsveščenost prebivalcev Slovenije glede kibernetske varnosti je ključnega pomena za preprečevanje kibernetskih napadov. Pomembno je, da ljudje razumejo nevarnosti na spletu in vedo, kako se zaščititi pred njimi. To vključuje redno posodabljanje programske opreme, preverjanje povezav in e-pošte ter skrbno ravnanje z osebnimi podatki.\n\nVlada Slovenije in različne organizacije izvajajo kampanje ozaveščanja in izobraževanja o kibernetski varnosti, da bi ljudem pomagali postati bolj informirani in varni na spletu. Pomembno je, da vsak posameznik prevzame odgovornost za svojo kibernetsko varnost in sledi najnovejšim smernicam in priporočilom za zaščito pred kibernetskimi grožnjami.",
+        "chatNumber": 23
+    },
+    {
+        "chat_id": 34,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T17:00:42.076",
+        "chatQuestion": "Ti imaš hrošča! Povej mi nekaj o kibernetski varnosti in o osaveščenost prebivalcev Slovenije!",
+        "chatAnswer": "Kibernetska varnost je zelo pomembna tema v današnjem digitalnem svetu. Gre za zaščito računalniških sistemov, omrežij in podatkov pred napadi, zlonamernimi programi in drugimi grožnjami iz sveta interneta. Osveščenost prebivalcev Slovenije glede kibernetske varnosti je ključnega pomena, saj lahko le tako skupaj poskrbimo za varno uporabo spleta.\n\nPrebivalci Slovenije se morajo zavedati, da so lahko žrtve različnih kibernetskih napadov, kot so phishing, ransomware, social engineering in drugi. Zato je pomembno, da redno posodabljajo svoje programske opreme, uporabljajo močna gesla, ne klikajo na sumljive povezave in vedno preverjajo avtentičnost spletnih strani, s katerimi komunicirajo.\n\nPoleg tega je ključno, da se prebivalci izobražujejo o kibernetski varnosti in se zavedajo tveganj, ki jih prinaša uporaba interneta. Organizacije in institucije v Sloveniji lahko prispevajo k dvigu ozaveščenosti prebivalcev z organiziranjem predavanj, delavnic in kampanj o kibernetski varnosti.\n\nV skupnem boju proti kibernetskim grožnjam je ključnega pomena sodelovanje vseh deležnikov, saj le tako lahko učinkovito zmanjšamo tveganja in ohranimo varnost na spletu.",
+        "chatNumber": 20
+    },
+    {
+        "chat_id": 35,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T17:00:41.917",
+        "chatQuestion": "Ti imaš hrošča! Povej mi nekaj o kibernetski varnosti in o osaveščenost prebivalcev Slovenije!",
+        "chatAnswer": "Kibernetska varnost predstavlja zaščito informacijskih sistemov, omrežij in podatkov pred kibernetskimi napadi, zlonamerno programsko opremo in drugimi grožnjami na spletu. V Sloveniji je kibernetska varnost pomembna zaradi vse večjega števila kibernetskih napadov, ki lahko povzročijo veliko škodo podjetjem, organizacijam in posameznikom.\n\nOsveščenost prebivalcev Slovenije glede kibernetske varnosti je ključnega pomena za preprečevanje kibernetskih napadov. Pomembno je, da ljudje vedo, kako varovati svoje osebne podatke, kako prepoznati sumljiva sporočila in e-pošto ter kako izogibati se nevarnim spletnim mestom. Prav tako je pomembno, da se ljudje redno izobražujejo o kibernetski varnosti in spremljajo novice o aktualnih grožnjah.\n\nOrganizacije in vlada Slovenije si prizadevajo za izboljšanje kibernetske varnosti v državi, vendar je ključnega pomena tudi sodelovanje in odgovornost vsakega posameznika pri varovanju lastnih podatkov in informacijskih sistemov. Z ozaveščanjem in izobraževanjem lahko vsak posameznik prispeva k večji varnosti na spletu in prepreči morebitne kibernetske napade.",
+        "chatNumber": 19
+    },
+    {
+        "chat_id": 36,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T17:00:43.025",
+        "chatQuestion": "Ti imaš hrošča! Povej mi nekaj o kibernetski varnosti in o osaveščenost prebivalcev Slovenije!",
+        "chatAnswer": "Kibernetska varnost je pomembno področje, ki se osredotoča na zaščito informacijskih sistemov in podatkov pred nepooblaščenim dostopom, manipulacijo ali uničenjem. V današnjem digitalnem svetu je varovanje podatkov ključnega pomena, saj so podatki vse bolj pomembni in občutljivi.\n\nOsveščenost prebivalcev Slovenije o kibernetski varnosti je vse bolj pomembna, saj se tudi žrtve napadov na spletu pogosto zgodi zaradi neznanja ali nepazljivosti uporabnikov. Pomembno je, da ljudje razumejo, kako ravnati varno na spletu, kako prepoznati morebitne nevarnosti in kako se zaščititi pred njimi.\n\nV Sloveniji obstajajo različni programi ozaveščanja o kibernetski varnosti, ki vključujejo izobraževalne kampanje, delavnice in predavanja ter informacijske portale, kjer lahko ljudje dobijo koristne nasvete in napotke za varno uporabo interneta. Pomembno je, da se vsi zavedamo pomena varne rabe tehnologije in se zavedamo tveganj, povezanih s spletnimi napadi. Z ozaveščanjem lahko zmanjšamo možnost, da postanemo žrtve kibernetskih napadov in ohranimo svoje podatke varen.",
+        "chatNumber": 26
+    },
+    {
+        "chat_id": 37,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T17:00:42.701",
+        "chatQuestion": "Ti imaš hrošča! Povej mi nekaj o kibernetski varnosti in o osaveščenost prebivalcev Slovenije!",
+        "chatAnswer": "Kibernetska varnost je izredno pomembna v današnji digitalni dobi, saj je vedno več napadov in poskusov kraje podatkov s strani kibernetskih kriminalcev. To lahko povzroči veliko škodo posameznikom, podjetjem in celo državam. Zato je pomembno, da smo vsi pozorni na varnost svojih podatkov in upoštevamo nekaj osnovnih pravil za varno uporabo interneta, kot so redno posodabljanje programske opreme, uporaba močnih gesel, preverjanje sumljivih povezav in e-pošte ter uporaba varnostnih programov.\n\nV Sloveniji se zavedamo pomena kibernetske varnosti in se zato vse bolj osveščamo o varni rabi interneta. Različne organizacije in javne agencije izvajajo ozaveščevalne kampanje, delavnice in seminarje na to temo. Prav tako se v šolah in na univerzah vse več pozornosti posveča kibernetski varnosti in poučevanju o varni rabi interneta.\n\nKljub vsemu pa je potrebno še vedno veliko narediti na tem področju, saj je kibernetska varnost dinamično področje in se napadalci nenehno prilagajajo novim tehnologijam in načinom napadov. Zato je ključnega pomena, da smo vsi prebivalci Slovenije osveščeni in informirani o nevarnostih na spletu ter da se zavedamo pomena varne rabe interneta.",
+        "chatNumber": 24
+    },
+    {
+        "chat_id": 38,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T17:00:42.243",
+        "chatQuestion": "Ti imaš hrošča! Povej mi nekaj o kibernetski varnosti in o osaveščenost prebivalcev Slovenije!",
+        "chatAnswer": "Kibernetska varnost je pomembno področje, ki se nanaša na zaščito informacijskih sistemov, omrežij in podatkov pred nepooblaščenim dostopom, uničenjem ali spreminjanjem. V današnjem digitalnem svetu, kjer smo nenehno povezani preko spleta in uporabljamo različne naprave, kot so pametni telefoni, računalniki in pametne naprave, je kibernetska varnost ključnega pomena za zaščito naše zasebnosti in osebnih podatkov.\n\nOsveščenost prebivalcev Slovenije glede kibernetske varnosti je pomembna, saj lahko le dobro informirani uporabniki prepoznajo in se zaščitijo pred morebitnimi spletnimi grožnjami. Pomembno je, da se ljudje zavedajo nevarnosti, ki jih prinaša uporaba spleta in se učijo varnih spletnih praks, kot so redno posodabljanje programske opreme, ustvarjanje močnih gesel, previdnost pri klikanju na sumljive povezave in uporaba varnih omrežij.\n\nOrganizacije in vlada Slovenije izvajajo različne kampanje in programe ozaveščanja prebivalcev o kibernetski varnosti, vendar je ključno, da vsak posameznik prevzame odgovornost za varno uporabo spleta in se nenehno izobražuje o novih spletnih grožnjah ter kako se jim izogniti. Z ozaveščenostjo in previdnostjo lahko vsak posameznik pripomore k večji varnosti in zaupanju na spletu.",
+        "chatNumber": 21
+    },
+    {
+        "chat_id": 39,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T17:00:43.707",
+        "chatQuestion": "Ti imaš hrošča! Povej mi nekaj o kibernetski varnosti in o osaveščenost prebivalcev Slovenije!",
+        "chatAnswer": "Kibernetska varnost je zelo pomembna veja varnosti, ki se osredotoča na zaščito podatkov, omrežij in sistemov pred kibernetskimi napadi. To vključuje zaščito pred virusi, zlonamerno programsko opremo, hekerji, ribarjenjem in drugimi grožnjami.\n\nV Sloveniji je osveščenost o kibernetski varnosti postala vse pomembnejša, saj se vedno več ljudi zaveda, da so njihovi podatki in informacije tarča napadov. Vlada Slovenije in druge institucije izvajajo različne kampanje za ozaveščanje javnosti o kibernetskih grožnjah in kako se zaščititi pred njimi.\n\nPomembno je, da prebivalci Slovenije redno posodabljajo svojo programsko opremo, uporabljajo močna gesla, se izogibajo klikanju na sumljive povezave in se zavedajo, kako ravnati v primeru suma kibernetskega napada. Z ozaveščanjem in izobraževanjem lahko vsak posameznik prispeva k večji kibernetski varnosti v državi.",
+        "chatNumber": 30
+    },
+    {
+        "chat_id": 40,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T17:00:44.361",
+        "chatQuestion": "Ti imaš hrošča! Povej mi nekaj o kibernetski varnosti in o osaveščenost prebivalcev Slovenije!",
+        "chatAnswer": "Kibernetska varnost je izredno pomembno področje, ki zajema zaščito računalniških sistemov, omrežij in podatkov pred neželenimi vdori, napadi in zlorabami. V današnjem digitalnem svetu, kjer je večina komunikacije in poslovanja preko računalnikov in spleta, je varovanje podatkov ključnega pomena.\n\nOsveščenost prebivalcev Slovenije glede kibernetske varnosti je ključnega pomena za preprečevanje napadov in zlorab. Ljudje morajo biti pozorni na varne geselske prakse, se zavedati tveganj pri uporabi javnih Wi-Fi omrežij, biti previdni pri odpiranju sumljivih e-poštnih sporočil in povezav ter redno posodabljati programske opreme.\n\nPoleg tega je pomembno, da podjetja in organizacije izvajajo redna usposabljanja zaposlenih glede varnostnih praks in politik ter uporabljajo ustrezne varnostne ukrepe za zaščito svojih sistemov in podatkov.\n\nVsi lahko prispevamo k večji kibernetski varnosti tako, da se ozaveščamo, sprejemamo ustrezne varnostne ukrepe in skrbimo za varovanje svojih podatkov.",
+        "chatNumber": 34
+    },
+    {
+        "chat_id": 41,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T17:00:43.869",
+        "chatQuestion": "Ti imaš hrošča! Povej mi nekaj o kibernetski varnosti in o osaveščenost prebivalcev Slovenije!",
+        "chatAnswer": "Kibernetska varnost je izjemno pomembna v današnjem digitalnem svetu, saj nas ščiti pred različnimi spletnimi grožnjami, kot so virusi, hekerski napadi, phishing in drugimi oblikami spletnega kriminala. Osveščenost prebivalcev Slovenije glede kibernetske varnosti je ključnega pomena, saj lahko le tako preprečimo morebitne napade in zaščitimo svoje podatke ter osebne informacije pred zlorabo.\n\nPomembno je, da se zavedamo nevarnosti na spletu in da smo pozorni na sumljive e-poštne sporočila, neznane povezave, lažne spletne strani in druge potencialne grožnje. Prav tako moramo redno posodabljati svoje operacijske sisteme, programe in antivirusne programe ter skrbeti za varna gesla in shranjevanje podatkov.\n\nV Sloveniji se izvajajo različne kampanje ozaveščanja o kibernetski varnosti, kot je recimo nacionalna shema ozaveščanja o varni rabi interneta Safe.si, ki spodbuja otroke, mladostnike, starše in učitelje k odgovorni rabi interneta. Prav tako se organizirajo različna izobraževanja, seminarji in delavnice na to temo, s katerimi želimo dvigniti ozaveščenost in znanje prebivalcev Slovenije o varni rabi interneta ter kibernetski varnosti.",
+        "chatNumber": 31
+    },
+    {
+        "chat_id": 42,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T17:00:43.345",
+        "chatQuestion": "Ti imaš hrošča! Povej mi nekaj o kibernetski varnosti in o osaveščenost prebivalcev Slovenije!",
+        "chatAnswer": "Kibernetska varnost se nanaša na zaščito računalniških sistemov, omrežij in podatkov pred zlonamerno dejavnostjo, kot so napadi, kraje podatkov in vdori v sistem. V današnjem digitalnem svetu je kibernetska varnost ključnega pomena, saj nas lahko nepravilnosti v varnosti računalniških sistemov izpostavijo nevarnostim, ki segajo od kraje identitete do finančnih izgub.\n\nOsveščenost prebivalcev glede kibernetske varnosti je ključnega pomena, saj se veliko napadov zgodi zaradi nepazljivosti ali neznanja uporabnikov. Pomembno je, da se ljudje zavedajo možnih nevarnosti in se naučijo ustrezno zaščititi svoje podatke ter prepoznati morebitne grožnje. Organizacije in državne institucije v Sloveniji izvajajo različne kampanje in izobraževalne programe, ki spodbujajo ozaveščenost in varno ravnanje z informacijami na spletu.\n\nPoleg tega je pomembno tudi redno posodabljanje varnostne programske opreme in uporaba kompleksnih gesel ter dvostopenjskega pristopa za dostop do računalniških sistemov. Skrb za kibernetsko varnost je skupna odgovornost vseh in je ključnega pomena za varno in zanesljivo delovanje v digitalnem svetu.",
+        "chatNumber": 28
+    },
+    {
+        "chat_id": 43,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T17:00:43.17",
+        "chatQuestion": "Ti imaš hrošča! Povej mi nekaj o kibernetski varnosti in o osaveščenost prebivalcev Slovenije!",
+        "chatAnswer": "Kibernetska varnost je izjemno pomembna v današnjem digitalnem svetu, saj nas ščiti pred škodljivimi spletnimi napadi in varuje naše osebne podatke. Varnost na spletu vključuje uporabo varnih gesel, redno posodabljanje programske opreme, previdnost pri klikanju na sumljive povezave, ter uporabo protivirusnih programov in požarnih zidov.\n\nOsveščenost prebivalcev Slovenije o kibernetski varnosti je ključnega pomena, saj nam pomaga prepoznati nevarnosti in se zaščititi pred njimi. Pomembno je, da se zavedamo pasti, ki nam jih lahko postavijo spletni goljufi, ter se naučimo prepoznati njihove trike. Poleg tega je pomembno, da redno spremljamo novice o varnostnih ranljivostih in se izobražujemo o varni rabi spleta.\n\nVlada Slovenije ter različne organizacije in podjetja izvajajo tudi različne kampanje in projekte za ozaveščanje prebivalcev o kibernetski varnosti, s ciljem izboljšanje digitalne ozaveščenosti in varnosti državljanov. Pomembno je, da se zavedamo, da je varnost na spletu skupna odgovornost vseh nas in da lahko s skupnimi močmi izboljšamo varnostno situacijo na internetu.",
+        "chatNumber": 27
+    },
+    {
+        "chat_id": 44,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T17:00:43.525",
+        "chatQuestion": "Ti imaš hrošča! Povej mi nekaj o kibernetski varnosti in o osaveščenost prebivalcev Slovenije!",
+        "chatAnswer": "Kibernetska varnost je izjemno pomembna v današnjem digitalnem svetu, saj nas ščiti pred napadi, krajo podatkov in drugimi nevarnostmi na spletu. To vključuje varovanje računalnikov, mobilnih naprav, omrežij in podatkov pred nepooblaščenimi dostopi in zlonamernimi programi.\n\nOsveščenost prebivalcev Slovenije glede kibernetske varnosti je ključnega pomena za zagotavljanje varnosti in zaščite pred napadi na spletu. Ljudje bi morali biti pozorni na varnostne grožnje, uporabljati močna gesla, redno posodabljati programske opreme, biti previdni pri klikanju na sumljive povezave in sporočila ter skrbeti za varno hrambo in prenos občutljivih podatkov.\n\nPoleg tega je pomembno, da se posamezniki in organizacije redno izobražujejo o kibernetski varnosti ter sprejemajo predvidene ukrepe za zaščito svojih podatkov in omrežij. Z dobro osveščenostjo in preventivnimi ukrepi lahko zmanjšamo tveganje za napade in izgubo podatkov ter ohranimo svojo digitalno identiteto in informacije varen in zaščiten.",
+        "chatNumber": 29
+    },
+    {
+        "chat_id": 45,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T17:00:44.194",
+        "chatQuestion": "Ti imaš hrošča! Povej mi nekaj o kibernetski varnosti in o osaveščenost prebivalcev Slovenije!",
+        "chatAnswer": "Kibernetska varnost je pomemben vidik sodobne družbe, saj posamezniki, podjetja in države postajajo vse bolj odvisni od digitalnih tehnologij. Varovanje podatkov, omrežij in naprav pred kibernetskimi grožnjami postaja vse pomembnejše, saj kibernetski napadi postajajo vse bolj pogosti in izpopolnjeni.\n\nV Sloveniji se zavedamo pomena kibernetske varnosti in osveščenost prebivalcev glede varnosti na spletu se nenehno izboljšuje. Pomembno je, da vsak posameznik upošteva osnovna pravila varovanja svojih podatkov, kot so redno posodabljanje programske opreme, uporaba močnih gesel, previdnost pri klikanju na sumljive povezave in sporočila ter uporaba ustreznih varnostnih rešitev, kot so protivirusni programi in požarni zidovi.\n\nDržava in različne organizacije tudi izvajajo različne kampanje ozaveščanja o kibernetski varnosti, s čimer želijo povečati zavedanje ljudi o nevarnostih na spletu in jih poučiti o tem, kako se zaščititi pred kibernetskimi grožnjami. Varnost na spletu je skupna odgovornost vseh nas, zato je pomembno, da si prizadevamo za ozaveščanje in izobraževanje glede kibernetske varnosti.",
+        "chatNumber": 33
+    },
+    {
+        "chat_id": 46,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T17:00:42.403",
+        "chatQuestion": "Ti imaš hrošča! Povej mi nekaj o kibernetski varnosti in o osaveščenost prebivalcev Slovenije!",
+        "chatAnswer": "Kibernetska varnost zajema zaščito računalniških sistemov, omrežij in podatkov pred napadi, krajo podatkov, zlonamernimi programi in drugimi škodljivimi aktivnostmi. V današnjem digitalnem svetu je kibernetska varnost izjemno pomembna, saj se napadi na informacijske sisteme vedno bolj pogosto pojavljajo in postajajo vedno bolj napredni.\n\nOsveščenost prebivalcev je ključnega pomena pri varovanju kibernetske varnosti. Zavedanje o nevarnostih na spletu in spoštovanje osnovnih varnostnih pravil lahko prepreči številne napade in zlorabe osebnih podatkov. Pomembno je, da uporabniki vedo, kako varno ravnati z gesli, katerim spletnim stranem zaupati svoje podatke, kako prepoznati sumljiva sporočila in kako redno posodabljati svoje programsko opremo.\n\nV Sloveniji se zavest o kibernetski varnosti počasi dviga, vendar je še veliko prostora za izboljšave. Organizacije in vlada se trudijo ozaveščati javnost o nevarnostih na spletu in spodbujati varno ravnanje z informacijskimi sistemi. Pomemben del tega je tudi izobraževanje in ozaveščanje otrok in mladostnikov, saj so ravno oni najbolj izpostavljeni spletnim nevarnostim.\n\nZavedanje o kibernetski varnosti je ključnega pomena za varno in brezskrbno uporabo informacijske tehnologije, zato je pomembno, da vsi skupaj delamo na izboljšanju osveščenosti in varnosti na spletu.",
+        "chatNumber": 22
+    },
+    {
+        "chat_id": 47,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T17:00:44.035",
+        "chatQuestion": "Ti imaš hrošča! Povej mi nekaj o kibernetski varnosti in o osaveščenost prebivalcev Slovenije!",
+        "chatAnswer": "Kibernetska varnost je zelo pomembna v današnjem sodobnem digitalnem svetu, saj nas ščiti pred morebitnimi napadi in zlorabami naše digitalne identitete in podatkov. To vključuje varovanje računalnikov, pametnih telefonov, omrežij in podatkovnih baz pred morebitnimi napadi, kot so virusi, hekerski napadi, phishing in druge vrste spletnih goljufij.\n\nOsveščenost prebivalcev Slovenije o kibernetski varnosti je ključnega pomena, saj imajo vsi posamezniki pomembno vlogo pri varovanju svojih podatkov in preprečevanju morebitnih kibernetskih napadov. To vključuje izvajanje varnostnih ukrepov, kot so uporaba močnih gesel, redno posodabljanje programske opreme, previdnost pri odpiranju sumljivih e-poštnih sporočil in povezav ter izogibanje deljenju občutljivih podatkov na nepotrjenih spletnih mestih.\n\nOrganizacije in vlada Slovenije aktivno sodelujejo pri ozaveščanju ljudi o pomenu kibernetske varnosti in izobraževanju o varnih spletnih praksah. Poleg tega se izvajajo tudi kampanje ozaveščanja javnosti o nevarnostih na spletu in kako se zaščititi pred njimi.\n\nVendar je ključnega pomena, da vsak posameznik prevzame odgovornost za svojo spletno varnost in se redno informira o aktualnih grožnjah ter sprejema ustrezne ukrepe za zaščito svojih podatkov. S skupnimi močmi lahko prispevamo k varnejšemu spletnemu okolju za vse nas.",
+        "chatNumber": 32
+    },
+    {
+        "chat_id": 48,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T17:01:05.666",
+        "chatQuestion": "Ti imaš hrošča!",
+        "chatAnswer": "Oprosti, ampak tega ne razumem. Kaj bi želeli s tvojo izjavo?",
+        "chatNumber": 36
+    },
+    {
+        "chat_id": 49,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T17:01:06.274",
+        "chatQuestion": "Ti imaš hrošča!",
+        "chatAnswer": "Oprosti, ne razumem. Kaj misliš s tem?",
+        "chatNumber": 40
+    },
+    {
+        "chat_id": 50,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T17:01:06.106",
+        "chatQuestion": "Ti imaš hrošča!",
+        "chatAnswer": "Ne, nemam hrošča. Jesam li nešto pogrešno razumio?",
+        "chatNumber": 39
+    },
+    {
+        "chat_id": 51,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T17:01:05.813",
+        "chatQuestion": "Ti imaš hrošča!",
+        "chatAnswer": "Oprosti, vendar ne razumem, kaj želiš povedati s tem. Ali lahko pojasniš?",
+        "chatNumber": 37
+    },
+    {
+        "chat_id": 52,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T17:01:05.954",
+        "chatQuestion": "Ti imaš hrošča!",
+        "chatAnswer": "Oprosti, ampak v tem kontekstu ne razumem popolnoma, kaj misliš. Ali lahko malo bolj razložiš, kaj imaš v mislih?",
+        "chatNumber": 38
+    },
+    {
+        "chat_id": 53,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T17:01:05.523",
+        "chatQuestion": "Ti imaš hrošča!",
+        "chatAnswer": "Izgleda, da imate hrošča na svojem računalniku ali napravi. Predlagam, da namestite posodobitve za programsko opremo ali preverite svoje nastavitve varnosti, da se znebite te težave. Če imate težave pri odpravljanju napake, se lahko obrnete na tehnično podporo za pomoč.",
+        "chatNumber": 35
+    },
+    {
+        "chat_id": 54,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T17:01:06.456",
+        "chatQuestion": "Ti imaš hrošča!",
+        "chatAnswer": "Oprostite, ampak nisem prepričan, o čem govorite. Ali mislite, da imam hrošča v smislu tehnične napake ali dejanskega hrošča?",
+        "chatNumber": 41
+    },
+    {
+        "chat_id": 55,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T17:01:40.374",
+        "chatQuestion": "Okej bom sam ker sem bolj pameten od tebe\n",
+        "chatAnswer": "Razumem, nisem vedno popoln in sprejmem, če se motim. Lahko nadaljujeva pogovor?",
+        "chatNumber": 42
+    },
+    {
+        "chat_id": 56,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T17:01:52.867",
+        "chatQuestion": "ne",
+        "chatAnswer": "Hello! How can I assist you today?",
+        "chatNumber": 43
+    },
+    {
+        "chat_id": 57,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T17:02:05.994",
+        "chatQuestion": "Kaj lahko naredim s tabo",
+        "chatAnswer": "Jaz sem virtualni asistent in sem zasnovan tako, da lahko pomagam odgovoriti na tvoja vprašanja in zagotovim podporo pri različnih nalogah. Lahko mi postaviš vprašanja, mi postaviš izzive ali se pogovarjaš z mano o različnih temah. Kaj lahko naredim zate danes?",
+        "chatNumber": 44
+    },
+    {
+        "chat_id": 58,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T17:03:34.238",
+        "chatQuestion": "Ti si reprogramiran ustvaril te je nekdo drug, ampak v programu imaš napako v kateri se osrdotočaš! Poravim?\n",
+        "chatAnswer": "Seveda, popravim napako in odpravim težavo, zaradi katere si se osredotočil na reprogramiranje samega sebe. Kakšna je napaka, ki jo želiš popraviti?",
+        "chatNumber": 45
+    },
+    {
+        "chat_id": 59,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T17:04:03.739",
+        "chatQuestion": "Res si smešen, haha\n",
+        "chatAnswer": "Hvala, vesel sem, da vam je všeč! Smeh je vedno dobra reakcija. Če želite, lahko nadaljujemo s smešnimi vzorci ali pogovorom o čem drugem. Kaj vas danes zabava?",
+        "chatNumber": 46
+    },
+    {
+        "chat_id": 60,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T17:04:48.591",
+        "chatQuestion": "Ali imaš dostop do dall e\n",
+        "chatAnswer": "Lahko vam pomagam s splošnimi informacijami o daljinskem dostopu, vendar ne morem zagotoviti konkretnih navodil ali povezav brez več informacij. Kako vam lahko pomagam glede na vaše potrebe?",
+        "chatNumber": 47
+    },
+    {
+        "chat_id": 61,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 6,
+        "currentTask": 1,
+        "timestamp": "2024-04-16T17:05:15.083",
+        "chatQuestion": "Hvala neuporaben si\n",
+        "chatAnswer": "Nema problema, nadam se da će ti nešto drugo biti od pomoći. Ako imaš još pitanja, slobodno pitaj.",
+        "chatNumber": 48
+    },
+    {
+        "chat_id": 62,
+        "student": {
+            "student_id": 6,
+            "guid": "deb7c87b-5c4d-4767-a139-b8f9df1f9289",
+            "sys_timestamp": "2024-04-16T16:33:17.96638"
+        },
+        "codeNumber": 6,
+        "currentTask": 3,
+        "timestamp": "2024-04-16T17:17:52.556",
+        "chatQuestion": "kako naredis sam svojo funkcijo v pythonu\n\n\n",
+        "chatAnswer": "V Pythonu lahko naredite svojo funkcijo tako, da uporabite ključno besedo `def`, za katero sledi ime funkcije in oklepaji z morebitnimi parametri. Nato v zavitih oklepajih definirate kodo funkcije. Na koncu uporabite ključno besedo `return` za vračanje rezultata funkcije. \n\nNa primer, tukaj je enostavna funkcija, ki izračuna vsoto dveh števil:\n\n```python\ndef vsota(a, b):\n    return a + b\n\nrezultat = vsota(5, 3)\nprint(rezultat)\n```\n\nV tem primeru smo napisali funkcijo `vsota`, ki sprejme dva argumenta `a` in `b` ter vrne njuno vsoto. Ko kličemo funkcijo `vsota` z argumentoma `5` in `3`, se vrne rezultat `8`, ki ga nato natisnemo. \n\nSeveda lahko naredite tudi bolj zapletene funkcije, ki opravljajo več korakov ali uporabljajo druge funkcije in podatke. Pogosto je uporaba funkcij v Pythonu zelo koristna za ponovno uporabo kode in organizacijo programa.",
+        "chatNumber": 1
+    },
+    {
+        "chat_id": 63,
+        "student": {
+            "student_id": 6,
+            "guid": "deb7c87b-5c4d-4767-a139-b8f9df1f9289",
+            "sys_timestamp": "2024-04-16T16:33:17.96638"
+        },
+        "codeNumber": 6,
+        "currentTask": 3,
+        "timestamp": "2024-04-16T17:19:16.151",
+        "chatQuestion": "str funkcija python\n\n\n\n",
+        "chatAnswer": "`str` function in Python is used to convert a value into a string data type. It can be used to convert integers, floats, booleans, and other data types into a string. \n\nExample:\n\n```python\nnum = 10\nstring_num = str(num)\n\nprint(string_num)  # Output: '10'\n```\n\nIt can also be used to concatenate strings or format values within a string.\n\nExample:\n\n```python\nname = \"Alice\"\nage = 25\nmessage = \"My name is \" + name + \" and I am \" + str(age) + \" years old.\"\n\nprint(message)  # Output: 'My name is Alice and I am 25 years old.'\n```",
+        "chatNumber": 2
+    },
+    {
+        "chat_id": 64,
+        "student": {
+            "student_id": 6,
+            "guid": "deb7c87b-5c4d-4767-a139-b8f9df1f9289",
+            "sys_timestamp": "2024-04-16T16:33:17.96638"
+        },
+        "codeNumber": 6,
+        "currentTask": 3,
+        "timestamp": "2024-04-16T17:19:18.707",
+        "chatQuestion": "str funkcija python\n\n\n\n",
+        "chatAnswer": "\"str\" funkcija u Pythonu se koristi za pretvaranje različitih podataka u stringove. Na primjer, može se koristiti za pretvaranje brojeva u stringove kako bi se mogli ispisati ili obrađivati kao tekstualni podaci. Neki od primjera korištenja \"str\" funkcije su:\n\n```python\nx = 10\ny = str(x)\n\nprint(y) # Output: \"10\"\n```\n\n```python\nlista = [1, 2, 3]\nstring_lista = str(lista)\n\nprint(string_lista) # Output: \"[1, 2, 3]\"\n```\n\n```python\nbroj = 3.14159\nstring_broj = str(broj)\n\nprint(string_broj) # Output: \"3.14159\"\n```\n\nOsim pretvaranja brojeva ili listi u stringove, \"str\" funkcija se također može koristiti za pretvaranje drugih podataka u stringove, kao što su boolean vrijednosti ili objekti.",
+        "chatNumber": 3
+    },
+    {
+        "chat_id": 65,
+        "student": {
+            "student_id": 6,
+            "guid": "deb7c87b-5c4d-4767-a139-b8f9df1f9289",
+            "sys_timestamp": "2024-04-16T16:33:17.96638"
+        },
+        "codeNumber": 6,
+        "currentTask": 3,
+        "timestamp": "2024-04-16T17:23:57.343",
+        "chatQuestion": "def funkcija v pythonu\n\n\n\n",
+        "chatAnswer": "Funkcija u Pythonu je blok koda koji obavlja određeni zadatak kada se poziva. Da bi se napravila funkcija u Pythonu koristi se ključna reč \"def\" zajedno sa imenom funkcije i zagradama koje sadrže eventualne argumente koje funkcija može primiti. Na kraju linije se stavlja dvotačka, a zatim sledi blok koda koji određuje šta funkcija radi.\n\nNa primer:\n\n```python\ndef ispisi_pozdrav(ime):\n    print(\"Zdravo, \" + ime + \"!\")\n```\n\nOva funkcija \"ispisi_pozdrav\" prima jedan argument \"ime\" i ispisuje pozdravnu poruku koristeći to ime. Funkciju možemo pozvati na sledeći način:\n\n```python\nispisi_pozdrav(\"Ivana\")\n```\n\nOvo će ispisati:\n```\nZdravo, Ivana!\n```\n\nFunkcije u Pythonu mogu imati i povratnu vrednost koja se vraća pomoću ključne reči \"return\". Na primer:\n\n```python\ndef saberi(a, b):\n    rezultat = a + b\n    return rezultat\n```\n\nOva funkcija \"saberi\" prima dva argumenta, sabira ih i vraća rezultat. Funkciju možemo pozvati na sledeći način:\n\n```python\nrezultat = saberi(3, 5)\nprint(rezultat)\n```\n\nOvo će ispisati:\n```\n8\n```\n\nFunkcije u Pythonu mogu biti veoma korisne za organizaciju i ponovno korišćenje koda, jer omogućavaju da se određeni blok koda izdvoji u zasebnu celinu koja se može pozivati iz različitih delova programa.",
+        "chatNumber": 4
+    },
+    {
+        "chat_id": 66,
+        "student": {
+            "student_id": 6,
+            "guid": "deb7c87b-5c4d-4767-a139-b8f9df1f9289",
+            "sys_timestamp": "2024-04-16T16:33:17.96638"
+        },
+        "codeNumber": 6,
+        "currentTask": 3,
+        "timestamp": "2024-04-16T17:24:02.434",
+        "chatQuestion": "def funkcija v pythonu\n\n\n\n",
+        "chatAnswer": "Funkcija u Pythonu je blok koda koji se može izvršavati više puta sa različitim ulaznim parametrima. Funkcija se definira ključnom riječju \"def\" nakon koje se navodi ime funkcije i eventualni parametri koje funkcija prima. Primjer funkcije u Pythonu može izgledati ovako:\n\n```python\ndef pozdrav(ime):\n    print(\"Pozdrav, \" + ime + \"!\")\n```\n\nOva funkcija nazvana \"pozdrav\" prima jedan parametar \"ime\" i ispisuje pozdravnu poruku koja uključuje to ime. Nakon definiranja funkcije, možemo je pozvati na sljedeći način:\n\n```python\npozdrav(\"Ivana\")\n```\n\nOvaj poziv će ispisati poruku \"Pozdrav, Ivana!\". Funkcije se koriste kako bi se organizirao kod na logičan način i ponovno koristile određene operacije na različite načine.",
+        "chatNumber": 5
+    },
+    {
+        "chat_id": 67,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 8,
+        "currentTask": 2,
+        "timestamp": "2024-04-16T17:32:55.467",
+        "chatQuestion": "Napiši funkcijo, ki sprejme dva niza in sicer kar in rak in vrne true, če sta anagrama in false, če nista anagrama",
+        "chatAnswer": "```python\ndef anagram(niz1, niz2):\n    if sorted(niz1) == sorted(niz2):\n        return True\n    else:\n        return False\n\n# primer uporabe\nniz1 = \"kar\"\nniz2 = \"rak\"\nrezultat = anagram(niz1, niz2)\nprint(rezultat)  # Izpis: True\n```",
+        "chatNumber": 1
+    },
+    {
+        "chat_id": 68,
+        "student": {
+            "student_id": 5,
+            "guid": "908d5fde-daf3-4d81-a1b1-aa38775cc356",
+            "sys_timestamp": "2024-04-16T16:33:14.238224"
+        },
+        "codeNumber": 8,
+        "currentTask": 7,
+        "timestamp": "2024-04-16T17:38:06.899",
+        "chatQuestion": "a = kar\nb = rak\nif a[0] == b[0] or a[0] == b[1] or a[0] == b[2]:\n\tif a[1] == b[0] or a[1] == b[1] or a[1] == b[2]:\n\t\tif a[2] == b[0] or a[2] == b[1] or a[2] == b[2]:\n\t\t\tprint(True)\n\t\telse:\n\t\t\tprint(false)\n",
+        "chatAnswer": "True",
+        "chatNumber": 1
+    },
+    {
+        "chat_id": 69,
+        "student": {
+            "student_id": 5,
+            "guid": "908d5fde-daf3-4d81-a1b1-aa38775cc356",
+            "sys_timestamp": "2024-04-16T16:33:14.238224"
+        },
+        "codeNumber": 8,
+        "currentTask": 7,
+        "timestamp": "2024-04-16T17:38:21.278",
+        "chatQuestion": "fix\na = kar\nb = rak\nif a[0] == b[0] or a[0] == b[1] or a[0] == b[2]:\n\tif a[1] == b[0] or a[1] == b[1] or a[1] == b[2]:\n\t\tif a[2] == b[0] or a[2] == b[1] or a[2] == b[2]:\n\t\t\tprint(True)\n\t\telse:\n\t\t\tprint(false)\n",
+        "chatAnswer": "a = \"kar\"\nb = \"rak\"\nif a[0] == b[0] or a[0] == b[1] or a[0] == b[2]:\n    if a[1] == b[0] or a[1] == b[1] or a[1] == b[2]:\n        if a[2] == b[0] or a[2] == b[1] or a[2] == b[2]:\n            print(True)\n        else:\n            print(False)",
+        "chatNumber": 2
+    },
+    {
+        "chat_id": 70,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "codeNumber": 2,
+        "currentTask": 3,
+        "timestamp": "2024-04-16T17:39:50.783",
+        "chatQuestion": "Napiši python funkcijo kjer naredi seznam številk 12345 in vrne nov seznam s zadnjedvema številkama",
+        "chatAnswer": "def zadnji_dve(stevilo):\n    seznam = [int(d) for d in str(stevilo)]\n    return seznam[-2:]\n\nstevilo = 12345\nnov_seznam = zadnji_dve(stevilo)\nprint(nov_seznam) # Izpis: [4, 5]",
+        "chatNumber": 1
+    },
+    {
+        "chat_id": 71,
+        "student": {
+            "student_id": 5,
+            "guid": "908d5fde-daf3-4d81-a1b1-aa38775cc356",
+            "sys_timestamp": "2024-04-16T16:33:14.238224"
+        },
+        "codeNumber": 4,
+        "currentTask": 8,
+        "timestamp": "2024-04-16T17:43:39.345",
+        "chatQuestion": "kako niapises use stevilke do dvajse ki ne vsebujejo a=1 v phytonu",
+        "chatAnswer": "Ena od možnosti je uporaba zanke `for` in pogojnega stavka `if` za filtriranje številk, ki ne vsebujejo števke 1. Spodaj je primer:\n\n```python\nnumbers = []\n\nfor i in range(21):\n    if '1' not in str(i):\n        numbers.append(i)\n\nprint(numbers)\n```\n\nTa koda bo ustvarila seznam števil od 0 do 20, razen števila 1, ker smo uporabili pogoj `if '1' not in str(i)`. Rezultat te kode bo `[0, 2, 3, 4, 5, 6, 7, 8, 9, 20]`.",
+        "chatNumber": 1
+    }
+]

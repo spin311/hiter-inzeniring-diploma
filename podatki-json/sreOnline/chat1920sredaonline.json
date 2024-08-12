@@ -1,0 +1,562 @@
+[
+    {
+        "chat_id": 1,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "codeNumber": 8,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T15:00:16.468",
+        "chatQuestion": "def anagram(niz1, niz2):\n\tfor crka in niz1:\n\t\tif crka not in niz2:\n\t\t\treturn False\n\treturn True\n\nprva, druga = anagram(\"avb\",\"bva\"),anagram(\"aaa\", \"bbb\")\nprint(prva, druga) izboljsaj to kodo\n",
+        "chatAnswer": "def anagram(niz1, niz2):\n    if len(niz1) != len(niz2):\n        return False\n    for crka in niz1:\n        if crka not in niz2:\n            return False\n    return True\n\nprva = anagram(\"avb\", \"bva\")\ndruga = anagram(\"aaa\", \"bbb\")\nprint(prva, druga)",
+        "chatNumber": 1
+    },
+    {
+        "chat_id": 2,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "codeNumber": 8,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T15:01:15.203",
+        "chatQuestion": "preveri ce imata 2 niza enako stevilo crk\n",
+        "chatAnswer": "Za preverjanje ali imata dva niza enako število znakov, morate najprej določiti dolžino obeh nizov in nato preveriti, ali sta dolžini enaki.\n\nNa primer, v Pythonu bi lahko to storili na naslednji način:\n\n```python\nniz1 = \"hello\"\nniz2 = \"world\"\n\nif len(niz1) == len(niz2):\n    print(\"Oba niza imata enako število znakov.\")\nelse:\n    print(\"Niza nimata enako število znakov.\")\n```\n\nV tem primeru bomo preverili, ali niz1 in niz2 imata enako število znakov. Če imata enako število znakov, bo izpisano \"Oba niza imata enako število znakov.\", v nasprotnem primeru pa \"Niza nimata enako število znakov.\".",
+        "chatNumber": 2
+    },
+    {
+        "chat_id": 3,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "codeNumber": 6,
+        "currentTask": 4,
+        "timestamp": "2024-04-10T15:08:42.795",
+        "chatQuestion": "kako presteti stevilo samoglasnikov v besedi python\n",
+        "chatAnswer": "Za štetje samoglasnikov v besedi v programskem jeziku Python lahko uporabimo spodnjo funkcijo:\n\n```python\ndef stevilo_samoglasnikov(beseda):\n    samoglasniki = \"aeiou\"\n    stevilo = 0\n    for crka in beseda:\n        if crka.lower() in samoglasniki:\n            stevilo += 1\n    return stevilo\n\nbeseda = \"programiranje\"\nprint(\"Število samoglasnikov v besedi '{}' je: {}\".format(beseda, stevilo_samoglasnikov(beseda)))\n```\n\nV zgornjem primeru je funkcija `stevilo_samoglasnikov` definirana tako, da prešteje število samoglasnikov (a, e, i, o, u) v podani besedi. Besedo lahko zamenjate z drugo besedo po želji. Na koncu izpiše število samoglasnikov v tej besedi.",
+        "chatNumber": 1
+    },
+    {
+        "chat_id": 4,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "codeNumber": 6,
+        "currentTask": 4,
+        "timestamp": "2024-04-10T15:09:43.003",
+        "chatQuestion": "def stevilo_samoglasnikov(beseda):\n    samoglasniki = \"aeiou\"\n    stevilo = 0\n    for crka in beseda:\n        if crka.lower() in samoglasniki:\n            stevilo += 1\n    return stevilo\nizboljsaj kodo\n",
+        "chatAnswer": "def stevilo_samoglasnikov(beseda):\n    samoglasniki = \"aeiou\"\n    stevilo = 0\n    for crka in beseda:\n        if crka.lower() in samoglasniki:\n            stevilo += 1\n    return stevilo\n\nbeseda = input(\"Vnesite besedo: \")\nprint(\"Stevilo samoglasnikov v besedi '{}' je {}\".format(beseda, stevilo_samoglasnikov(beseda)))",
+        "chatNumber": 2
+    },
+    {
+        "chat_id": 5,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "codeNumber": 2,
+        "currentTask": 6,
+        "timestamp": "2024-04-10T15:13:59.865",
+        "chatQuestion": "python funkcija ki vrne prvi in zadnji element seznama\n",
+        "chatAnswer": "```python\ndef prvi_in_zadnji(seznam):\n    return seznam[0], seznam[-1]\n\n# Primer uporabe\nmoj_seznam = [1, 2, 3, 4, 5]\nprvi, zadnji = prvi_in_zadnji(moj_seznam)\nprint(\"Prvi element:\", prvi)\nprint(\"Zadnji element:\", zadnji)\n```\n\nIzvedba:\n```plaintext\nPrvi element: 1\nZadnji element: 5\n```",
+        "chatNumber": 1
+    },
+    {
+        "chat_id": 6,
+        "student": {
+            "student_id": 3,
+            "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+            "sys_timestamp": "2024-04-10T14:56:57.23851"
+        },
+        "codeNumber": 4,
+        "currentTask": 8,
+        "timestamp": "2024-04-10T15:20:10.765",
+        "chatQuestion": "program ki napise vsa stevila med 0 20 razen stevil ki vsebujejo doloceno stevko a\n",
+        "chatAnswer": "```python\nfor i in range(0, 21):\n    if 'a' not in str(i):\n        print(i)\n```",
+        "chatNumber": 1
+    },
+    {
+        "chat_id": 7,
+        "student": {
+            "student_id": 5,
+            "guid": "071556b7-a04c-4811-abc2-dd3a785372a9",
+            "sys_timestamp": "2024-04-10T15:29:23.50293"
+        },
+        "codeNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T15:29:39.282",
+        "chatQuestion": "Test",
+        "chatAnswer": "Hello! How can I assist you with your test today?",
+        "chatNumber": 1
+    },
+    {
+        "chat_id": 8,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "codeNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:32:12.55",
+        "chatQuestion": "how to write a python function\n",
+        "chatAnswer": "To write a Python function, follow these steps:\n\n1. Start by using the `def` keyword, followed by the function name and parentheses containing any arguments the function will take.\n\n2. Write the body of the function, which is the block of code that will be executed when the function is called. This block of code should be indented with four spaces.\n\n3. If the function is meant to return a value, include a `return` statement at the end of the block of code. This statement should indicate what value the function should return.\n\n4. You can also add comments to the function using the `#` symbol to explain the purpose of the function or any important details about how it works.\n\nHere is an example of a simple Python function that adds two numbers together:\n\n```python\ndef add_numbers(num1, num2):\n    # This function adds two numbers together\n    sum = num1 + num2\n    return sum\n\n# Call the function with two numbers and store the result in a variable\nresult = add_numbers(5, 3)\nprint(result)  # Output: 8\n```\n\nRemember to call the function after defining it in order to execute the code inside the function and get the desired output.",
+        "chatNumber": 1
+    },
+    {
+        "chat_id": 9,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "codeNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:35:18.753",
+        "chatQuestion": "how to check if 1 is greater than  2 in python\n\n\n",
+        "chatAnswer": "In Python, you can check if a number is greater than another number using the comparison operator `>`. Here is an example of how to check if 1 is greater than 2:\n\n```python\nif 1 > 2:\n    print(\"1 is greater than 2\")\nelse:\n    print(\"1 is not greater than 2\")\n```\n\nWhen you run this code, it will print \"1 is not greater than 2\" because 1 is not greater than 2.",
+        "chatNumber": 2
+    },
+    {
+        "chat_id": 10,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "codeNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:41:02.465",
+        "chatQuestion": "where is the mistake in this python code:\ndef print_of_min_max(list1):\n\tif len(list1) > 1:\n\t\tprint(max(list1) + print(min(list1))\n\telse:\n\t\tprint(\"ERROR!\")\n\nprint_of_min_max(123321)\n\n\n\n",
+        "chatAnswer": "The mistake in this Python code is in the print_of_min_max function definition. The input parameter list1 should be enclosed in square brackets to indicate that it's a list. Additionally, the closing parenthesis is missing after print(max(list1)).\n\nHere is the corrected code:\n\n```python\ndef print_of_min_max(list1):\n    if len(list1) > 1:\n        print(max(list1) + print(min(list1)))\n    else:\n        print(\"ERROR!\")\n\nprint_of_min_max([1, 2, 3, 3, 2, 1])\n```\n\nThis code will print the sum of the maximum and minimum values in the list [1, 2, 3, 3, 2, 1].",
+        "chatNumber": 3
+    },
+    {
+        "chat_id": 11,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "codeNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:43:56.962",
+        "chatQuestion": "where is the mistake in this python code:\ndef print_of_min_max(list1):\n\tif len(list1) > 1:\n\t\tprint(max(list1) + print(min(list1))\n\telse:\n\t\tprint(\"ERROR!\")\n\nprint_of_min_max(123321)\n\n\n\n",
+        "chatAnswer": "There is a missing closing parenthesis \")\" in the line where the max value is being printed. \n\nThe corrected code is: \n```python\ndef print_of_min_max(list1):\n\tif len(list1) > 1:\n\t\tprint(max(list1) + print(min(list1)))\n\telse:\n\t\tprint(\"ERROR!\")\n\nprint_of_min_max(123321)\n```",
+        "chatNumber": 4
+    },
+    {
+        "chat_id": 12,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "codeNumber": 2,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:43:06.018",
+        "chatQuestion": "Kako kličeš prvi in zadnji element v seznamu v pythonu\n",
+        "chatAnswer": "Prvi element v seznamu kličemo preko indeksa 0, zadnji element pa s pomočjo indeksa -1. Torej za klicanje prvega in zadnjega elementa v seznamu v Pythonu uporabimo naslednjo sintakso:\n\n```python\nseznam = [1, 2, 3, 4, 5]\n\nprvi_element = seznam[0]\nzadnji_element = seznam[-1]\n\nprint(prvi_element)\nprint(zadnji_element)\n``` \n\nIzvedeni izpis bo:\n\n```\n1\n5\n```",
+        "chatNumber": 1
+    },
+    {
+        "chat_id": 13,
+        "student": {
+            "student_id": 17,
+            "guid": "ebc54367-82ab-4a0b-aa29-18fabb71dfdb",
+            "sys_timestamp": "2024-04-10T16:33:06.882157"
+        },
+        "codeNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:45:19.131",
+        "chatQuestion": "napiši program ki od danega seznama izpiše samo prvi dve števili\n",
+        "chatAnswer": "seznam = [10, 20, 30, 40, 50]\n\nprvo_stevilo = seznam[0]\ndrugo_stevilo = seznam[1]\n\nprint(prvo_stevilo)\nprint(drugo_stevilo)",
+        "chatNumber": 1
+    },
+    {
+        "chat_id": 14,
+        "student": {
+            "student_id": 17,
+            "guid": "ebc54367-82ab-4a0b-aa29-18fabb71dfdb",
+            "sys_timestamp": "2024-04-10T16:33:06.882157"
+        },
+        "codeNumber": 2,
+        "currentTask": 1,
+        "timestamp": "2024-04-10T16:46:02.803",
+        "chatQuestion": "napiši program ki od danega seznama izpiše samo prvi dve števili\n",
+        "chatAnswer": "```python\n# Dan seznam števil\nseznam_stevil = [5, 10, 15, 20, 25]\n\n# Izpis prvega in drugega števila iz seznama\nprint(seznam_stevil[0])\nprint(seznam_stevil[1])\n```\n\nIzpiše:\n```\n5\n10\n```",
+        "chatNumber": 2
+    },
+    {
+        "chat_id": 15,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "codeNumber": 4,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:46:15.41",
+        "chatQuestion": "how to make a for loop that prints numbers from  0 to 20\nin python",
+        "chatAnswer": "Here is an example of a for loop in Python that prints numbers from 0 to 20:\n\n```python\nfor i in range(21):\n    print(i)\n```\n\nThis loop will iterate through the range of numbers from 0 to 20 (inclusive) and print each number on a new line.",
+        "chatNumber": 1
+    },
+    {
+        "chat_id": 16,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "codeNumber": 4,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:48:40.466",
+        "chatQuestion": "where is the mistake in this python code:\n\nuporabnik = \"2\"\n\nfor i in range(21):\n\tif int(uporabnik) = i\n\t\tprint(\"\")\n\telse:\n\t\tprint(i)\n",
+        "chatAnswer": "The mistake in the code is in the if statement. The comparison operator used in Python is == for checking equality, not =.\n\nHere is the corrected code:\n\n```python\nuporabnik = \"2\"\n\nfor i in range(21):\n    if int(uporabnik) == i:\n        print(\"\")\n    else:\n        print(i)\n``` \n\nNow, the code should work without any errors.",
+        "chatNumber": 2
+    },
+    {
+        "chat_id": 17,
+        "student": {
+            "student_id": 11,
+            "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+            "sys_timestamp": "2024-04-10T16:23:01.402287"
+        },
+        "codeNumber": 4,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:48:57.645",
+        "chatQuestion": "thx\n",
+        "chatAnswer": "You're welcome! Let me know if there is anything else I can help with.",
+        "chatNumber": 3
+    },
+    {
+        "chat_id": 18,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "codeNumber": 6,
+        "currentTask": 4,
+        "timestamp": "2024-04-10T16:54:45.568",
+        "chatQuestion": "Kako prešteješ število samoglasnikov v besedi v pythonu\n",
+        "chatAnswer": "V Pythonu lahko preštejemo število samoglasnikov v besedi na več načinov. Tukaj je en primer:\n\n```python\ndef prestej_samoglasnike(beseda):\n    samoglasniki = \"aeiouAEIOU\"\n    stevilo_samoglasnikov = 0\n    \n    for crka in beseda:\n        if crka in samoglasniki:\n            stevilo_samoglasnikov += 1\n            \n    return stevilo_samoglasnikov\n\nbeseda = \"beseda\"\nstevilo_samoglasnikov = prestej_samoglasnike(beseda)\nprint(f\"Število samoglasnikov v besedi '{beseda}' je: {stevilo_samoglasnikov}\")\n```\n\nV tem primeru definiramo funkcijo `prestej_samoglasnike`, ki sprejme besedo in nato prešteje število samoglasnikov v njej. Funkcija gre čez vsako črko v besedi in preveri ali je ta črka samoglasnik. Če je, poveča število samoglasnikov za 1. Na koncu funkcija vrne skupno število samoglasnikov v besedi.\n\nS to funkcijo lahko preverite število samoglasnikov v poljubni besedi.",
+        "chatNumber": 1
+    },
+    {
+        "chat_id": 19,
+        "student": {
+            "student_id": 12,
+            "guid": "3a180e5c-9386-477e-9d20-e1f83994a08f",
+            "sys_timestamp": "2024-04-10T16:23:03.470486"
+        },
+        "codeNumber": 8,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:58:06.57",
+        "chatQuestion": "napiši mi funkcijo, ki spremeni dva niza in vtne true, le je sta nizaanagramna(iz črke ene besede lahko sestavimo drugo besedo npr. kar in rak) in verne false, če nista anagrama.",
+        "chatAnswer": "function areAnagrams(str1, str2) {\n    // pretvorimo oba niza v male črke\n    str1 = str1.toLowerCase().replace(/[^a-z]/g, '');\n    str2 = str2.toLowerCase().replace(/[^a-z]/g, '');\n\n    // preverimo ali imata oba niza enako število črk\n    if (str1.length !== str2.length) {\n        return false;\n    }\n\n    // pretvorimo črke v nizu v objekt, kjer je ključ črka in vrednost število pojavitev črke\n    let charCount1 = {};\n    let charCount2 = {};\n\n    for (let char of str1) {\n        charCount1[char] = (charCount1[char] || 0) + 1;\n    }\n\n    for (let char of str2) {\n        charCount2[char] = (charCount2[char] || 0) + 1;\n    }\n\n    // preverimo ali imata oba objekta enako število pojavitev črk\n    for (let key in charCount1) {\n        if (charCount1[key] !== charCount2[key]) {\n            return false;\n        }\n    }\n\n    return true;\n}\n\n// primer uporabe\nconsole.log(areAnagrams(\"listen\", \"silent\")); // true\nconsole.log(areAnagrams(\"hello\", \"world\")); // false\nconsole.log(areAnagrams(\"rail safety\", \"fairy tales\")); // true\nconsole.log(areAnagrams(\"ninja\", \"jinna\")); // true",
+        "chatNumber": 1
+    },
+    {
+        "chat_id": 20,
+        "student": {
+            "student_id": 12,
+            "guid": "3a180e5c-9386-477e-9d20-e1f83994a08f",
+            "sys_timestamp": "2024-04-10T16:23:03.470486"
+        },
+        "codeNumber": 8,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T17:01:38.441",
+        "chatQuestion": "napiši mi funkcijo, ki spremeni dva niza in vrne True,če je sta niza anagrama(iz   črke ene besede lahko sestavimo drugo besedo, npr. kar in rak) in verne False, če nista anagrama.",
+        "chatAnswer": "def anagram(niz1, niz2):\n    if len(niz1) != len(niz2):\n        return False\n        \n    for crka in niz1:\n        if niz1.count(crka) != niz2.count(crka):\n            return False\n        \n    return True\n\n#test\nprint(anagram(\"kar\", \"rak\")) #True\nprint(anagram(\"hello\", \"world\")) #False",
+        "chatNumber": 2
+    },
+    {
+        "chat_id": 21,
+        "student": {
+            "student_id": 12,
+            "guid": "3a180e5c-9386-477e-9d20-e1f83994a08f",
+            "sys_timestamp": "2024-04-10T16:23:03.470486"
+        },
+        "codeNumber": 8,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T17:01:39.891",
+        "chatQuestion": "napiši mi funkcijo, ki spremeni dva niza in vrne True,če je sta niza anagrama(iz   črke ene besede lahko sestavimo drugo besedo, npr. kar in rak) in verne False, če nista anagrama.",
+        "chatAnswer": "```python\ndef is_anagram(str1, str2):\n    if len(str1) != len(str2):\n        return False\n    \n    # pretvori nizi v sezname, da lahko uporabljamo metodo sort\n    str1_list = list(str1)\n    str2_list = list(str2)\n    \n    # uredi znake v seznamih\n    str1_list.sort()\n    str2_list.sort()\n    \n    # primerja uredena seznama\n    if str1_list == str2_list:\n        return True\n    else:\n        return False\n\n# primer uporabe\nprint(is_anagram(\"listen\", \"silent\")) # True\nprint(is_anagram(\"triangle\", \"integral\")) # True\nprint(is_anagram(\"hello\", \"world\")) # False\n```",
+        "chatNumber": 3
+    },
+    {
+        "chat_id": 22,
+        "student": {
+            "student_id": 17,
+            "guid": "ebc54367-82ab-4a0b-aa29-18fabb71dfdb",
+            "sys_timestamp": "2024-04-10T16:33:06.882157"
+        },
+        "codeNumber": 6,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:52:23.016",
+        "chatQuestion": "ki črkam a, e, i, o, u prištej eno število\n",
+        "chatAnswer": "Primer: \na = 1\ne = 2\ni = 3\no = 4\nu = 5\n\nČe prištejemo število 2, dobimo:\na = 3\ne = 4\ni = 5\no = 6\nu = 7",
+        "chatNumber": 1
+    },
+    {
+        "chat_id": 23,
+        "student": {
+            "student_id": 17,
+            "guid": "ebc54367-82ab-4a0b-aa29-18fabb71dfdb",
+            "sys_timestamp": "2024-04-10T16:33:06.882157"
+        },
+        "codeNumber": 6,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:52:55.129",
+        "chatQuestion": "napiši program ki črkam a, e, i, o, u prištej eno število\n",
+        "chatAnswer": "```python\ninput_str = input(\"Vnesi besedilo: \")\ncount = 0\n\nfor char in input_str:\n    if char.lower() in ['a', 'e', 'i', 'o', 'u']:\n        count += 1\n\nprint(\"Število črk a, e, i, o, u v besedilu je:\", count)\n```",
+        "chatNumber": 2
+    },
+    {
+        "chat_id": 24,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "codeNumber": 8,
+        "currentTask": 5,
+        "timestamp": "2024-04-10T17:00:45.871",
+        "chatQuestion": "kako preveriš ali so črke iz 1.besede v 2. besedi v pythonu\n",
+        "chatAnswer": "V Pythonu lahko preverite ali so črke iz ene besede prisotne v drugi besedi na naslednji način:\n\n```python\ndef preveri_crke(beseda1, beseda2):\n    for crka in beseda1:\n        if crka not in beseda2:\n            return False\n    return True\n\nbeseda1 = \"abc\"\nbeseda2 = \"bcdef\"\nif preveri_crke(beseda1, beseda2):\n    print(\"Črke iz besede 1 so prisotne v besedi 2.\")\nelse:\n    print(\"Črke iz besede 1 niso prisotne v besedi 2.\")\n```\n\nV tem primeru funkcija `preveri_crke` preveri ali so vse črke iz besede1 prisotne v besedi2. Če so, vrne True, sicer pa False. Na koncu preverimo rezultat funkcije in izpišemo ustrezen rezultat.",
+        "chatNumber": 1
+    },
+    {
+        "chat_id": 25,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "codeNumber": 8,
+        "currentTask": 5,
+        "timestamp": "2024-04-10T17:02:22.447",
+        "chatQuestion": "ali bi v tem primeru vrnilo true ali false:\ndef preveri_crke(beseda1, beseda2):\n    for crka in beseda1:\n        if crka not in beseda2:\n            return False\n    return True\n\nbeseda1 = \"abc\"\nbeseda2 = \"abcd\"\nif preveri_crke(beseda1, beseda2):\n    print(\"Črke iz besede 1 so prisotne v besedi 2.\")\nelse:\n    print(\"Črke iz besede 1 niso prisotne v besedi 2.\")",
+        "chatAnswer": "V tem primeru bi se izpisalo \"Črke iz besede 1 so prisotne v besedi 2.\", ker so vse črke iz besede 1 prisotne tudi v besedi 2. Funkcija vrne True.",
+        "chatNumber": 2
+    },
+    {
+        "chat_id": 26,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "codeNumber": 8,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T16:55:46.463",
+        "chatQuestion": "how to reverse string in python\n",
+        "chatAnswer": "In Python, you can reverse a string by using the following methods:\n\n1. Using slicing:\nYou can easily reverse a string by using string slicing with a step size of -1. Here's how you can do it:\n\n```python\ns = \"hello\"\nreversed_string = s[::-1]\nprint(reversed_string)\n```\n\n2. Using the reversed() function:\nYou can also reverse a string by converting it to a list, using the reversed() function, and then joining the characters back together. Here's an example:\n\n```python\ns = \"hello\"\nreversed_string = ''.join(reversed(s))\nprint(reversed_string)\n```\n\nBoth methods will output the following:\n```\nolleh\n```",
+        "chatNumber": 1
+    },
+    {
+        "chat_id": 27,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "codeNumber": 8,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T17:02:40.116",
+        "chatQuestion": "how to check if 2 words have same latters in python\n\n",
+        "chatAnswer": "You can check if two words have the same letters by converting them into sets and then comparing the sets. Here is an example code snippet in Python:\n\n```python\ndef same_letters(word1, word2):\n    return set(word1) == set(word2)\n\nword1 = \"hello\"\nword2 = \"loleh\"\n\nif same_letters(word1, word2):\n    print(\"The words have the same letters.\")\nelse:\n    print(\"The words do not have the same letters.\")\n```\n\nIn this code, the `same_letters` function takes two words as input, converts them into sets using the `set()` function, and then compares the sets. If the sets are equal, it means that the words have the same letters.",
+        "chatNumber": 2
+    },
+    {
+        "chat_id": 28,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "codeNumber": 8,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T17:02:41.748",
+        "chatQuestion": "how to check if 2 words have same latters in python\n\n",
+        "chatAnswer": "One way to check if two words have the same letters in Python is to convert both words to sets of unique characters and then compare the sets to see if they are equal. Here is an example code snippet to achieve this:\n\n```python\ndef have_same_letters(word1, word2):\n    return set(word1) == set(word2)\n\nword1 = \"hello\"\nword2 = \"ohell\"\n\nif have_same_letters(word1, word2):\n    print(\"The words have the same letters.\")\nelse:\n    print(\"The words do not have the same letters.\")\n```\n\nIn this code, the `have_same_letters` function converts both words to sets using the `set()` function and then compares them using the equality operator `==`. If the sets are equal, it means the words have the same letters.",
+        "chatNumber": 3
+    },
+    {
+        "chat_id": 29,
+        "student": {
+            "student_id": 10,
+            "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+            "sys_timestamp": "2024-04-10T16:22:59.824117"
+        },
+        "codeNumber": 8,
+        "currentTask": 2,
+        "timestamp": "2024-04-10T17:04:48.672",
+        "chatQuestion": "def have_same_letters(word1, word2):\n    return set(word1) == set(word2) what that code do in python\n\n",
+        "chatAnswer": "This code snippet defines a function called `have_same_letters` that takes two input parameters `word1` and `word2`. \n\nThe function calculates if the two input words have the same set of letters (ignoring duplicates) by converting each word into a set and comparing them using the `==` operator. \n\nIf both words have the same set of letters, the function will return `True`. Otherwise, it will return `False`.",
+        "chatNumber": 4
+    },
+    {
+        "chat_id": 30,
+        "student": {
+            "student_id": 12,
+            "guid": "3a180e5c-9386-477e-9d20-e1f83994a08f",
+            "sys_timestamp": "2024-04-10T16:23:03.470486"
+        },
+        "codeNumber": 4,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T17:08:20.74",
+        "chatQuestion": "napiši mi python program, kjer uporabnik vpiše število 0-9.Programn nato izpiše vsa števila med 0 in 20(vključno s tema številoma), ki ne vsebujejo vnešene števke.",
+        "chatAnswer": "```python\ndef vsebuje_stevko(stevilo, vnesena_stevka):\n    return str(vnesena_stevka) not in str(stevilo)\n\nvnesena_stevka = int(input(\"Vnesite število med 0 in 9: \"))\n\nseznam_stevil = [stevilo for stevilo in range(21) if vsebuje_stevko(stevilo, vnesena_stevka)]\n\nprint(\"Števila med 0 in 20 (vključno), ki ne vsebujejo številke\", vnesena_stevka, \"so:\")\nprint(seznam_stevil)\n```\n\nV tem programu uporabnik vnese število med 0 in 9, nato pa program izpiše vsa števila med 0 in 20 (vključno s tema številoma), ki ne vsebujejo vnešene števke. Funkcija `vsebuje_stevko` preveri, ali število vsebuje vnešeno števko. Program nato ustvari seznam vseh števil, ki ne vsebujejo vnešene števke in ga izpiše na zaslonu.",
+        "chatNumber": 1
+    },
+    {
+        "chat_id": 31,
+        "student": {
+            "student_id": 12,
+            "guid": "3a180e5c-9386-477e-9d20-e1f83994a08f",
+            "sys_timestamp": "2024-04-10T16:23:03.470486"
+        },
+        "codeNumber": 4,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T17:08:47.432",
+        "chatQuestion": "ali je to res pravilno",
+        "chatAnswer": "Če se sklicujete na prejšnje vprašanje, v katerem ni navedeno vaše trditev, je težko dati točen odgovor. Potrebno je natančneje opredeliti, o čem govorite. Prosimo, dopolnite vaše vprašanje, da vam lahko ustrezno odgovorimo. Hvala.",
+        "chatNumber": 2
+    },
+    {
+        "chat_id": 32,
+        "student": {
+            "student_id": 12,
+            "guid": "3a180e5c-9386-477e-9d20-e1f83994a08f",
+            "sys_timestamp": "2024-04-10T16:23:03.470486"
+        },
+        "codeNumber": 4,
+        "currentTask": 3,
+        "timestamp": "2024-04-10T17:12:28.877",
+        "chatQuestion": "napiši mi python program, kjer uporabnik vpiše število 0-9.Programn nato izpiše vsa števila med 0 in 20(vključno s tema številoma), ki ne vsebujejo vnešene števke.",
+        "chatAnswer": "```python\ndef izpisi_stevila_brez_vnesene_stevilke(vnesena_stevilka):\n    for i in range(21):\n        if str(vnesena_stevilka) not in str(i):\n            print(i)\n\nvnesena_stevilka = int(input(\"Vnesite število med 0 in 9: \"))\nizpisi_stevila_brez_vnesene_stevilke(vnesena_stevilka)\n```",
+        "chatNumber": 3
+    },
+    {
+        "chat_id": 33,
+        "student": {
+            "student_id": 12,
+            "guid": "3a180e5c-9386-477e-9d20-e1f83994a08f",
+            "sys_timestamp": "2024-04-10T16:23:03.470486"
+        },
+        "codeNumber": 6,
+        "currentTask": 4,
+        "timestamp": "2024-04-10T17:16:48.41",
+        "chatQuestion": "napiši mi funkcijo, ki prešteje število  samoglasnikov (a,e,i,o,u) v podani besedi",
+        "chatAnswer": "```python\ndef stevilo_samoglasnikov(beseda):\n    samoglasniki = \"aeiou\"\n    stevilo = 0\n    for crka in beseda:\n        if crka.lower() in samoglasniki:\n            stevilo += 1\n    return stevilo\n\nbeseda = \"banana\"\nprint(stevilo_samoglasnikov(beseda))  # Output: 3\n```",
+        "chatNumber": 1
+    },
+    {
+        "chat_id": 34,
+        "student": {
+            "student_id": 12,
+            "guid": "3a180e5c-9386-477e-9d20-e1f83994a08f",
+            "sys_timestamp": "2024-04-10T16:23:03.470486"
+        },
+        "codeNumber": 6,
+        "currentTask": 4,
+        "timestamp": "2024-04-10T17:19:50.277",
+        "chatQuestion": "ali lahko narediš da mi posla razultat v številkah",
+        "chatAnswer": "Seveda, prosim navedite nalogo oz. vprašanje, za katerega želite, da vam posredujem rezultat v številčni obliki.",
+        "chatNumber": 2
+    },
+    {
+        "chat_id": 35,
+        "student": {
+            "student_id": 12,
+            "guid": "3a180e5c-9386-477e-9d20-e1f83994a08f",
+            "sys_timestamp": "2024-04-10T16:23:03.470486"
+        },
+        "codeNumber": 6,
+        "currentTask": 4,
+        "timestamp": "2024-04-10T17:20:13.702",
+        "chatQuestion": "napiši mi funkcijo, ki prešteje število  samoglasnikov (a,e,i,o,u) v podani besedi ali lahko narediš da mi posla razultat v številkah",
+        "chatAnswer": "```python\ndef prestej_samoglasnike(beseda):\n    samoglasniki = 'aeiou'\n    stevilo_samoglasnikov = 0\n    \n    for crka in beseda:\n        if crka.lower() in samoglasniki:\n            stevilo_samoglasnikov += 1\n    \n    return stevilo_samoglasnikov\n\nbeseda = 'avokado'\nprint(prestej_samoglasnike(beseda))\n```\n\nTa funkcija bo preštela število samoglasnikov (a, e, i, o, u) v podani besedi in vrnila rezultat. V primeru besede 'avokado' bo rezultat 4.",
+        "chatNumber": 3
+    },
+    {
+        "chat_id": 36,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "codeNumber": 4,
+        "currentTask": 6,
+        "timestamp": "2024-04-10T17:14:42.326",
+        "chatQuestion": "how do you add a number to a list using while loop\n",
+        "chatAnswer": "You can add a number to a list using a while loop in Python by following these steps:\n\n1. Initialize an empty list to store the numbers:\n```\nnumbers = []\n```\n\n2. Prompt the user to enter a number:\n```\nnum = int(input(\"Enter a number: \"))\n```\n\n3. Use a while loop to add the number to the list:\n```\nnumbers.append(num)\n```\n\n4. Ask the user if they want to add more numbers:\n```\nchoice = input(\"Do you want to add another number? (y/n): \")\n```\n\n5. Repeat the above steps until the user decides to stop adding numbers:\n```\nwhile choice == 'y':\n    num = int(input(\"Enter a number: \"))\n    numbers.append(num)\n    choice = input(\"Do you want to add another number? (y/n): \")\n```\n\nAfter the while loop ends, you will have a list containing all the numbers entered by the user.",
+        "chatNumber": 1
+    },
+    {
+        "chat_id": 37,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "codeNumber": 4,
+        "currentTask": 6,
+        "timestamp": "2024-04-10T17:15:21.906",
+        "chatQuestion": "how do you add a number to a list using for loop\n",
+        "chatAnswer": "Here is an example in Python of how you can add a number to a list using a for loop:\n\n```python\n# Initialize an empty list\nmy_list = []\n\n# Iterate through a range of numbers using a for loop\nfor i in range(1, 6):  # Adding numbers 1 to 5 to the list\n    my_list.append(i)\n\n# Print the updated list\nprint(my_list)\n```\n\nOutput:\n```\n[1, 2, 3, 4, 5]\n```\n\nIn this example, the for loop iterates through a range of numbers from 1 to 5, and the `append()` method is used to add each number to the `my_list` list.",
+        "chatNumber": 2
+    },
+    {
+        "chat_id": 38,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "codeNumber": 4,
+        "currentTask": 6,
+        "timestamp": "2024-04-10T17:17:45.371",
+        "chatQuestion": "can you use str() on a list\n",
+        "chatAnswer": "Yes, you can use the str() function on a list to convert it to a string. This will give you a string representation of the list, including the square brackets and commas that separate the elements.",
+        "chatNumber": 3
+    },
+    {
+        "chat_id": 39,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "codeNumber": 4,
+        "currentTask": 6,
+        "timestamp": "2024-04-10T17:18:49.997",
+        "chatQuestion": "how do you remowe list 2 from list 1 in python",
+        "chatAnswer": "You can use list comprehension to remove elements from list1 that are present in list2. Here is an example:\n\n```python\nlist1 = [1, 2, 3, 4, 5]\nlist2 = [1, 3, 5]\n\nlist1 = [x for x in list1 if x not in list2]\n\nprint(list1)\n```\n\nOutput:\n```\n[2, 4]\n```\n\nThis code will remove elements 1, 3, and 5 from list1, resulting in [2, 4].",
+        "chatNumber": 4
+    },
+    {
+        "chat_id": 40,
+        "student": {
+            "student_id": 13,
+            "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+            "sys_timestamp": "2024-04-10T16:23:05.946669"
+        },
+        "codeNumber": 4,
+        "currentTask": 6,
+        "timestamp": "2024-04-10T17:20:33.987",
+        "chatQuestion": "can you replace [x for x in list1 if x not in list2] list1 with cifreDva and list2 with stev\n",
+        "chatAnswer": "cifreDva = [x for x in cifreDva if x not in stev]",
+        "chatNumber": 5
+    }
+]

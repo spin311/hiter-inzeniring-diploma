@@ -1,0 +1,67 @@
+[
+    {
+        "student_id": 1,
+        "guid": "6dda660c-a265-4573-97ae-1ba8dc13af0a",
+        "sys_timestamp": "2024-04-17T15:43:47.564572"
+    },
+    {
+        "student_id": 2,
+        "guid": "e35a327a-2613-4fb6-b3cf-ab0b8b7a98aa",
+        "sys_timestamp": "2024-04-17T16:34:21.983025"
+    },
+    {
+        "student_id": 3,
+        "guid": "484c46dc-bde4-4390-a05f-0b5b52e22300",
+        "sys_timestamp": "2024-04-17T17:07:07.048224"
+    },
+    {
+        "student_id": 4,
+        "guid": "1b7fb2fb-f7ea-4c11-8d7b-9857211ae8bc",
+        "sys_timestamp": "2024-04-17T17:07:07.354131"
+    },
+    {
+        "student_id": 5,
+        "guid": "a40279d4-b72d-471e-976a-a505e6e3b7a5",
+        "sys_timestamp": "2024-04-17T17:07:19.08602"
+    },
+    {
+        "student_id": 6,
+        "guid": "5742d16f-72b3-4296-94c3-c390def597d3",
+        "sys_timestamp": "2024-04-17T17:07:25.732744"
+    },
+    {
+        "student_id": 7,
+        "guid": "e08d9608-aa71-400b-ab8d-03a4e69f291e",
+        "sys_timestamp": "2024-04-17T17:07:41.621245"
+    },
+    {
+        "student_id": 8,
+        "guid": "5463a16a-75ce-49e8-97e8-1ca9f0a06c43",
+        "sys_timestamp": "2024-04-17T17:08:02.524002"
+    },
+    {
+        "student_id": 9,
+        "guid": "49830223-26cd-49ad-a2cb-5d0bb189131d",
+        "sys_timestamp": "2024-04-17T17:08:14.723725"
+    },
+    {
+        "student_id": 10,
+        "guid": "9356d991-fc86-437c-996f-2ae78f006f08",
+        "sys_timestamp": "2024-04-17T17:11:06.339108"
+    },
+    {
+        "student_id": 11,
+        "guid": "1814ff1d-af86-4196-8bd5-ef821d6866d4",
+        "sys_timestamp": "2024-04-17T17:11:08.997492"
+    },
+    {
+        "student_id": 12,
+        "guid": "71db216f-b129-4791-89d5-22ae3c48c12b",
+        "sys_timestamp": "2024-04-17T17:12:41.357406"
+    },
+    {
+        "student_id": 13,
+        "guid": "cfccf42f-c982-4f52-9b48-c11fb9e28355",
+        "sys_timestamp": "2024-04-17T17:19:30.715176"
+    }
+]

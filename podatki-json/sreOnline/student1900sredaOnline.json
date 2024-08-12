@@ -1,0 +1,87 @@
+[
+    {
+        "student_id": 1,
+        "guid": "8c6f72a8-32f2-433e-b314-c2cffa0f1d36",
+        "sys_timestamp": "2024-04-10T14:55:21.897505"
+    },
+    {
+        "student_id": 2,
+        "guid": "2f7c64ef-648a-4f0a-8b88-7907a773a1fe",
+        "sys_timestamp": "2024-04-10T14:55:40.350897"
+    },
+    {
+        "student_id": 3,
+        "guid": "0df997b9-092b-4f22-8ca9-8666e26a64dc",
+        "sys_timestamp": "2024-04-10T14:56:57.23851"
+    },
+    {
+        "student_id": 4,
+        "guid": "0ef8969b-f6b1-4125-9f12-25de70ff811f",
+        "sys_timestamp": "2024-04-10T15:23:09.223636"
+    },
+    {
+        "student_id": 5,
+        "guid": "071556b7-a04c-4811-abc2-dd3a785372a9",
+        "sys_timestamp": "2024-04-10T15:29:23.50293"
+    },
+    {
+        "student_id": 6,
+        "guid": "bdc4c557-d7e3-4992-8a26-c4a1916068c1",
+        "sys_timestamp": "2024-04-10T15:32:00.848613"
+    },
+    {
+        "student_id": 7,
+        "guid": "18fa4d97-f0cc-4d97-bedb-08a5d6d54e23",
+        "sys_timestamp": "2024-04-10T15:34:36.174004"
+    },
+    {
+        "student_id": 8,
+        "guid": "c2ec4297-704f-4298-92b3-7566ddceb068",
+        "sys_timestamp": "2024-04-10T16:15:32.364755"
+    },
+    {
+        "student_id": 9,
+        "guid": "4792b959-bdda-4daa-b10c-3a21ffc0c6a7",
+        "sys_timestamp": "2024-04-10T16:21:19.344432"
+    },
+    {
+        "student_id": 10,
+        "guid": "c7f7c847-0b52-4972-9e2f-4e0bdec8d0f6",
+        "sys_timestamp": "2024-04-10T16:22:59.824117"
+    },
+    {
+        "student_id": 11,
+        "guid": "7f1d5f9a-d39b-43a6-9111-87b1636b0bfa",
+        "sys_timestamp": "2024-04-10T16:23:01.402287"
+    },
+    {
+        "student_id": 12,
+        "guid": "3a180e5c-9386-477e-9d20-e1f83994a08f",
+        "sys_timestamp": "2024-04-10T16:23:03.470486"
+    },
+    {
+        "student_id": 13,
+        "guid": "3191b883-b131-4198-88b1-18f6d337a2c7",
+        "sys_timestamp": "2024-04-10T16:23:05.946669"
+    },
+    {
+        "student_id": 14,
+        "guid": "d628732c-b070-4523-b6e6-0aa711b7f36a",
+        "sys_timestamp": "2024-04-10T16:23:15.891807"
+    },
+    {
+        "student_id": 15,
+        "guid": "4bcb5a5d-5cc8-466f-8afd-85c6fb0fbfb6",
+        "sys_timestamp": "2024-04-10T16:25:56.472391"
+    },
+    {
+        "student_id": 16,
+        "guid": "ab2002ea-810a-4773-b6ad-b1efde1de253",
+        "sys_timestamp": "2024-04-10T16:28:38.906539"
+    },
+    {
+        "student_id": 17,
+        "guid": "ebc54367-82ab-4a0b-aa29-18fabb71dfdb",
+        "sys_timestamp": "2024-04-10T16:33:06.882157"
+    }
+]

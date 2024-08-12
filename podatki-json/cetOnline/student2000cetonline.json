@@ -1,0 +1,137 @@
+[
+    {
+        "student_id": 1,
+        "guid": "e8fc26bb-d374-43b8-9305-fe83c634a7ce",
+        "sys_timestamp": "2024-04-18T15:39:39.293238"
+    },
+    {
+        "student_id": 2,
+        "guid": "f03f2723-7986-4c2c-a873-fd9f888d31c4",
+        "sys_timestamp": "2024-04-18T15:53:28.966938"
+    },
+    {
+        "student_id": 3,
+        "guid": "1f5396bb-2338-4470-9585-9b733cd587c6",
+        "sys_timestamp": "2024-04-18T16:35:31.172671"
+    },
+    {
+        "student_id": 4,
+        "guid": "6fbe55ac-54ed-4abc-99f3-eec069780db7",
+        "sys_timestamp": "2024-04-18T16:35:32.730837"
+    },
+    {
+        "student_id": 5,
+        "guid": "043a69c2-0c36-4c55-890f-60445b5e0cad",
+        "sys_timestamp": "2024-04-18T16:35:36.038591"
+    },
+    {
+        "student_id": 6,
+        "guid": "6297fe8e-c6a3-4515-a59a-d5fa16fc7197",
+        "sys_timestamp": "2024-04-18T16:35:43.087583"
+    },
+    {
+        "student_id": 7,
+        "guid": "9f687f7d-4a2e-4cb4-add7-c836b2b859b7",
+        "sys_timestamp": "2024-04-18T16:35:43.891561"
+    },
+    {
+        "student_id": 8,
+        "guid": "abb763fa-f437-4c94-8878-32fbe018b603",
+        "sys_timestamp": "2024-04-18T16:35:47.54482"
+    },
+    {
+        "student_id": 9,
+        "guid": "57467435-7b0e-41fb-8bff-e24b787ceca8",
+        "sys_timestamp": "2024-04-18T16:36:01.871794"
+    },
+    {
+        "student_id": 10,
+        "guid": "3c3a5af2-f649-4177-9287-08050465accf",
+        "sys_timestamp": "2024-04-18T16:36:09.023114"
+    },
+    {
+        "student_id": 11,
+        "guid": "6c1b783c-a99b-442d-b098-a1122bdb3dff",
+        "sys_timestamp": "2024-04-18T16:36:13.4805"
+    },
+    {
+        "student_id": 12,
+        "guid": "5d8d2f3e-07d7-4f82-89e5-6f174452d88c",
+        "sys_timestamp": "2024-04-18T16:36:38.631465"
+    },
+    {
+        "student_id": 13,
+        "guid": "2b38dad2-c85e-4ef3-ad18-e188a970b35a",
+        "sys_timestamp": "2024-04-18T16:39:42.266594"
+    },
+    {
+        "student_id": 14,
+        "guid": "f73ac4a4-e78e-4043-be4e-0755a99aac71",
+        "sys_timestamp": "2024-04-18T16:41:14.091459"
+    },
+    {
+        "student_id": 15,
+        "guid": "517f82a2-ebf6-4048-8d9a-36d0781fd77e",
+        "sys_timestamp": "2024-04-18T16:42:21.173756"
+    },
+    {
+        "student_id": 16,
+        "guid": "9ca950fa-2c34-4dbb-95e6-1d266e4c5918",
+        "sys_timestamp": "2024-04-18T16:51:25.463499"
+    },
+    {
+        "student_id": 17,
+        "guid": "1e113fee-9651-4b51-aaaa-ffa546d56ce5",
+        "sys_timestamp": "2024-04-18T16:53:25.898914"
+    },
+    {
+        "student_id": 18,
+        "guid": "08cc2948-245d-456a-87c9-70725e85b01a",
+        "sys_timestamp": "2024-04-18T16:56:44.020226"
+    },
+    {
+        "student_id": 19,
+        "guid": "5801a690-5374-4e1a-b92d-cc78d0f23666",
+        "sys_timestamp": "2024-04-18T16:57:29.026364"
+    },
+    {
+        "student_id": 20,
+        "guid": "729fd549-b56c-42cb-80ab-407eeb54eda3",
+        "sys_timestamp": "2024-04-18T17:03:38.938998"
+    },
+    {
+        "student_id": 21,
+        "guid": "70a1d2aa-831b-4f96-9714-7489d346e571",
+        "sys_timestamp": "2024-04-18T17:10:07.884139"
+    },
+    {
+        "student_id": 22,
+        "guid": "479af6cc-ae97-46af-8944-f872e794101e",
+        "sys_timestamp": "2024-04-18T17:20:06.705186"
+    },
+    {
+        "student_id": 23,
+        "guid": "84c0ffd9-ba89-4754-939c-71c188e84b77",
+        "sys_timestamp": "2024-04-18T17:22:28.95162"
+    },
+    {
+        "student_id": 24,
+        "guid": "c37f1956-f588-4592-8228-01409f72ed3e",
+        "sys_timestamp": "2024-04-18T17:28:48.834284"
+    },
+    {
+        "student_id": 25,
+        "guid": "534ddfb3-0de4-42c5-8417-7630b757e30a",
+        "sys_timestamp": "2024-04-18T17:33:58.27293"
+    },
+    {
+        "student_id": 26,
+        "guid": "b68eecb0-3633-4ad2-9348-28dc5144480e",
+        "sys_timestamp": "2024-04-18T17:41:52.169995"
+    },
+    {
+        "student_id": 27,
+        "guid": "440d4d30-34a2-4f9b-93fc-6d7c7de178cf",
+        "sys_timestamp": "2024-04-18T17:50:39.312469"
+    }
+]

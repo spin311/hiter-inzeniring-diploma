@@ -1,0 +1,648 @@
+[
+    {
+        "submit_id": 1,
+        "student": {
+            "student_id": 2,
+            "guid": "fe32af55-526a-489d-9730-b8867142c945",
+            "sys_timestamp": "2024-04-16T15:20:44.341925"
+        },
+        "taskNumber": 3,
+        "seconds": 53,
+        "startTime": "2024-04-16T15:21:00.168",
+        "endTime": "2024-04-16T15:21:52.912",
+        "errorCount": 0,
+        "correctCount": 2,
+        "totalQuestions": 0,
+        "currentTask": 1,
+        "sys_timestamp": "2024-04-16T15:21:53.023019"
+    },
+    {
+        "submit_id": 2,
+        "student": {
+            "student_id": 2,
+            "guid": "fe32af55-526a-489d-9730-b8867142c945",
+            "sys_timestamp": "2024-04-16T15:20:44.341925"
+        },
+        "taskNumber": 6,
+        "seconds": 93,
+        "startTime": "2024-04-16T15:21:52.913",
+        "endTime": "2024-04-16T15:23:26.295",
+        "errorCount": 0,
+        "correctCount": 1,
+        "totalQuestions": 2,
+        "currentTask": 2,
+        "sys_timestamp": "2024-04-16T15:23:26.389878"
+    },
+    {
+        "submit_id": 3,
+        "student": {
+            "student_id": 4,
+            "guid": "6e41ee9b-7515-49b2-9f88-1e6eae1dc412",
+            "sys_timestamp": "2024-04-16T16:21:55.092513"
+        },
+        "taskNumber": 1,
+        "seconds": 115,
+        "startTime": "2024-04-16T16:29:17.539",
+        "endTime": "2024-04-16T16:31:12.334",
+        "errorCount": 0,
+        "correctCount": 2,
+        "totalQuestions": 0,
+        "currentTask": 1,
+        "sys_timestamp": "2024-04-16T16:31:12.427448"
+    },
+    {
+        "submit_id": 4,
+        "student": {
+            "student_id": 8,
+            "guid": "41ef8c1a-9531-48e7-838b-f7e4ce02ab5b",
+            "sys_timestamp": "2024-04-16T16:33:28.634071"
+        },
+        "taskNumber": 7,
+        "seconds": 207,
+        "startTime": "2024-04-16T16:37:58.272",
+        "endTime": "2024-04-16T16:41:25.391",
+        "errorCount": 0,
+        "correctCount": 1,
+        "totalQuestions": 0,
+        "currentTask": 1,
+        "sys_timestamp": "2024-04-16T16:41:26.538274"
+    },
+    {
+        "submit_id": 5,
+        "student": {
+            "student_id": 8,
+            "guid": "41ef8c1a-9531-48e7-838b-f7e4ce02ab5b",
+            "sys_timestamp": "2024-04-16T16:33:28.634071"
+        },
+        "taskNumber": 5,
+        "seconds": 123,
+        "startTime": "2024-04-16T16:41:25.391",
+        "endTime": "2024-04-16T16:43:28.662",
+        "errorCount": 0,
+        "correctCount": 1,
+        "totalQuestions": 0,
+        "currentTask": 2,
+        "sys_timestamp": "2024-04-16T16:43:29.781744"
+    },
+    {
+        "submit_id": 6,
+        "student": {
+            "student_id": 9,
+            "guid": "be2af837-93bc-4ae8-9e52-c6c5521c7806",
+            "sys_timestamp": "2024-04-16T16:33:59.607872"
+        },
+        "taskNumber": 6,
+        "seconds": 420,
+        "startTime": "2024-04-16T16:37:41.118",
+        "endTime": "2024-04-16T16:44:41.611",
+        "errorCount": 0,
+        "correctCount": 13,
+        "totalQuestions": 4,
+        "currentTask": 1,
+        "sys_timestamp": "2024-04-16T16:44:36.818859"
+    },
+    {
+        "submit_id": 7,
+        "student": {
+            "student_id": 8,
+            "guid": "41ef8c1a-9531-48e7-838b-f7e4ce02ab5b",
+            "sys_timestamp": "2024-04-16T16:33:28.634071"
+        },
+        "taskNumber": 2,
+        "seconds": 147,
+        "startTime": "2024-04-16T16:43:28.663",
+        "endTime": "2024-04-16T16:45:55.261",
+        "errorCount": 1,
+        "correctCount": 2,
+        "totalQuestions": 0,
+        "currentTask": 3,
+        "sys_timestamp": "2024-04-16T16:45:56.380783"
+    },
+    {
+        "submit_id": 8,
+        "student": {
+            "student_id": 6,
+            "guid": "deb7c87b-5c4d-4767-a139-b8f9df1f9289",
+            "sys_timestamp": "2024-04-16T16:33:17.96638"
+        },
+        "taskNumber": 3,
+        "seconds": 295,
+        "startTime": "2024-04-16T16:42:27.69",
+        "endTime": "2024-04-16T16:47:22.98",
+        "errorCount": 1,
+        "correctCount": 1,
+        "totalQuestions": 0,
+        "currentTask": 1,
+        "sys_timestamp": "2024-04-16T16:47:23.405802"
+    },
+    {
+        "submit_id": 9,
+        "student": {
+            "student_id": 8,
+            "guid": "41ef8c1a-9531-48e7-838b-f7e4ce02ab5b",
+            "sys_timestamp": "2024-04-16T16:33:28.634071"
+        },
+        "taskNumber": 3,
+        "seconds": 167,
+        "startTime": "2024-04-16T16:45:55.262",
+        "endTime": "2024-04-16T16:48:41.829",
+        "errorCount": 0,
+        "correctCount": 2,
+        "totalQuestions": 0,
+        "currentTask": 4,
+        "sys_timestamp": "2024-04-16T16:48:42.95059"
+    },
+    {
+        "submit_id": 10,
+        "student": {
+            "student_id": 13,
+            "guid": "fe201bab-67ab-47bb-a307-ff46459b8f74",
+            "sys_timestamp": "2024-04-16T16:41:02.496966"
+        },
+        "taskNumber": 3,
+        "seconds": 525,
+        "startTime": "2024-04-16T16:42:52.212",
+        "endTime": "2024-04-16T16:51:37.463",
+        "errorCount": 5,
+        "correctCount": 1,
+        "totalQuestions": 0,
+        "currentTask": 1,
+        "sys_timestamp": "2024-04-16T16:51:27.530286"
+    },
+    {
+        "submit_id": 11,
+        "student": {
+            "student_id": 5,
+            "guid": "908d5fde-daf3-4d81-a1b1-aa38775cc356",
+            "sys_timestamp": "2024-04-16T16:33:14.238224"
+        },
+        "taskNumber": 6,
+        "seconds": 800,
+        "startTime": "2024-04-16T16:38:07.442",
+        "endTime": "2024-04-16T16:51:27.621",
+        "errorCount": 4,
+        "correctCount": 5,
+        "totalQuestions": 4,
+        "currentTask": 1,
+        "sys_timestamp": "2024-04-16T16:51:27.82665"
+    },
+    {
+        "submit_id": 12,
+        "student": {
+            "student_id": 13,
+            "guid": "fe201bab-67ab-47bb-a307-ff46459b8f74",
+            "sys_timestamp": "2024-04-16T16:41:02.496966"
+        },
+        "taskNumber": 4,
+        "seconds": 33,
+        "startTime": "2024-04-16T16:51:37.466",
+        "endTime": "2024-04-16T16:52:10.945",
+        "errorCount": 0,
+        "correctCount": 1,
+        "totalQuestions": 0,
+        "currentTask": 2,
+        "sys_timestamp": "2024-04-16T16:52:00.643469"
+    },
+    {
+        "submit_id": 13,
+        "student": {
+            "student_id": 8,
+            "guid": "41ef8c1a-9531-48e7-838b-f7e4ce02ab5b",
+            "sys_timestamp": "2024-04-16T16:33:28.634071"
+        },
+        "taskNumber": 6,
+        "seconds": 243,
+        "startTime": "2024-04-16T16:48:41.829",
+        "endTime": "2024-04-16T16:52:45.283",
+        "errorCount": 2,
+        "correctCount": 2,
+        "totalQuestions": 0,
+        "currentTask": 5,
+        "sys_timestamp": "2024-04-16T16:52:46.404708"
+    },
+    {
+        "submit_id": 14,
+        "student": {
+            "student_id": 8,
+            "guid": "41ef8c1a-9531-48e7-838b-f7e4ce02ab5b",
+            "sys_timestamp": "2024-04-16T16:33:28.634071"
+        },
+        "taskNumber": 4,
+        "seconds": 320,
+        "startTime": "2024-04-16T16:52:45.284",
+        "endTime": "2024-04-16T16:58:05.682",
+        "errorCount": 0,
+        "correctCount": 3,
+        "totalQuestions": 2,
+        "currentTask": 6,
+        "sys_timestamp": "2024-04-16T16:58:06.805025"
+    },
+    {
+        "submit_id": 15,
+        "student": {
+            "student_id": 5,
+            "guid": "908d5fde-daf3-4d81-a1b1-aa38775cc356",
+            "sys_timestamp": "2024-04-16T16:33:14.238224"
+        },
+        "taskNumber": 3,
+        "seconds": 606,
+        "startTime": "2024-04-16T16:51:27.622",
+        "endTime": "2024-04-16T17:01:33.169",
+        "errorCount": 3,
+        "correctCount": 9,
+        "totalQuestions": 0,
+        "currentTask": 2,
+        "sys_timestamp": "2024-04-16T17:01:33.350717"
+    },
+    {
+        "submit_id": 16,
+        "student": {
+            "student_id": 8,
+            "guid": "41ef8c1a-9531-48e7-838b-f7e4ce02ab5b",
+            "sys_timestamp": "2024-04-16T16:33:28.634071"
+        },
+        "taskNumber": 1,
+        "seconds": 208,
+        "startTime": "2024-04-16T16:58:05.683",
+        "endTime": "2024-04-16T17:01:33.664",
+        "errorCount": 0,
+        "correctCount": 1,
+        "totalQuestions": 0,
+        "currentTask": 7,
+        "sys_timestamp": "2024-04-16T17:01:34.7897"
+    },
+    {
+        "submit_id": 17,
+        "student": {
+            "student_id": 6,
+            "guid": "deb7c87b-5c4d-4767-a139-b8f9df1f9289",
+            "sys_timestamp": "2024-04-16T16:33:17.96638"
+        },
+        "taskNumber": 7,
+        "seconds": 957,
+        "startTime": "2024-04-16T16:47:22.986",
+        "endTime": "2024-04-16T17:03:20.03",
+        "errorCount": 2,
+        "correctCount": 10,
+        "totalQuestions": 0,
+        "currentTask": 2,
+        "sys_timestamp": "2024-04-16T17:03:20.447913"
+    },
+    {
+        "submit_id": 18,
+        "student": {
+            "student_id": 8,
+            "guid": "41ef8c1a-9531-48e7-838b-f7e4ce02ab5b",
+            "sys_timestamp": "2024-04-16T16:33:28.634071"
+        },
+        "taskNumber": 8,
+        "seconds": 1049,
+        "startTime": "2024-04-16T17:01:33.665",
+        "endTime": "2024-04-16T17:19:03.148",
+        "errorCount": 0,
+        "correctCount": 3,
+        "totalQuestions": 1,
+        "currentTask": 8,
+        "sys_timestamp": "2024-04-16T17:19:04.301695"
+    },
+    {
+        "submit_id": 19,
+        "student": {
+            "student_id": 5,
+            "guid": "908d5fde-daf3-4d81-a1b1-aa38775cc356",
+            "sys_timestamp": "2024-04-16T16:33:14.238224"
+        },
+        "taskNumber": 1,
+        "seconds": 1165,
+        "startTime": "2024-04-16T17:01:33.169",
+        "endTime": "2024-04-16T17:20:57.674",
+        "errorCount": 2,
+        "correctCount": 1,
+        "totalQuestions": 0,
+        "currentTask": 3,
+        "sys_timestamp": "2024-04-16T17:20:57.853552"
+    },
+    {
+        "submit_id": 20,
+        "student": {
+            "student_id": 5,
+            "guid": "908d5fde-daf3-4d81-a1b1-aa38775cc356",
+            "sys_timestamp": "2024-04-16T16:33:14.238224"
+        },
+        "taskNumber": 7,
+        "seconds": 461,
+        "startTime": "2024-04-16T17:20:57.674",
+        "endTime": "2024-04-16T17:28:38.438",
+        "errorCount": 4,
+        "correctCount": 5,
+        "totalQuestions": 0,
+        "currentTask": 4,
+        "sys_timestamp": "2024-04-16T17:28:38.638927"
+    },
+    {
+        "submit_id": 21,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "taskNumber": 6,
+        "seconds": 3051,
+        "startTime": "2024-04-16T16:38:35.54",
+        "endTime": "2024-04-16T17:29:26.559",
+        "errorCount": 11,
+        "correctCount": 2,
+        "totalQuestions": 48,
+        "currentTask": 1,
+        "sys_timestamp": "2024-04-16T17:29:34.694991"
+    },
+    {
+        "submit_id": 22,
+        "student": {
+            "student_id": 5,
+            "guid": "908d5fde-daf3-4d81-a1b1-aa38775cc356",
+            "sys_timestamp": "2024-04-16T16:33:14.238224"
+        },
+        "taskNumber": 5,
+        "seconds": 90,
+        "startTime": "2024-04-16T17:28:38.438",
+        "endTime": "2024-04-16T17:30:08.086",
+        "errorCount": 0,
+        "correctCount": 1,
+        "totalQuestions": 0,
+        "currentTask": 5,
+        "sys_timestamp": "2024-04-16T17:30:08.267763"
+    },
+    {
+        "submit_id": 23,
+        "student": {
+            "student_id": 6,
+            "guid": "deb7c87b-5c4d-4767-a139-b8f9df1f9289",
+            "sys_timestamp": "2024-04-16T16:33:17.96638"
+        },
+        "taskNumber": 6,
+        "seconds": 1627,
+        "startTime": "2024-04-16T17:03:20.033",
+        "endTime": "2024-04-16T17:30:26.553",
+        "errorCount": 0,
+        "correctCount": 1,
+        "totalQuestions": 5,
+        "currentTask": 3,
+        "sys_timestamp": "2024-04-16T17:30:27.025966"
+    },
+    {
+        "submit_id": 24,
+        "student": {
+            "student_id": 5,
+            "guid": "908d5fde-daf3-4d81-a1b1-aa38775cc356",
+            "sys_timestamp": "2024-04-16T16:33:14.238224"
+        },
+        "taskNumber": 2,
+        "seconds": 198,
+        "startTime": "2024-04-16T17:30:08.086",
+        "endTime": "2024-04-16T17:33:25.849",
+        "errorCount": 0,
+        "correctCount": 8,
+        "totalQuestions": 0,
+        "currentTask": 6,
+        "sys_timestamp": "2024-04-16T17:33:26.034648"
+    },
+    {
+        "submit_id": 25,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "taskNumber": 8,
+        "seconds": 360,
+        "startTime": "2024-04-16T17:29:26.562",
+        "endTime": "2024-04-16T17:35:26.267",
+        "errorCount": 0,
+        "correctCount": 3,
+        "totalQuestions": 1,
+        "currentTask": 2,
+        "sys_timestamp": "2024-04-16T17:35:34.356001"
+    },
+    {
+        "submit_id": 26,
+        "student": {
+            "student_id": 5,
+            "guid": "908d5fde-daf3-4d81-a1b1-aa38775cc356",
+            "sys_timestamp": "2024-04-16T16:33:14.238224"
+        },
+        "taskNumber": 8,
+        "seconds": 312,
+        "startTime": "2024-04-16T17:33:25.849",
+        "endTime": "2024-04-16T17:38:37.776",
+        "errorCount": 1,
+        "correctCount": 1,
+        "totalQuestions": 2,
+        "currentTask": 7,
+        "sys_timestamp": "2024-04-16T17:38:37.962203"
+    },
+    {
+        "submit_id": 27,
+        "student": {
+            "student_id": 17,
+            "guid": "8000b3f8-668b-4807-9607-0f32a49fa3e9",
+            "sys_timestamp": "2024-04-16T17:38:40.456811"
+        },
+        "taskNumber": 1,
+        "seconds": 16,
+        "startTime": "2024-04-16T17:39:12.178",
+        "endTime": "2024-04-16T17:39:28.225",
+        "errorCount": 0,
+        "correctCount": 1,
+        "totalQuestions": 0,
+        "currentTask": 1,
+        "sys_timestamp": "2024-04-16T17:39:23.77014"
+    },
+    {
+        "submit_id": 28,
+        "student": {
+            "student_id": 17,
+            "guid": "8000b3f8-668b-4807-9607-0f32a49fa3e9",
+            "sys_timestamp": "2024-04-16T17:38:40.456811"
+        },
+        "taskNumber": 4,
+        "seconds": 24,
+        "startTime": "2024-04-16T17:39:28.225",
+        "endTime": "2024-04-16T17:39:52.113",
+        "errorCount": 0,
+        "correctCount": 1,
+        "totalQuestions": 0,
+        "currentTask": 2,
+        "sys_timestamp": "2024-04-16T17:39:47.63206"
+    },
+    {
+        "submit_id": 29,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "taskNumber": 2,
+        "seconds": 303,
+        "startTime": "2024-04-16T17:35:26.268",
+        "endTime": "2024-04-16T17:40:28.798",
+        "errorCount": 0,
+        "correctCount": 1,
+        "totalQuestions": 1,
+        "currentTask": 3,
+        "sys_timestamp": "2024-04-16T17:40:36.890242"
+    },
+    {
+        "submit_id": 30,
+        "student": {
+            "student_id": 6,
+            "guid": "deb7c87b-5c4d-4767-a139-b8f9df1f9289",
+            "sys_timestamp": "2024-04-16T16:33:17.96638"
+        },
+        "taskNumber": 5,
+        "seconds": 718,
+        "startTime": "2024-04-16T17:30:26.568",
+        "endTime": "2024-04-16T17:42:24.082",
+        "errorCount": 7,
+        "correctCount": 2,
+        "totalQuestions": 0,
+        "currentTask": 4,
+        "sys_timestamp": "2024-04-16T17:42:24.523304"
+    },
+    {
+        "submit_id": 31,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "taskNumber": 3,
+        "seconds": 148,
+        "startTime": "2024-04-16T17:40:28.799",
+        "endTime": "2024-04-16T17:42:56.555",
+        "errorCount": 0,
+        "correctCount": 2,
+        "totalQuestions": 0,
+        "currentTask": 4,
+        "sys_timestamp": "2024-04-16T17:43:04.654623"
+    },
+    {
+        "submit_id": 32,
+        "student": {
+            "student_id": 5,
+            "guid": "908d5fde-daf3-4d81-a1b1-aa38775cc356",
+            "sys_timestamp": "2024-04-16T16:33:14.238224"
+        },
+        "taskNumber": 4,
+        "seconds": 392,
+        "startTime": "2024-04-16T17:38:37.776",
+        "endTime": "2024-04-16T17:45:09.55",
+        "errorCount": 2,
+        "correctCount": 8,
+        "totalQuestions": 1,
+        "currentTask": 8,
+        "sys_timestamp": "2024-04-16T17:45:09.738228"
+    },
+    {
+        "submit_id": 33,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "taskNumber": 7,
+        "seconds": 301,
+        "startTime": "2024-04-16T17:42:56.556",
+        "endTime": "2024-04-16T17:47:57.207",
+        "errorCount": 1,
+        "correctCount": 1,
+        "totalQuestions": 0,
+        "currentTask": 5,
+        "sys_timestamp": "2024-04-16T17:48:05.307506"
+    },
+    {
+        "submit_id": 34,
+        "student": {
+            "student_id": 6,
+            "guid": "deb7c87b-5c4d-4767-a139-b8f9df1f9289",
+            "sys_timestamp": "2024-04-16T16:33:17.96638"
+        },
+        "taskNumber": 1,
+        "seconds": 432,
+        "startTime": "2024-04-16T17:42:24.092",
+        "endTime": "2024-04-16T17:49:36.355",
+        "errorCount": 3,
+        "correctCount": 2,
+        "totalQuestions": 0,
+        "currentTask": 5,
+        "sys_timestamp": "2024-04-16T17:49:36.801318"
+    },
+    {
+        "submit_id": 35,
+        "student": {
+            "student_id": 6,
+            "guid": "deb7c87b-5c4d-4767-a139-b8f9df1f9289",
+            "sys_timestamp": "2024-04-16T16:33:17.96638"
+        },
+        "taskNumber": 2,
+        "seconds": 33,
+        "startTime": "2024-04-16T17:49:36.36",
+        "endTime": "2024-04-16T17:50:09.545",
+        "errorCount": 0,
+        "correctCount": 1,
+        "totalQuestions": 0,
+        "currentTask": 6,
+        "sys_timestamp": "2024-04-16T17:50:10.007628"
+    },
+    {
+        "submit_id": 36,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "taskNumber": 4,
+        "seconds": 179,
+        "startTime": "2024-04-16T17:47:57.208",
+        "endTime": "2024-04-16T17:50:56.168",
+        "errorCount": 0,
+        "correctCount": 1,
+        "totalQuestions": 0,
+        "currentTask": 6,
+        "sys_timestamp": "2024-04-16T17:51:04.270841"
+    },
+    {
+        "submit_id": 37,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "taskNumber": 5,
+        "seconds": 47,
+        "startTime": "2024-04-16T17:50:56.168",
+        "endTime": "2024-04-16T17:51:43.449",
+        "errorCount": 0,
+        "correctCount": 1,
+        "totalQuestions": 0,
+        "currentTask": 7,
+        "sys_timestamp": "2024-04-16T17:51:51.554586"
+    },
+    {
+        "submit_id": 38,
+        "student": {
+            "student_id": 11,
+            "guid": "0a9aecc7-a46f-428d-83c1-135b16f85f5f",
+            "sys_timestamp": "2024-04-16T16:35:42.236936"
+        },
+        "taskNumber": 1,
+        "seconds": 103,
+        "startTime": "2024-04-16T17:51:43.45",
+        "endTime": "2024-04-16T17:53:26.86",
+        "errorCount": 0,
+        "correctCount": 1,
+        "totalQuestions": 0,
+        "currentTask": 8,
+        "sys_timestamp": "2024-04-16T17:53:34.968192"
+    }
+]
